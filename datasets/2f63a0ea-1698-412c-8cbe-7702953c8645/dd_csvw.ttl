@@ -1,0 +1,1026 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<internalURI:sample1Table1Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  dcterms:description "NIHDI classification is a coding system used for medical classification of neuromuscular diseases in Belgium.";
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_NIHDI";
+  <http://www.w3.org/ns/csvw#titles> "NIHDI classification";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Nihdi%20code> .
+
+<internalURI:sample1Table1Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_YR_COLCN";
+  <http://www.w3.org/ns/csvw#titles> "Year of data collection";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Registration%20date>;
+  dcterms:description "Year of data collection refers to the specific year in which the patient's data was gathered." .
+
+<internalURI:sample1Table1Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_CRAMP";
+  <http://www.w3.org/ns/csvw#titles> "CRAMP classification";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:CRAMP%20classification>;
+  dcterms:description "CRAMP classification refers to a system used for categorizing muscle disorders." .
+
+<internalURI:sample1Table1Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "patient_id";
+  <http://www.w3.org/ns/csvw#titles> "National registry ID of the patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:National%20Registry%20Number>;
+  dcterms:description "National registry ID of the patient is a unique identifier assigned to the patient in the national registry." .
+
+<internalURI:sample1Table1Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "generated";
+  <http://www.w3.org/ns/csvw#titles> "Generated patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Generated patient ID is an identifier created to uniquely distinguish each patient within the registry." .
+
+<internalURI:sample1Table1Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "internal_patient_id";
+  <http://www.w3.org/ns/csvw#titles> "Internal patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Internal patient ID is a unique identifier used within an institution to track a patient." .
+
+<internalURI:sample1Table1Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "name";
+  <http://www.w3.org/ns/csvw#titles> "Name";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20name>;
+  dcterms:description "Name refers to the last name of the patient." .
+
+<internalURI:sample1Table1Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "first_name";
+  <http://www.w3.org/ns/csvw#titles> "First name";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20name>;
+  dcterms:description "First name refers to the given name of the patient." .
+
+<internalURI:sample1Table1Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "date_of_birth";
+  <http://www.w3.org/ns/csvw#titles> "Date of birth";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20birth%20date>;
+  dcterms:description "Date of birth is the specific date when the patient was born." .
+
+<internalURI:sample1Table1Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "sex";
+  <http://www.w3.org/ns/csvw#titles> "Sex";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Gender>;
+  dcterms:description "Sex indicates the gender of the patient." .
+
+<internalURI:sample1Table1Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ORPH";
+  <http://www.w3.org/ns/csvw#titles> "OrphaNet classification";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Coded%20identification%20Number>;
+  dcterms:description "OrphaNet classification is a coding system for rare diseases." .
+
+<internalURI:sample1Table1Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ICD10";
+  <http://www.w3.org/ns/csvw#titles> "ICD-10 classification";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:ICD-10%20diagnosis>;
+  dcterms:description "ICD-10 classification is the 10th revision of the International Statistical Classification of Diseases and Related Health Problems." .
+
+<internalURI:sample1Table1Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_OMIM_GENET";
+  <http://www.w3.org/ns/csvw#titles> "OMIM gene classification";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:OMIM%20code%20diagnosis>;
+  dcterms:description "OMIM gene classification is a catalog of human genes and genetic disorders." .
+
+<internalURI:sample1Table1Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_ADD_INFO_CLASS";
+  <http://www.w3.org/ns/csvw#titles> "Additional information";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medical%20decision%20information>;
+  dcterms:description "Additional information refers to any extra data related to the characterization of the patient's disease not covered in the previous classification fields." .
+
+<internalURI:sample1Table1Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_AGE_SYMP_ONST";
+  <http://www.w3.org/ns/csvw#titles> "Age of symptom onset";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Symptom%20onset%20date>;
+  dcterms:description "Age of symptom onset is the age at which the patient first experienced symptoms." .
+
+<internalURI:sample1Table1Variable26> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_FIRST_SYMP";
+  <http://www.w3.org/ns/csvw#titles> "Date of first symptoms";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Symptom%20onset%20date>;
+  dcterms:description "Date of first symptoms is the specific date when the patient first noticed symptoms." .
+
+<internalURI:sample1Table1Variable27> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_AGE_FIRST_SYMP";
+  <http://www.w3.org/ns/csvw#titles> "Age at first symptoms";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Age at first symptoms is the age of the patient when they first experienced symptoms." .
+
+<internalURI:sample1Table1Variable28> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_FINL_DIAGS";
+  <http://www.w3.org/ns/csvw#titles> "Final diagnosis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diagnosis%20status>;
+  dcterms:description "Final diagnosis is the conclusive medical determination of the patient's condition." .
+
+<internalURI:sample1Table1> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample1Table1Variable1>, <internalURI:sample1Table1Variable10>,
+    <internalURI:sample1Table1Variable11>, <internalURI:sample1Table1Variable12>, <internalURI:sample1Table1Variable13>,
+    <internalURI:sample1Table1Variable14>, <internalURI:sample1Table1Variable15>, <internalURI:sample1Table1Variable16>,
+    <internalURI:sample1Table1Variable17>, <internalURI:sample1Table1Variable18>, <internalURI:sample1Table1Variable19>,
+    <internalURI:sample1Table1Variable2>, <internalURI:sample1Table1Variable20>, <internalURI:sample1Table1Variable3>,
+    <internalURI:sample1Table1Variable4>, <internalURI:sample1Table1Variable5>, <internalURI:sample1Table1Variable6>,
+    <internalURI:sample1Table1Variable7>, <internalURI:sample1Table1Variable8>, <internalURI:sample1Table1Variable9>,
+    <internalURI:sample1Table1Variable21>, <internalURI:sample1Table1Variable22>, <internalURI:sample1Table1Variable23>,
+    <internalURI:sample1Table1Variable24>, <internalURI:sample1Table1Variable25>, <internalURI:sample1Table1Variable26>,
+    <internalURI:sample1Table1Variable27>, <internalURI:sample1Table1Variable28>, <internalURI:sample1Table1Variable29>,
+    <internalURI:sample1Table1Variable30>, <internalURI:sample1Table1Variable31>, <internalURI:sample1Table1Variable32>,
+    <internalURI:sample1Table1Variable33>, <internalURI:sample1Table1Variable34>, <internalURI:sample1Table1Variable35>,
+    <internalURI:sample1Table1Variable36>, <internalURI:sample1Table1Variable37>, <internalURI:sample1Table1Variable38>,
+    <internalURI:sample1Table1Variable39>, <internalURI:sample1Table1Variable40>, <internalURI:sample1Table1Variable41>,
+    <internalURI:sample1Table1Variable42>, <internalURI:sample1Table1Variable43>, <internalURI:sample1Table1Variable44>,
+    <internalURI:sample1Table1Variable45>, <internalURI:sample1Table1Variable46>, <internalURI:sample1Table1Variable47>,
+    <internalURI:sample1Table1Variable48>, <internalURI:sample1Table1Variable49>, <internalURI:sample1Table1Variable50>,
+    <internalURI:sample1Table1Variable51>, <internalURI:sample1Table1Variable52>, <internalURI:sample1Table1Variable53>,
+    <internalURI:sample1Table1Variable54>, <internalURI:sample1Table1Variable55>, <internalURI:sample1Table1Variable56>,
+    <internalURI:sample1Table1Variable57>, <internalURI:sample1Table1Variable58>, <internalURI:sample1Table1Variable59>,
+    <internalURI:sample1Table1Variable60>, <internalURI:sample1Table1Variable61>, <internalURI:sample1Table1Variable62>,
+    <internalURI:sample1Table1Variable63>, <internalURI:sample1Table1Variable64>, <internalURI:sample1Table1Variable100>,
+    <internalURI:sample1Table1Variable101>, <internalURI:sample1Table1Variable102>, <internalURI:sample1Table1Variable103>,
+    <internalURI:sample1Table1Variable104>, <internalURI:sample1Table1Variable105>, <internalURI:sample1Table1Variable106>,
+    <internalURI:sample1Table1Variable107>, <internalURI:sample1Table1Variable108>, <internalURI:sample1Table1Variable109>,
+    <internalURI:sample1Table1Variable110>, <internalURI:sample1Table1Variable111>, <internalURI:sample1Table1Variable112>,
+    <internalURI:sample1Table1Variable113>, <internalURI:sample1Table1Variable114>, <internalURI:sample1Table1Variable115>,
+    <internalURI:sample1Table1Variable116>, <internalURI:sample1Table1Variable117>, <internalURI:sample1Table1Variable118>,
+    <internalURI:sample1Table1Variable119>, <internalURI:sample1Table1Variable120>, <internalURI:sample1Table1Variable121>,
+    <internalURI:sample1Table1Variable122>, <internalURI:sample1Table1Variable123>, <internalURI:sample1Table1Variable124>,
+    <internalURI:sample1Table1Variable125>, <internalURI:sample1Table1Variable126>, <internalURI:sample1Table1Variable127>,
+    <internalURI:sample1Table1Variable128>, <internalURI:sample1Table1Variable129>, <internalURI:sample1Table1Variable130>,
+    <internalURI:sample1Table1Variable131>, <internalURI:sample1Table1Variable132>, <internalURI:sample1Table1Variable133>,
+    <internalURI:sample1Table1Variable134>, <internalURI:sample1Table1Variable135>, <internalURI:sample1Table1Variable65>,
+    <internalURI:sample1Table1Variable66>, <internalURI:sample1Table1Variable67>, <internalURI:sample1Table1Variable68>,
+    <internalURI:sample1Table1Variable69>, <internalURI:sample1Table1Variable70>, <internalURI:sample1Table1Variable71>,
+    <internalURI:sample1Table1Variable72>, <internalURI:sample1Table1Variable73>, <internalURI:sample1Table1Variable74>,
+    <internalURI:sample1Table1Variable75>, <internalURI:sample1Table1Variable76>, <internalURI:sample1Table1Variable77>,
+    <internalURI:sample1Table1Variable78>, <internalURI:sample1Table1Variable79>, <internalURI:sample1Table1Variable80>,
+    <internalURI:sample1Table1Variable81>, <internalURI:sample1Table1Variable82>, <internalURI:sample1Table1Variable83>,
+    <internalURI:sample1Table1Variable84>, <internalURI:sample1Table1Variable85>, <internalURI:sample1Table1Variable86>,
+    <internalURI:sample1Table1Variable87>, <internalURI:sample1Table1Variable88>, <internalURI:sample1Table1Variable89>,
+    <internalURI:sample1Table1Variable90>, <internalURI:sample1Table1Variable91>, <internalURI:sample1Table1Variable92>,
+    <internalURI:sample1Table1Variable93>, <internalURI:sample1Table1Variable94>, <internalURI:sample1Table1Variable95>,
+    <internalURI:sample1Table1Variable96>, <internalURI:sample1Table1Variable97>, <internalURI:sample1Table1Variable98>,
+    <internalURI:sample1Table1Variable99> .
+
+<internalURI:sample1Table1Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_LAST_FLLWUP";
+  <http://www.w3.org/ns/csvw#titles> "Date of last follow-up during the collection year";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Consultation%20date>;
+  dcterms:description "Date of last follow-up during the collection year is the date when the patient last visited the reference center." .
+
+<internalURI:sample1Table1Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "place_of_residence";
+  <http://www.w3.org/ns/csvw#titles> "Place of residence";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Residence%20Location%20identifier>;
+  dcterms:description "Place of residence is the location where the patient lives." .
+
+<internalURI:sample1Table1Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_ALV";
+  <http://www.w3.org/ns/csvw#titles> "Patient alive indicator";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Death%20flag>;
+  dcterms:description "Patient alive indicator shows whether the patient is still alive." .
+
+<internalURI:sample1Table1Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_DEATH";
+  <http://www.w3.org/ns/csvw#titles> "Date of death";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20death%20date>;
+  dcterms:description "Date of death is the specific date when the patient passed away." .
+
+<internalURI:sample1Table1Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COD";
+  <http://www.w3.org/ns/csvw#titles> "Cause of death";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cause%20of%20death%20indicator>;
+  dcterms:description "Cause of death indicates the medical reason for the patient's death." .
+
+<internalURI:sample1Table1Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_COD_OTH";
+  <http://www.w3.org/ns/csvw#titles> "Please specify";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cause%20of%20death%20indicator>;
+  dcterms:description "Please specify is a prompt to provide additional details on the cause of death when required." .
+
+<internalURI:sample1Table1Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "treating_physician";
+  <http://www.w3.org/ns/csvw#titles> "Treating physician";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medical%20treatment%20administration>;
+  dcterms:description "Treating physician refers to the doctor responsible for the patient's care." .
+
+<internalURI:sample1Table1Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_RIZIV_TREAT_PHYS";
+  <http://www.w3.org/ns/csvw#titles> "RIZIV/INAMI-code of the treating physician";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:RIZIV%20service%20code>;
+  dcterms:description "RIZIV/INAMI-code of the treating physician is a unique identifier for the healthcare provider in Belgium." .
+
+<internalURI:sample1Table1Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_IN_CONVT";
+  <http://www.w3.org/ns/csvw#titles> "Patient in convention indicator";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20insurance%20status%20code>;
+  dcterms:description "Patient in convention indicator shows if the patient is covered by a healthcare agreement." .
+
+<internalURI:sample1Table1Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_IN_CONVT";
+  <http://www.w3.org/ns/csvw#titles> "Convention prolongation start date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Therapy%20dates>;
+  dcterms:description "Convention prolongation start date is the date when the extension of the healthcare agreement begins." .
+
+<internalURI:sample1Table1Variable45> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_WALK_DWNSTR";
+  <http://www.w3.org/ns/csvw#titles> "Walking downstairs";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Walking downstairs refers to the activity of descending stairs on foot. Does the patient have difficulties walking downstairs?" .
+
+<internalURI:sample1Table1Variable46> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_STP_BAT";
+  <http://www.w3.org/ns/csvw#titles> "Stepping out of a bath tub";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Stepping out of a bath tub refers to the task of getting out of a bathtub after bathing. Does the patient have difficulties stepping out of a bath tub?" .
+
+<internalURI:sample1Table1Variable47> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_OPN_DOOR";
+  <http://www.w3.org/ns/csvw#titles> "Opening a door";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Opening a door refers to the task of moving a door to allow passage through an entrance or exit. Does the patient have difficulties opening a door?" .
+
+<internalURI:sample1Table1Variable48> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_WALK_OUTDR_GRND_LEVEL";
+  <http://www.w3.org/ns/csvw#titles> "Walking outdoors on level ground";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Walking outdoors on level ground refers to the activity of moving on foot outside on flat terrain. Does the patient have difficulties walking outdoors on level ground?" .
+
+<internalURI:sample1Table1Variable49> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_WSH_FACE";
+  <http://www.w3.org/ns/csvw#titles> "Washing one's face";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Washing one's face refers to the task of cleaning the facial area. Does the patient have difficulties washing the face?" .
+
+<internalURI:sample1Table1Variable50> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_HAN_JACK_HATSTN";
+  <http://www.w3.org/ns/csvw#titles> "Hanging up a jacket on a hatstand";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Activity%20Difficulty%20Assessment>;
+  dcterms:description "Hanging up a jacket on a hatstand refers to placing a jacket on a standing coat rack. Does the patient have difficulties hanging up a jacket on a hatstand?" .
+
+<internalURI:sample1Table1Variable51> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_WIP_UPPR_BOD";
+  <http://www.w3.org/ns/csvw#titles> "Wiping one's upper body";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Wiping one's upper body refers to the task of cleaning the upper part of the body. Does the patient have difficulties wiping the upper body?" .
+
+<internalURI:sample1Table1Variable52> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_GO_STAI";
+  <http://www.w3.org/ns/csvw#titles> "Going up the stairs";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Going up the stairs refers to the activity of ascending stairs on foot. Does the patient have difficulties going up the stairs?" .
+
+<internalURI:sample1Table1Variable53> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_CARY_HVY_LOAD";
+  <http://www.w3.org/ns/csvw#titles> "Carrying a heavy load";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Carrying a heavy load refers to transporting a weighty object. Does the patient have difficulties carrying a heavy load?" .
+
+<internalURI:sample1Table1Variable54> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_GET_CAR";
+  <http://www.w3.org/ns/csvw#titles> "Getting into a car";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Getting into a car refers to the task of entering an automobile. Does the patient have difficulties getting into a car?" .
+
+<internalURI:sample1Table1Variable55> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_STAN_LON_TM_10_MIN";
+  <http://www.w3.org/ns/csvw#titles> "Standing for a long time (± 10 min)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Long-term%20limitations%20due%20to%20health>;
+  dcterms:description "Standing for a long time refers to maintaining an upright position for approximately 10 minutes or more. Does the patient have difficulties standing for a long time?" .
+
+<internalURI:sample1Table1Variable56> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_WALK_MOR_1_KM";
+  <http://www.w3.org/ns/csvw#titles> "Walking more than one kilometer";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Walking more than one kilometer refers to covering a distance of more than one kilometer on foot. Does the patient have difficulties walking more than one kilometer?" .
+
+<internalURI:sample1Table1Variable57> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_CLOS_DOOR";
+  <http://www.w3.org/ns/csvw#titles> "Closing a door";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Closing a door refers to the task of moving a door to shut it. Does the patient have difficulties closing a door?" .
+
+<internalURI:sample1Table1Variable58> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_HOP_1_FOOT";
+  <http://www.w3.org/ns/csvw#titles> "Hopping on one foot";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Hopping on one foot refers to jumping or bouncing while balancing on a single foot. Does the patient have difficulties hopping on one foot?" .
+
+<internalURI:sample1Table1Variable59> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_PUT_BCKPCK";
+  <http://www.w3.org/ns/csvw#titles> "Putting on a backpack";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Putting on a backpack refers to placing a backpack on one's shoulders. Does the patient have difficulties putting on a backpack?" .
+
+<internalURI:sample1Table1Variable60> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "CD_AL_RUN";
+  <http://www.w3.org/ns/csvw#titles> "Running";
+  dcterms:description "Running refers to moving rapidly on foot" .
+
+<internalURI:sample1Table1Variable61> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_DMD";
+  <http://www.w3.org/ns/csvw#titles> "Patient DMD suffering";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:DMD%20diagnosis>;
+  dcterms:description "Patient DMD suffering indicates whether the patient suffers from Duchenne muscular dystrophy (DMD)." .
+
+<internalURI:sample1Table1Variable131> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#titles> "Name of drug";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Prescription%20name>;
+  dcterms:description "Name of drug specifies the medication or treatment that was studied in the previous clinical trial(s).";
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_NAM_DRUG" .
+
+<internalURI:sample1Table1Variable132> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_OTH_REG_STDY";
+  <http://www.w3.org/ns/csvw#titles> "Patient enrollment in additional registries or natural history studies";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Associated%20study>;
+  dcterms:description "Patient enrollment in additional registries or natural history studies refers to participation of the patient in other patient databases or observational studies." .
+
+<internalURI:sample1Table1Variable133> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_REG_STDY";
+  <http://www.w3.org/ns/csvw#titles> "Name of registry or natural history study";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Study%20name>;
+  dcterms:description "Name of registry or natural history study specifies the title or name of the additional registry or study in which the patient is enrolled." .
+
+<internalURI:sample1Table1Variable134> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_OTH_AFFECT_FAM_MEM";
+  <http://www.w3.org/ns/csvw#titles> "Other affected family members";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Other%20specific%20care>;
+  dcterms:description "Other affected family members refers to relatives of the patient who also have the same medical condition." .
+
+<internalURI:sample1Table1Variable135> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "CD_FAM_KINSHIP";
+  <http://www.w3.org/ns/csvw#titles> "Please state kinship (select all that apply)";
+  dcterms:description "Please state kinship allows selection of familial relationships (e.g." .
+
+<internalURI:sample1Table1Variable65> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_DELTN_EXON_TEST";
+  <http://www.w3.org/ns/csvw#titles> "Deletion: all exons tested";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mutation%20type%20code>;
+  dcterms:description "Deletion: all exons tested refers to the testing of all exons in genetic analysis ensuring the genotype is final" .
+
+<internalURI:sample1Table1Variable66> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_DUPLIN_ALL_EXON_TEST";
+  <http://www.w3.org/ns/csvw#titles> "Duplication: all exons tested";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mutation%20type%20code>;
+  dcterms:description "Duplication: all exons tested refers to the testing of all exons in genetic analysis ensuring the genotype is final" .
+
+<internalURI:sample1Table1Variable67> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_DELTN_DUPLIN_KNOW_BNDRY";
+  <http://www.w3.org/ns/csvw#titles> "Deletion/duplication: boundaries known";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mutation%20type%20code>;
+  dcterms:description "Deletion/duplication: boundaries known refers to identifying the specific limits of genetic deletions or duplications." .
+
+<internalURI:sample1Table1Variable68> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PNT_MUTAT_ALL_EXON_SEQ";
+  <http://www.w3.org/ns/csvw#titles> "Point mutation: all exons sequenced";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mutation%20type%20code>;
+  dcterms:description "Point mutation: all exons sequenced refers to sequencing all exons to identify point mutations in genetic analysis." .
+
+<internalURI:sample1Table1Variable69> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TRGT_MUTAT_TEST_EXON_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Targeted mutation testing in this patient but testing of all exons in an affected male relative (index patient)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20methodology>;
+  dcterms:description "Targeted mutation testing in this patient but testing of all exons in an affected male relative (index patient) refers to focused mutation testing in the patient and comprehensive testing in a related male relative with the condition." .
+
+<internalURI:sample1Table1Variable70> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_CURLY_ABLE_WALK";
+  <http://www.w3.org/ns/csvw#titles> "Currently able to walk";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20status>;
+  dcterms:description "Currently able to walk indicates whether the patient is currently capable of walking." .
+
+<internalURI:sample1Table1Variable71> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_AGE_START_WHLCHR_USE";
+  <http://www.w3.org/ns/csvw#titles> "Age at loss of ambulation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Age at loss of ambulation is the age when the patient lost the ability to walk." .
+
+<internalURI:sample1Table1Variable72> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_AGE_START_WHLCHR_USE";
+  <http://www.w3.org/ns/csvw#titles> "Specify the age at loss of ambulation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Specify the age at loss of ambulation refers to providing the exact age when the patient lost the ability to walk." .
+
+<internalURI:sample1Table1Variable73> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_WHLCHR_USE";
+  <http://www.w3.org/ns/csvw#titles> "Patient wheelchair use";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20status>;
+  dcterms:description "Patient wheelchair use indicates whether the patient uses a wheelchair." .
+
+<internalURI:sample1Table1Variable74> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_WHLCHR_START_PMT";
+  <http://www.w3.org/ns/csvw#titles> "Date began";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Living%20unit%20start%20date>;
+  dcterms:description "Date began is the specific date when the patient started to use the wheelchair permantly" .
+
+<internalURI:sample1Table1Variable75> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_WHLCHR_START_INTMT";
+  <http://www.w3.org/ns/csvw#titles> "Date began";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Living%20unit%20start%20date>;
+  dcterms:description "Date began is the specific date when the patient started to use the wheelchair intermittently" .
+
+<internalURI:sample1Table1Variable76> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_SIT_WO_SUPP";
+  <http://www.w3.org/ns/csvw#titles> "Sitting without support";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Activity%20Difficulty%20Assessment>;
+  dcterms:description "Sitting without support refers to the ability to sit upright without external aid." .
+
+<internalURI:sample1Table1Variable77> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_STERD_THERPY";
+  <http://www.w3.org/ns/csvw#titles> "Current steroid therapy";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Corticoid%20treament>;
+  dcterms:description "Current steroid therapy indicates whether the patient is currently undergoing steroid treatment." .
+
+<internalURI:sample1Table1Variable78> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_STERD_THERPY_CURR_START";
+  <http://www.w3.org/ns/csvw#titles> "Start date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Treatment%20start%20date>;
+  dcterms:description "Start date is the specific date when the current steroid therapy started." .
+
+<internalURI:sample1Table1Variable79> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_STERD_THERPY_PREVLY_START";
+  <http://www.w3.org/ns/csvw#titles> "Start date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Treatment%20start%20date>;
+  dcterms:description "Start date is the specific date when the previous steroid therapy started." .
+
+<internalURI:sample1Table1Variable80> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_STERD_THERPY_PREVLY_END";
+  <http://www.w3.org/ns/csvw#titles> "Stop date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Therapy%20dates>;
+  dcterms:description "Stop date is the specific date when the previous steroid therapy ended." .
+
+<internalURI:sample1Table1Variable81> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_DIAGS_SCOL";
+  <http://www.w3.org/ns/csvw#titles> "Patient scoliosis diagnosis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Disease%20diagnosis>;
+  dcterms:description "Patient scoliosis diagnosis refers to the diagnosis of scoliosis for the patient." .
+
+<internalURI:sample1Table1Variable82> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_COBB_ANGLE";
+  <http://www.w3.org/ns/csvw#titles> "Cobb angle according to radiology results (degrees)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20result>;
+  dcterms:description "Cobb angle according to radiology results is the degree measurement of scoliosis curvature from radiological imaging." .
+
+<internalURI:sample1Table1Variable83> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_SCOL_SURG";
+  <http://www.w3.org/ns/csvw#titles> "Patient surgery history for scoliosis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Scoliosis%20surgery%20history>;
+  dcterms:description "Patient surgery history for scoliosis refers to the surgical intervention(s) the patient has undergone for scoliosis." .
+
+<internalURI:sample1Table1Variable84> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_SURG_TECHNQ";
+  <http://www.w3.org/ns/csvw#titles> "Surgery technique";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Surgery%20technique>;
+  dcterms:description "Surgery technique refers to the specific method used during surgical procedure(s)." .
+
+<internalURI:sample1Table1Variable85> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_OTH_SURG_TECHNQ";
+  <http://www.w3.org/ns/csvw#titles> "Other surgery technique";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Scoliosis%20surgery%20history>;
+  dcterms:description "Other surgery technique refers to additional or alternative methods used in surgical procedure(s) to correct the patient's scoliosis." .
+
+<internalURI:sample1Table1Variable86> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_FIRST_SURG";
+  <http://www.w3.org/ns/csvw#titles> "Date of first surgery";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Date%20of%20examination%20execution>;
+  dcterms:description "Date of first surgery is the specific date when the patient underwent their initial surgical procedure to correct scoliosis." .
+
+<internalURI:sample1Table1Variable87> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_CURR_CARDIAC_MEDICT";
+  <http://www.w3.org/ns/csvw#titles> "Current cardiac medication";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cardiac%20medication%20usage>;
+  dcterms:description "Current cardiac medication indicates whether the patient is currently taking medication for heart-related conditions." .
+
+<internalURI:sample1Table1Variable88> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_CARDIAC_MEDICT";
+  <http://www.w3.org/ns/csvw#titles> "Cardiac medication";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Cardiac medication refers to drugs prescribed for heart conditions." .
+
+<internalURI:sample1Table1Variable89> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_CARDIAC_MEDICT_OTH";
+  <http://www.w3.org/ns/csvw#titles> "Other cardiac medication";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cardiac%20medication%20usage>;
+  dcterms:description "Other cardiac medication refers to any additional medications for heart conditions not previously listed." .
+
+<internalURI:sample1Table1Variable90> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_HEART_FAIL_CARDIOM";
+  <http://www.w3.org/ns/csvw#titles> "Heart failure/cardiomyopathy";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Heart%20failure/cardiomyopathy%20information>;
+  dcterms:description "Heart failure/cardiomyopathy refers to a medical history of heart failure or cardiomyopathy." .
+
+<internalURI:sample1Table1Variable91> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_LVEF";
+  <http://www.w3.org/ns/csvw#titles> "Patient LVEF measurement";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:LVEF%20assessment>;
+  dcterms:description "Patient LVEF measurement refers to the assessment of Left Ventricular Ejection Fraction (LVEF)." .
+
+<internalURI:sample1Table1Variable92> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_LAST_LVEF";
+  <http://www.w3.org/ns/csvw#titles> "Last LVEF";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:LVEF%20assessment>;
+  dcterms:description "Last LVEF refers to the most recent measurement of Left Ventricular Ejection Fraction (LVEF) for the patient." .
+
+<internalURI:sample1Table1Variable93> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_LAST_LVEF";
+  <http://www.w3.org/ns/csvw#titles> "Date of last LVEF";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:LVEF%20date>;
+  dcterms:description "Date of last LVEF refers to the timestamp of the patient's most recent Left Ventricular Ejection Fraction (LVEF) measurement." .
+
+<internalURI:sample1Table1Variable62> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_DIAGS_DMD";
+  <http://www.w3.org/ns/csvw#titles> "Diagnosis DMD";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:DMD%20diagnosis>;
+  dcterms:description "Diagnosis DMD refers to the medical determination of Duchenne muscular dystrophy (DMD)." .
+
+<internalURI:sample1Table1Variable63> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_MUTAT_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Patient molecular mutation characterization";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mutation%20type%20code>;
+  dcterms:description "Patient molecular mutation characterization refers to identifying specific genetic mutations in the patient." .
+
+<internalURI:sample1Table1Variable64> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_MUTAT";
+  <http://www.w3.org/ns/csvw#titles> "Mutation name in gene (HGVS rules)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mutation%20type%20code>;
+  dcterms:description "Mutation name in gene (HGVS rules) refers to the standardized naming convention for genetic mutations." .
+
+<internalURI:sample1Table1Variable100> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_NONINV_VENTIL_PREVLY_START";
+  <http://www.w3.org/ns/csvw#titles> "Start date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Living%20unit%20start%20date>;
+  dcterms:description "Start date refers to the date when the patient began using non-invasive ventilation previously." .
+
+<internalURI:sample1Table1Variable101> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_NONINV_VENTIL_PREVLY_END";
+  <http://www.w3.org/ns/csvw#titles> "End date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Treatment%20end%20date>;
+  dcterms:description "End date refers to the date when the patient stopped using non-invasive ventilation previously." .
+
+<internalURI:sample1Table1Variable102> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_NONINV_VENTIL_CURLY_START";
+  <http://www.w3.org/ns/csvw#titles> "Start date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Living%20unit%20start%20date>;
+  dcterms:description "Start date refers to the date when the patient began using non-invasive ventilation currently." .
+
+<internalURI:sample1Table1Variable103> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "CD_FREQ_NONINV_VENTIL";
+  <http://www.w3.org/ns/csvw#titles> "Frequency of non-invasive ventilation";
+  dcterms:description "Frequency of non-invasive ventilation refers to how often the patient uses non-invasive ventilation (e.g." .
+
+<internalURI:sample1Table1Variable104> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_H_NONINV_VENTIL";
+  <http://www.w3.org/ns/csvw#titles> "Specify the number of hours per day of non-invasive ventilation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20treatment%20engagement>;
+  dcterms:description "Specify the number of hours per day of non-invasive ventilation refers to the duration of non-invasive ventilation used by the patient daily." .
+
+<internalURI:sample1Table1Variable105> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_INV_VENTIL";
+  <http://www.w3.org/ns/csvw#titles> "Patient history of invasive ventilation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Respiratory%20support>;
+  dcterms:description "Patient history of invasive ventilation refers to whether the patient has ever used invasive ventilation." .
+
+<internalURI:sample1Table1Variable106> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_INV_VENTIL_PREVLY_START";
+  <http://www.w3.org/ns/csvw#titles> "Start date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Living%20unit%20start%20date>;
+  dcterms:description "Start date refers to the date when the patient began using invasive ventilation previously." .
+
+<internalURI:sample1Table1Variable107> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_INV_VENTIL_PREVLY_END";
+  <http://www.w3.org/ns/csvw#titles> "End date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Treatment%20end%20date>;
+  dcterms:description "End date refers to the date when the patient stopped using invasive ventilation previously." .
+
+<internalURI:sample1Table1Variable108> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_INV_VENTIL_CURLY_START";
+  <http://www.w3.org/ns/csvw#titles> "Start date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Living%20unit%20start%20date>;
+  dcterms:description "Start date refers to the date when the patient began using invasive ventilation currently." .
+
+<internalURI:sample1Table1Variable109> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "CD_FREQ_INV_VENTIL";
+  <http://www.w3.org/ns/csvw#titles> "Frequency of invasive ventilation";
+  dcterms:description "Frequency of invasive ventilation refers to how often the patient uses invasive ventilation (e.g." .
+
+<internalURI:sample1Table1Variable110> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_H_INV_VENTIL";
+  <http://www.w3.org/ns/csvw#titles> "Invasive ventilation hours per day";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20treatment%20engagement>;
+  dcterms:description "Invasive ventilation hours per day refers to the number of hours per day the patient uses invasive ventilation." .
+
+<internalURI:sample1Table1Variable111> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ASSTNC_ACL_SECMOB";
+  <http://www.w3.org/ns/csvw#titles> "Patient assistance with airway clearance and secretion mobilisation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Respiratory%20support>;
+  dcterms:description "Patient assistance with airway clearance and secretion mobilisation refers to whether the patient receives aid for airway clearance and secretion mobilisation." .
+
+<internalURI:sample1Table1Variable112> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ASSTNC";
+  <http://www.w3.org/ns/csvw#titles> "Type of assistance";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Respiratory%20support>;
+  dcterms:description "Type of assistance  specifies the method or type of aid provided for airway clearance and secretion mobilisation." .
+
+<internalURI:sample1Table1Variable113> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ASSTNC_FREQ_SUCT";
+  <http://www.w3.org/ns/csvw#titles> "Frequency";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Frequency%20%20assistance>;
+  dcterms:description "Frequency indicates how often the patient receives assistance by suction" .
+
+<internalURI:sample1Table1Variable114> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ASSTNC_FREQ_CPC";
+  <http://www.w3.org/ns/csvw#titles> "Frequency";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Frequency%20%20assistance>;
+  dcterms:description "Frequency indicates how often the patient receives assistance by chest percussion" .
+
+<internalURI:sample1Table1Variable29> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_FINL_DIAGS";
+  <http://www.w3.org/ns/csvw#titles> "Date of final diagnosis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diagnostic%20date>;
+  dcterms:description "Date of final diagnosis is the specific date when the patient was conclusively diagnosed." .
+
+<internalURI:sample1Table1Variable30> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_AGE_DIAGS";
+  <http://www.w3.org/ns/csvw#titles> "Age at diagnosis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Age at diagnosis is the age of the patient when they were given a final diagnosis." .
+
+<internalURI:sample1Table1Variable31> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_AGE_DIF_FIRST_SYMP_DIAGS";
+  <http://www.w3.org/ns/csvw#titles> "Age difference between first symptoms and diagnosis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Symptom-Diagnosis%20interval>;
+  dcterms:description "Age difference between first symptoms and diagnosis is the time span from the onset of symptoms to the final diagnosis." .
+
+<internalURI:sample1Table1Variable32> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_DIAGS_CONFRM_GENET_TEST";
+  <http://www.w3.org/ns/csvw#titles> "Patient genetic confirmation status";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Confirmed%20by%20doctor>;
+  dcterms:description "Patient genetic confirmation status indicates whether the patient's diagnosis has been confirmed by genetic testing." .
+
+<internalURI:sample1Table1Variable33> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_GENET_DIAGS";
+  <http://www.w3.org/ns/csvw#titles> "Date of genetic diagnosis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diagnostic%20date>;
+  dcterms:description "Date of genetic diagnosis is the specific date when the patient's condition was confirmed genetically." .
+
+<internalURI:sample1Table1Variable34> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_STG_DSEAS";
+  <http://www.w3.org/ns/csvw#titles> "Stage of disease";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Pathology%20stage>;
+  dcterms:description "Stage of disease refers to the progression level of the patient's condition." .
+
+<internalURI:sample1Table1Variable35> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_AL_QUES";
+  <http://www.w3.org/ns/csvw#titles> "Patient ACTIVLIM questionnaire completion status";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Questionnaire%20completion%20date>;
+  dcterms:description "Patient ACTIVLIM questionnaire completion status indicates whether the patient has completed the ACTIVLIM questionnaire." .
+
+<internalURI:sample1Table1Variable36> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_AL";
+  <http://www.w3.org/ns/csvw#titles> "ACTIVLIM date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Questionnaire%20completion%20date>;
+  dcterms:description "ACTIVLIM date is the specific date when the patient completed the ACTIVLIM questionnaire." .
+
+<internalURI:sample1Table1Variable37> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_EVER_IMPOS";
+  <http://www.w3.org/ns/csvw#titles> "Everything easy or everything impossible";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Activity%20Difficulty%20Assessment>;
+  dcterms:description "Everything easy or everything impossible indicates the patient's overall perceived difficulty in performing all daily activities." .
+
+<internalURI:sample1Table1Variable38> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "indicate_the_difficulty_perceived_for_each_of_the_following_activities";
+  <http://www.w3.org/ns/csvw#titles> "Indicate the difficulty perceived for each of the following activities";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Activity%20Difficulty%20Assessment>;
+  dcterms:description "Indicate the difficulty perceived for each of the following activities is a prompt to rate the ease or difficulty of specific tasks." .
+
+<internalURI:sample1Table1Variable39> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_PUT_TSHRT";
+  <http://www.w3.org/ns/csvw#titles> "Putting on a T-shirt";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Putting on a T-shirt refers to the task of dressing oneself by putting on a shirt. Does the patient have difficulties putting on a T-shirt?" .
+
+<internalURI:sample1Table1Variable40> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_WSH_UPPR_BOD";
+  <http://www.w3.org/ns/csvw#titles> "Washing one's upper body";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Washing one's upper body refers to the task of cleaning the upper part of the body. Does the patient have difficulties washing the upper body?" .
+
+<internalURI:sample1Table1Variable41> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_DRES_LOW_BOD";
+  <http://www.w3.org/ns/csvw#titles> "Dressing one's lower body";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Dressing one's lower body refers to the task of dressing oneself from the waist down. Does the patient have difficulties dressing the lower body?" .
+
+<internalURI:sample1Table1Variable42> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_TAK_SHOWR";
+  <http://www.w3.org/ns/csvw#titles> "Taking a shower";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Taking a shower refers to the activity of bathing under a shower. Does the patient have difficulties taking a shower?" .
+
+<internalURI:sample1Table1Variable43> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_SIT_TOIL";
+  <http://www.w3.org/ns/csvw#titles> "Sitting on the toilet";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Sitting on the toilet refers to the task of using a toilet seat for excretion. Does the patient have difficulties sitting on the toilet?" .
+
+<internalURI:sample1Table1Variable44> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_AL_TAK_BAT";
+  <http://www.w3.org/ns/csvw#titles> "Taking a bath";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Taking a bath refers to the activity of immersing oneself in a bathtub filled with water. Does the patient have difficulties taking a bath?" .
+
+<internalURI:sample1Table1Variable94> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_LVEF_SCI";
+  <http://www.w3.org/ns/csvw#titles> "Patient LVEF measurement via scintigraphy";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:LVEF%20assessment>;
+  dcterms:description "Patient LVEF measurement via scintigraphy refers to the assessment of LVEF using scintigraphy imaging." .
+
+<internalURI:sample1Table1Variable95> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_FS";
+  <http://www.w3.org/ns/csvw#titles> "Patient fractional shortening (FS) measurement";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Fractional%20shortening%20measurement>;
+  dcterms:description "Patient fractional shortening (FS) measurement refers to the assessment of Fractional Shortening (FS)." .
+
+<internalURI:sample1Table1Variable96> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_LAST_FS";
+  <http://www.w3.org/ns/csvw#titles> "Last Fractional Shortening (FS)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Fractional%20shortening%20measurement>;
+  dcterms:description "Last Fractional Shortening (FS) refers to the most recent measurement of Fractional Shortening (FS) for the patient." .
+
+<internalURI:sample1Table1Variable97> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_LAST_FS";
+  <http://www.w3.org/ns/csvw#titles> "Date of last FS";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Last%20modification%20timestamp>;
+  dcterms:description "Date of last FS refers to the timestamp of the patient's most recent Fractional Shortening (FS) measurement." .
+
+<internalURI:sample1Table1Variable98> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_FS_SCI";
+  <http://www.w3.org/ns/csvw#titles> "FS measurement via scintigraphy";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Fractional%20shortening%20measurement>;
+  dcterms:description "FS measurement via scintigraphy refers to the assessment of FS using scintigraphy imaging." .
+
+<internalURI:sample1Table1Variable99> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "CD_NONINV_VENTIL";
+  <http://www.w3.org/ns/csvw#titles> "Patient history of non-invasive ventilation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Respiratory%20support>;
+  dcterms:description "Patient history of non-invasive ventilation refers to whether the patient has used ever non-invasive ventilation." .
+
+<http://x.x> a <http://www.w3.org/ns/csvw#TableGroup>;
+  <http://www.w3.org/ns/csvw#table> <internalURI:sample1Table1> .
+
+<https://sciensano.healthdataportal.eu:443/sample/c0a70222-1bb5-49e7-88f7-3e524e538812>
+  a dcat:Resource, dcat:Distribution;
+  dcterms:accessRights <https://sciensano.healthdataportal.eu:443/sample/c0a70222-1bb5-49e7-88f7-3e524e538812#accessRights>;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://sciensano.healthdataportal.eu:443/sample/c0a70222-1bb5-49e7-88f7-3e524e538812#identifier>;
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2025-07-31T10:28:14.883Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2025-07-31T10:28:14.883Z"^^xsd:dateTime;
+  dcterms:isPartOf <https://sciensano.healthdataportal.eu:443/dataset/39e47d1a-f336-49c6-b1b0-8ab060b8e9e2>;
+  <http://semanticscience.org/resource/SIO_000628> <https://sciensano.healthdataportal.eu:443/sample/c0a70222-1bb5-49e7-88f7-3e524e538812/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://sciensano.healthdataportal.eu:443/sample/c0a70222-1bb5-49e7-88f7-3e524e538812/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcat:downloadURL <http://x.x>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "BNMDR | Data dictionary";
+  dcterms:title "BNMDR | Data dictionary"@en;
+  dcterms:conformsTo <https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf> .
+
+<https://sciensano.healthdataportal.eu:443/sample/c0a70222-1bb5-49e7-88f7-3e524e538812/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://sciensano.healthdataportal.eu:443/sample/c0a70222-1bb5-49e7-88f7-3e524e538812/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777> .
+
+<https://sciensano.healthdataportal.eu:443/sample/c0a70222-1bb5-49e7-88f7-3e524e538812#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://sciensano.healthdataportal.eu:443/sample/c0a70222-1bb5-49e7-88f7-3e524e538812#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://sciensano.healthdataportal.eu:443/sample/c0a70222-1bb5-49e7-88f7-3e524e538812" .
+
+<internalURI:sample1Table1Variable115> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ASSTNC_FREQ_CAD";
+  <http://www.w3.org/ns/csvw#titles> "Frequency";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Frequency%20%20assistance>;
+  dcterms:description "Frequency indicates how often the patient receives assistance by cough assist device" .
+
+<internalURI:sample1Table1Variable116> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ASSTNC_FREQ_IPPV";
+  <http://www.w3.org/ns/csvw#titles> "Frequency";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Frequency%20%20assistance>;
+  dcterms:description "Frequency indicates how often the patient receives assistance by IPPV  (Intermittent positive-pressure ventilation)" .
+
+<internalURI:sample1Table1Variable117> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_ASSTNC_OTH";
+  <http://www.w3.org/ns/csvw#titles> "Please specify";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Respiratory%20support>;
+  dcterms:description "Please specify allows additional details or specific instructions related to patient's type of assistance for airway clearance and secretion mobilisation." .
+
+<internalURI:sample1Table1Variable118> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ASSTNC_FREQ_OTH";
+  <http://www.w3.org/ns/csvw#titles> "Frequency";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Frequency%20%20assistance>;
+  dcterms:description "Frequency indicates how often the patient receives an other type of assistance for airway clearance and secretion mobilisation." .
+
+<internalURI:sample1Table1Variable119> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_FVC_TST";
+  <http://www.w3.org/ns/csvw#titles> "Patient forced vital capacity (FVC) testing";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Forced%20Vital%20Capacity%20(FVC)%20Assessment>;
+  dcterms:description "Patient forced vital capacity (FVC) testing refers to assessing the patient's lung function through FVC testing." .
+
+<internalURI:sample1Table1Variable120> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_FVC_TST";
+  <http://www.w3.org/ns/csvw#titles> "Date of FVC test";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Testing%20date%20and%20time>;
+  dcterms:description "Date of FVC test refers to the timestamp when the patient underwent FVC testing." .
+
+<internalURI:sample1Table1Variable121> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_FVC";
+  <http://www.w3.org/ns/csvw#titles> "FVC (mL)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Forced%20Vital%20Capacity%20(FVC)%20Assessment>;
+  dcterms:description "FVC (mL) refers to the measured Forced Vital Capacity in milliliters during testing." .
+
+<internalURI:sample1Table1Variable122> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "MS_FVC_PRED";
+  <http://www.w3.org/ns/csvw#titles> "FVC predicted (%)";
+  dcterms:description "FVC predicted (%) refers to the percentage of predicted Forced Vital Capacity based on age" .
+
+<internalURI:sample1Table1Variable123> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PREV_MUSC_BIOSY";
+  <http://www.w3.org/ns/csvw#titles> "Previous muscle biopsy";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Muscle%20biopsy%20history>;
+  dcterms:description "Previous muscle biopsy refers to any prior muscle tissue sampling for diagnostic purposes." .
+
+<internalURI:sample1Table1Variable124> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_PREV_MUSC_BIOSY";
+  <http://www.w3.org/ns/csvw#titles> "Date of biopsy";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Date%20of%20biopsy>;
+  dcterms:description "Date of biopsy refers to the timestamp of the patient's previous muscle biopsy." .
+
+<internalURI:sample1Table1Variable125> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PTCP_CTR";
+  <http://www.w3.org/ns/csvw#titles> "Patient participation in clinical trials";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Clinical%20trial>;
+  dcterms:description "Patient participation in clinical trials refers to current or past involvement in clinical research studies." .
+
+<internalURI:sample1Table1Variable126> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "clinical_trials_curr";
+  <http://www.w3.org/ns/csvw#titles> "Clinical trial (currently)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Clinical%20trial>;
+  dcterms:description "Clinical trial (currently) refers to ongoing clinical trials in which the patient is currently enrolled." .
+
+<internalURI:sample1Table1Variable127> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_NAM_TRIA";
+  <http://www.w3.org/ns/csvw#titles> "Name of trial";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Clinical%20trial>;
+  dcterms:description "Name of trial specifies the title or name of the current clinical trial(s)." .
+
+<internalURI:sample1Table1Variable128> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_NAM_DRUG";
+  <http://www.w3.org/ns/csvw#titles> "Name of drug";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Prescription%20name>;
+  dcterms:description "Name of drug specifies the medication or treatment being studied in the current clinical trial(s)." .
+
+<internalURI:sample1Table1Variable129> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "clinical_trials_prev";
+  <http://www.w3.org/ns/csvw#titles> "Clinical trial (previously)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Clinical%20trial>;
+  dcterms:description "Clinical trial (previously) refers to clinical trials in which the patient participated in the past." .
+
+<internalURI:sample1Table1Variable130> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_NAM_TRIA";
+  <http://www.w3.org/ns/csvw#titles> "Name of trial";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Clinical%20trial>;
+  dcterms:description "Name of trial specifies the title or name of the previous clinical trial(s)." .
+
+<https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf>
+  <http://www.w3.org/2000/01/rdf-schema#label> "Sample Profile" .
