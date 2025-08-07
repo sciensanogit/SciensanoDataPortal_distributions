@@ -1,0 +1,30 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<internalURI:sample2Table1> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table1Variable1>, <internalURI:sample2Table1Variable2>,
+    <internalURI:sample2Table1Variable3>;
+  dcterms:title "Human Genomics Data (1+MG) - SNPs matrix | Data dictionary"@en .
+
+<internalURI:sample2Table1Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Sample ID";
+  <http://www.w3.org/ns/csvw#titles> "ID of the sample";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20ID>;
+  dcterms:description "Pseudonymised sample ID" .
+
+<internalURI:sample2Table1Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "chr:pos";
+  <http://www.w3.org/ns/csvw#titles> "chromosome:position";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Genetic%20variant%20position>;
+  dcterms:description "Alleles (homozygous/heterzygous) at the chromosome position of the variant (chr:pos)" .
+
+<internalURI:sample2Table1Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "SNP";
+  <http://www.w3.org/ns/csvw#titles> "SNP";
+  dcterms:description "Single nucleotyde polymorphism" .
