@@ -1,0 +1,2138 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<internalURI:sample2Table1> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table1Variable1>, <internalURI:sample2Table1Variable2>,
+    <internalURI:sample2Table1Variable3>, <internalURI:sample2Table1Variable4>, <internalURI:sample2Table1Variable5>,
+    <internalURI:sample2Table1Variable6>, <internalURI:sample2Table1Variable7>, <internalURI:sample2Table1Variable8>,
+    <internalURI:sample2Table1Variable10>, <internalURI:sample2Table1Variable11>, <internalURI:sample2Table1Variable12>,
+    <internalURI:sample2Table1Variable13>, <internalURI:sample2Table1Variable14>, <internalURI:sample2Table1Variable15>,
+    <internalURI:sample2Table1Variable16>, <internalURI:sample2Table1Variable17>, <internalURI:sample2Table1Variable18>,
+    <internalURI:sample2Table1Variable19>, <internalURI:sample2Table1Variable9>;
+  dcterms:title "LINK-VACC - COVID-19 LaboratoryTestPrescription | Schema"@en .
+
+<internalURI:sample2Table1Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_PAT_AGE";
+  <http://www.w3.org/ns/csvw#titles> "Age patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Age patient" .
+
+<internalURI:sample2Table1Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_COLLECTION1";
+  <http://www.w3.org/ns/csvw#titles> "Date and the time of sampling (1st)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20sampling%20date%20and%20time>;
+  dcterms:description "Date upon which the sample of the Covid test has been collected. For the 1st sample." .
+
+<internalURI:sample2Table1Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PART_OF_COLLECTIVITY";
+  <http://www.w3.org/ns/csvw#titles> "Patient collectivity";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Collective%20living%20status>;
+  dcterms:description "Flag that indicates if the patient lives in collectivity." .
+
+<internalURI:sample2Table1Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_POSTAL";
+  <http://www.w3.org/ns/csvw#titles> "Patient's postal code";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Postal code patient" .
+
+<internalURI:sample2Table1Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_POSTAL_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient's postal code from NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Patient's postal code from NR" .
+
+<internalURI:sample2Table1Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient's sex from NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient's sex from NR" .
+
+<internalURI:sample2Table1Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PRESCR_REAS";
+  <http://www.w3.org/ns/csvw#titles> "Reason test prescribed";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:COVID%20test%20reason>;
+  dcterms:description "Code that give a view on the reason why a Covid test has be perscribed to the person." .
+
+<internalURI:sample2Table1Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX";
+  <http://www.w3.org/ns/csvw#titles> "Sex of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient’s administrative sex" .
+
+<internalURI:sample2Table1Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ENCOUNTER_TPE";
+  <http://www.w3.org/ns/csvw#titles> "Type contact Physician";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Type%20of%20ambulatory%20contact%20with%20physician>;
+  dcterms:description "The type of contact with the health professional. Used to identify the context of the contact with the patient (ambulatory,  emergency, home visit, Inpatient, etc,.)" .
+
+<internalURI:sample2Table1Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IDC_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Unique patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Patient identification number, pseudonymized from the Social Security Identification Number (NISS), the main key for data exchange within the social security system." .
+
+<internalURI:sample2Table1Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_COLLECTION2";
+  <http://www.w3.org/ns/csvw#titles> "Date and the time of sampling (2nd)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20sampling%20date%20and%20time>;
+  dcterms:description "Date upon which the sample of the Covid test has been collected. For the 2nd sample." .
+
+<internalURI:sample2Table1Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_COLLECTION3";
+  <http://www.w3.org/ns/csvw#titles> "Date and the time of sampling (3rd)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20sampling%20date%20and%20time>;
+  dcterms:description "Date upon which the sample of the Covid test has been collected. For the 3rd sample." .
+
+<internalURI:sample2Table1Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_ENCOUNTER";
+  <http://www.w3.org/ns/csvw#titles> "Date consultation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Consultation%20date>;
+  dcterms:description "Date of consultation of the patient. Is used as a proxi date if DT_COLLECTION and DT_TEST unknown." .
+
+<internalURI:sample2Table1Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "D_ONSET";
+  <http://www.w3.org/ns/csvw#titles> "Date onset symptoms";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Symptom%20onset%20date>;
+  dcterms:description "Date upon which the symptoms appeared for the patient." .
+
+<internalURI:sample2Table10Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_HH_INC_DEC";
+  <http://www.w3.org/ns/csvw#titles> "Household Income Decile";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Household%20income%20level>;
+  dcterms:description "Equivalized net taxable household income decile" .
+
+<internalURI:sample2Table10Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "HH_TYPE_LIPRO";
+  <http://www.w3.org/ns/csvw#titles> "household status";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Household%20composition>;
+  dcterms:description "Code indicating n the patient household status (one-person household, married couple withoutchildren, married couple withchildren , etc,." .
+
+<internalURI:sample2Table10Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_DSCNT";
+  <http://www.w3.org/ns/csvw#titles> "Migration background";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Migration%20background>;
+  dcterms:description "Code indicating whether the person is of Belgian descent  or is first or second generation mirgrant." .
+
+<internalURI:sample2Table10Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_CNTRY_BTH";
+  <http://www.w3.org/ns/csvw#titles> "Patient country of birth";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Country%20of%20birth>;
+  dcterms:description "Code giving the patient country of birth (BE, EU, NON-EU)" .
+
+<internalURI:sample2Table10Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_FST_NATLTY";
+  <http://www.w3.org/ns/csvw#titles> "Patient first registered nationality";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Nationality>;
+  dcterms:description "Code identifying the person's first nationality (BE, EU, NON-EU)" .
+
+<internalURI:sample2Table10Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_CIV";
+  <http://www.w3.org/ns/csvw#titles> "Civil status";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Civil%20status>;
+  dcterms:description "Code indicating the patient civil status" .
+
+<internalURI:sample2Table10Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_EMPL";
+  <http://www.w3.org/ns/csvw#titles> "Person employment status";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Employment%20status>;
+  dcterms:description "Flag indicating whether the person is employed or not" .
+
+<internalURI:sample2Table10Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_RN_STATUS";
+  <http://www.w3.org/ns/csvw#titles> "RN status";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:National%20register%20status>;
+  dcterms:description "Status of the person in the national regiseter: registered, deceased, has migrated, or deregistred" .
+
+<internalURI:sample2Table10Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_SECTOR";
+  <http://www.w3.org/ns/csvw#titles> "Statistical sector";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Residential%20statistics>;
+  dcterms:description "Statistical sector of residence of the patient" .
+
+<internalURI:sample2Table10Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IDC_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Unique patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Patient identification number, pseudonymized from the Social Security Identification Number (NISS), the main key for data exchange within the social security system." .
+
+<internalURI:sample2Table10Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "DT_RN";
+  <http://www.w3.org/ns/csvw#titles> "YearMonth of last status change in NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:National%20register%20status>;
+  dcterms:description "Year and month of the last status change of the person in the national register" .
+
+<internalURI:sample2Table10Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_NATLTY";
+  <http://www.w3.org/ns/csvw#titles> "Code indicating nationality";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Country%20of%20birth>;
+  dcterms:description "Code identifying the person's nationality (BE, EU, NON-EU)" .
+
+<internalURI:sample2Table10Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_YR_REF";
+  <http://www.w3.org/ns/csvw#titles> "Data reference year";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Registration%20period>;
+  dcterms:description "Indicates the year to which the data belong as the full dataset combines data from multiple years." .
+
+<internalURI:sample2Table11> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table11Variable1>, <internalURI:sample2Table11Variable10>,
+    <internalURI:sample2Table11Variable11>, <internalURI:sample2Table11Variable12>, <internalURI:sample2Table11Variable13>,
+    <internalURI:sample2Table11Variable14>, <internalURI:sample2Table11Variable15>, <internalURI:sample2Table11Variable16>,
+    <internalURI:sample2Table11Variable17>, <internalURI:sample2Table11Variable18>, <internalURI:sample2Table11Variable19>,
+    <internalURI:sample2Table11Variable2>, <internalURI:sample2Table11Variable20>, <internalURI:sample2Table11Variable21>,
+    <internalURI:sample2Table11Variable22>, <internalURI:sample2Table11Variable23>, <internalURI:sample2Table11Variable24>,
+    <internalURI:sample2Table11Variable25>, <internalURI:sample2Table11Variable26>, <internalURI:sample2Table11Variable27>,
+    <internalURI:sample2Table11Variable28>, <internalURI:sample2Table11Variable29>, <internalURI:sample2Table11Variable3>,
+    <internalURI:sample2Table11Variable30>, <internalURI:sample2Table11Variable31>, <internalURI:sample2Table11Variable32>,
+    <internalURI:sample2Table11Variable33>, <internalURI:sample2Table11Variable34>, <internalURI:sample2Table11Variable35>,
+    <internalURI:sample2Table11Variable36>, <internalURI:sample2Table11Variable37>, <internalURI:sample2Table11Variable38>,
+    <internalURI:sample2Table11Variable39>, <internalURI:sample2Table11Variable4>, <internalURI:sample2Table11Variable40>,
+    <internalURI:sample2Table11Variable41>, <internalURI:sample2Table11Variable42>, <internalURI:sample2Table11Variable43>,
+    <internalURI:sample2Table11Variable44>, <internalURI:sample2Table11Variable5>, <internalURI:sample2Table11Variable6>,
+    <internalURI:sample2Table11Variable7>, <internalURI:sample2Table11Variable8>, <internalURI:sample2Table11Variable9>;
+  dcterms:title "LINK-VACC - IMA | Schema"@en .
+
+<internalURI:sample2Table1Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_HEALTHCARE_WRKR";
+  <http://www.w3.org/ns/csvw#titles> "Healthcareworker";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Healthcare%20worker%20flag>;
+  dcterms:description "Flag that indicates if the patient a healthcare worker or elderly care worker" .
+
+<internalURI:sample2Table1Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_NIHDI_HOSP";
+  <http://www.w3.org/ns/csvw#titles> "NIHDI number hospital";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20NIHDI%20number>;
+  dcterms:description "NIHDI number that enables the identification of the hospital" .
+
+<internalURI:sample2Table1Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_NIHDI_LAB";
+  <http://www.w3.org/ns/csvw#titles> "NIHDI number laboratory";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Laboratory%20NIHDI%20number>;
+  dcterms:description "NIHDI number that enables the identification of the laboratory" .
+
+<internalURI:sample2Table1Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_PAT_AGE_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient age from NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Patient age from NR" .
+
+<internalURI:sample2Table1Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COLLECTLOC";
+  <http://www.w3.org/ns/csvw#titles> "Site of sample collection";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20collection%20site>;
+  dcterms:description "Location where the collection has been made" .
+
+<https://sciensano.healthdataportal.eu:443/sample/e46c3835-debf-4858-b74e-a051f452bfc3>
+  a dcat:Resource, dcat:Distribution;
+  dcterms:accessRights <https://sciensano.healthdataportal.eu:443/sample/e46c3835-debf-4858-b74e-a051f452bfc3#accessRights>;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://sciensano.healthdataportal.eu:443/sample/e46c3835-debf-4858-b74e-a051f452bfc3#identifier>;
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2025-02-21T15:26:27.187Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2025-02-21T15:26:27.187Z"^^xsd:dateTime;
+  dcterms:isPartOf <https://sciensano.healthdataportal.eu:443/dataset/3b7c0bb2-76e9-4ff0-a433-71babba0fc72>;
+  <http://semanticscience.org/resource/SIO_000628> <https://sciensano.healthdataportal.eu:443/sample/e46c3835-debf-4858-b74e-a051f452bfc3/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://sciensano.healthdataportal.eu:443/sample/e46c3835-debf-4858-b74e-a051f452bfc3/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcat:downloadURL <internal:a>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "LINK-VACC - COVID-19 LaboratoryTestPrescription | Schema";
+  dcterms:description "Schema of datatables available for linkage"@en;
+  dcterms:title "LINK-VACC | Schema"@en;
+  dcterms:conformsTo <https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf> .
+
+<https://sciensano.healthdataportal.eu:443/sample/e46c3835-debf-4858-b74e-a051f452bfc3/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://sciensano.healthdataportal.eu:443/sample/e46c3835-debf-4858-b74e-a051f452bfc3/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777> .
+
+<https://sciensano.healthdataportal.eu:443/sample/e46c3835-debf-4858-b74e-a051f452bfc3#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://sciensano.healthdataportal.eu:443/sample/e46c3835-debf-4858-b74e-a051f452bfc3#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://sciensano.healthdataportal.eu:443/sample/e46c3835-debf-4858-b74e-a051f452bfc3" .
+
+<internal:a> a <http://www.w3.org/ns/csvw#TableGroup>;
+  <http://www.w3.org/ns/csvw#table> <internalURI:sample2Table1>, <internalURI:sample2Table10>,
+    <internalURI:sample2Table11>, <internalURI:sample2Table12>, <internalURI:sample2Table2>,
+    <internalURI:sample2Table3>, <internalURI:sample2Table4>, <internalURI:sample2Table5>,
+    <internalURI:sample2Table6>, <internalURI:sample2Table7>, <internalURI:sample2Table8>,
+    <internalURI:sample2Table9> .
+
+<internalURI:sample2Table10> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table10Variable1>, <internalURI:sample2Table10Variable10>,
+    <internalURI:sample2Table10Variable11>, <internalURI:sample2Table10Variable12>, <internalURI:sample2Table10Variable13>,
+    <internalURI:sample2Table10Variable14>, <internalURI:sample2Table10Variable15>, <internalURI:sample2Table10Variable2>,
+    <internalURI:sample2Table10Variable3>, <internalURI:sample2Table10Variable4>, <internalURI:sample2Table10Variable5>,
+    <internalURI:sample2Table10Variable6>, <internalURI:sample2Table10Variable7>, <internalURI:sample2Table10Variable8>,
+    <internalURI:sample2Table10Variable9>;
+  dcterms:title "LINK-VACC - STATBEL | Schema"@en .
+
+<internalURI:sample2Table10Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COD_COVID";
+  <http://www.w3.org/ns/csvw#titles> "Cause of death COVID-19";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cause%20of%20death%20indicator>;
+  dcterms:description "Information on wheter the cause of death was COVID-19. Warning: not available for all COVID-19 deaths." .
+
+<internalURI:sample2Table10Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_EDU";
+  <http://www.w3.org/ns/csvw#titles> "Education level";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Education%20level>;
+  dcterms:description "Level of education of the patient" .
+
+<internalURI:sample2Table11Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_CSJ";
+  <http://www.w3.org/ns/csvw#titles> "Indicator day care center";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Residential%20care%20indicator>;
+  dcterms:description "This variable indicates whether the person has been resident in a day care center" .
+
+<internalURI:sample2Table11Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_EPILEPSY";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for epilepsy plus neuropathic pain";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Epilepsy%20with%20neuropathic%20pain>;
+  dcterms:description "This variable indicates the presence of epilepsy with associated neuropathic pain. This variable identifies individuals with seizures and concurrent neuropathic pain." .
+
+<internalURI:sample2Table11Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_PANEX";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for exocrine pancreatic diseases";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Exocrine%20pancreatic%20disease%20indicator>;
+  dcterms:description "This variable indicates the presence of exocrine pancreatic diseases." .
+
+<internalURI:sample2Table11Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_COAG";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for hemophilia";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hemophilia%20indicator>;
+  dcterms:description "This variable indicates  the presence of hemophilia, a genetic disorder affecting blood clotting." .
+
+<internalURI:sample2Table11Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_INVIT_HTN_ARTERIELLE";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for arterial hypertension";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypertension%20status>;
+  dcterms:description "This variable flags whether the individual has arterial hypertension (high blood pressure). Managing hypertension is essential for preventing cardiovascular complications and tailoring healthcare interventions to address this specific health concern." .
+
+<internalURI:sample2Table11Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_VIH";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for HIV";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:HIV%20status>;
+  dcterms:description "This variable indicates the presence of HIV infection, a viral condition affecting the immune system." .
+
+<internalURI:sample2Table11Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_INVIT_IMMUNOSUPPRESSEURS";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for immunosuppressive medications";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "This variable signifies whether the individual is on immunosuppressive medications. Knowing the use of immunosuppressants is vital for assessing the individual's susceptibility to infections and managing their healthcare to prevent complications." .
+
+<internalURI:sample2Table11Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_INVIT_MALADIES_FOIE";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for liver-related diseases";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Liver%20health%20indicator>;
+  dcterms:description "This variable indicates the presence of any liver-related diseases. Liver health is integral to overall well-being, and this information is crucial for tailoring treatment plans, medications, and lifestyle recommendations." .
+
+<internalURI:sample2Table11Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_SCLEROSE";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for multiple Sclerosis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Multiple%20Sclerosis%20indicator>;
+  dcterms:description "This variable indicates  the presence of multiple sclerosis, a chronic inflammatory disease affecting the central nervous system." .
+
+<internalURI:sample2Table11Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_INVIT_OBESITE";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for obesity";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Obesity%20rate>;
+  dcterms:description "This variable signifies whether the individual is obese. Obesity is a key factor in determining health risks and complications, influencing various aspects of healthcare, such as treatment plans, medication dosages, and surgical considerations." .
+
+<internalURI:sample2Table11Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_CANCER_MOC_YN";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for oncological consult";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Oncological%20consultation%20indicator>;
+  dcterms:description "This variable indicates whether patients have received a refund for oncological consultation." .
+
+<internalURI:sample2Table11Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_ALZHEIMER";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for alzheimer's Disease";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Dementia/Alzheimer's%20indicator>;
+  dcterms:description "This variable indicates  the presence of Alzheimer's disease, a progressive neurodegenerative disorder affecting memory and cognitive function." .
+
+<internalURI:sample2Table11Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_TRANSPLORG";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for organ transplantation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Organ%20transplantation%20status>;
+  dcterms:description "This variable indicates  a history of organ transplantation. This variable identifies individuals who have undergone the transplantation of organs." .
+
+<internalURI:sample2Table11Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_PARKINSON";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for Parkinson's disease";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Parkinson's%20disease%20indicator>;
+  dcterms:description "This variable indicates the presence of Parkinson's disease, a neurodegenerative disorder affecting movement and motor function." .
+
+<internalURI:sample2Table11Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_INVIT_PRETRANSPLANTATION";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for pre-transplantation phase";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Organ%20transplantation%20status>;
+  dcterms:description "This variable signifies whether the individual is in the pre-transplantation phase. This information is crucial for coordinating transplant procedures, assessing the individual's overall health for transplantation, and managing their care during this critical period." .
+
+<internalURI:sample2Table11Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_PSORIASIS";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for psoriasis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Psoriasis%20indicator%20(EN)>;
+  dcterms:description "This variable indicates the presence of psoriasis, a chronic autoimmune skin condition characterized by red, itchy, and scaly patches." .
+
+<internalURI:sample2Table11Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_ASTHMA";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for asthma";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Asthma%20status>;
+  dcterms:description "This variable indicates the presence of asthma, a chronic respiratory condition characterized by inflammation of the airways and bronchoconstriction." .
+
+<internalURI:sample2Table11Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_PSYCHJ";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for psychosis in people 70 years of age and younger";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Psychosis%20indicator>;
+  dcterms:description "This variable indicates the presence of psychosis in individuals aged 70 and younger." .
+
+<internalURI:sample2Table11Variable26> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_PSYCHA";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for psychosis in people over 70 years of age";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Psychosis%20indicator>;
+  dcterms:description "This variable indicates the presence of psychosis in individuals aged over 70." .
+
+<internalURI:sample2Table11Variable27> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_INSUREN";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for renal impairment";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Renal%20impairment%20indicator>;
+  dcterms:description "This variable indicates  the presence of renal insufficiency, a condition where the kidneys are unable to adequately filter waste from the blood." .
+
+<internalURI:sample2Table11Variable28> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_INVIT_MALADIES_RESPI";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for respiratory diseases";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Respiratory%20disease%20indicator>;
+  dcterms:description "This variable flags whether the individual has any respiratory diseases. The information is crucial for assessing the overall health risk of the individual, especially in scenarios where respiratory conditions may impact their susceptibility to certain infections or complications." .
+
+<internalURI:sample2Table11Variable29> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_THROMB";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for thrombosis - antithrombotics";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Thrombosis%20indicator%20with%20antithrombotic%20use>;
+  dcterms:description "This variable indicates the presence of thrombosis, and it is associated with the use of antithrombotic medications." .
+
+<internalURI:sample2Table11Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_BPCO";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for Chronic Obstructive Pulmonary Disease (COPD)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Chronic%20disease%20indicator>;
+  dcterms:description "This variable indicates the presence of chronic obstructive pulmonary disease (COPD), a progressive lung condition characterized by airflow obstruction." .
+
+<internalURI:sample2Table11Variable30> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_INVIT_TRANSPLANTATION";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for transplatation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Organ%20transplantation%20status>;
+  dcterms:description "This variable indicates whether the individual has undergone a transplantation procedure. Understanding the transplant status is vital for post-transplant care, medication management, and addressing potential complications associated with the transplantation process." .
+
+<internalURI:sample2Table11Variable31> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_THYR";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for tyroid disorders";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Thyroid%20disorder%20indicator>;
+  dcterms:description "This variable indicates  the presence of thyroid disorders, encompassing various conditions affecting the thyroid gland." .
+
+<internalURI:sample2Table11Variable32> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_MRS";
+  <http://www.w3.org/ns/csvw#titles> "Indicator nursing home and care";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Residential%20care%20indicator>;
+  dcterms:description "This variable indicates whether the person has been resident in a nursing home and care" .
+
+<internalURI:sample2Table11Variable33> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_MRPA";
+  <http://www.w3.org/ns/csvw#titles> "Indicator nursing home for elderly";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Residential%20care%20indicator>;
+  dcterms:description "This variable indicates whether the person has been resident in a nursing home for elderly" .
+
+<internalURI:sample2Table11Variable34> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "FL_NBR_J_CSJ";
+  <http://www.w3.org/ns/csvw#titles> "Number of days in a day care center";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Days%20in%20day%20care>;
+  dcterms:description "This variable represents the number of days an individual has spent in a day care center. This variable is relevant for tracking the duration of care received in a day care setting." .
+
+<internalURI:sample2Table11Variable35> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_AMCA";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for autoimmune conditions";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Autoimmune%20condition%20indicator>;
+  dcterms:description "This variable indicates the presence of specific autoimmune conditions, including rheumatoid arthritis, Crohn's disease, ulcerative colitis, and psoriatic arthritis." .
+
+<internalURI:sample2Table11Variable36> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "FL_NBR_J_MRPA";
+  <http://www.w3.org/ns/csvw#titles> "Number of days in a nursing home for the elderly";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Days%20in%20nursing%20home>;
+  dcterms:description "This variable represents the number of days an individual has spent in a rest home specifically designed for elderly individuals." .
+
+<internalURI:sample2Table6Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  dcterms:description "Represents the specific date when the patient was admitted to a hospital.";
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_ADMI";
+  <http://www.w3.org/ns/csvw#titles> "Date of hospital admission";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20date> .
+
+<internalURI:sample2Table6Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_ADMI_DECLA";
+  <http://www.w3.org/ns/csvw#titles> "Declaration date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Declaration%20date>;
+  dcterms:description "Date of the declaration of the admission" .
+
+<internalURI:sample2Table6Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_SOLID_CNCR_ACTIVE_5Y";
+  <http://www.w3.org/ns/csvw#titles> "Active comorbid solid cancer last 5 year";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating whether patients with comorbid solid cancer have been active in the last 5 years." .
+
+<internalURI:sample2Table6Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_DIAGS";
+  <http://www.w3.org/ns/csvw#titles> "Diagnostic date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diagnostic%20date>;
+  dcterms:description "represents the specific date when the patient received the diagnosis of COVID-19." .
+
+<internalURI:sample2Table6Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_DIAG_METH_ANTIGEN_TST_POS";
+  <http://www.w3.org/ns/csvw#titles> "Diagnostic method - Positive rapid antigen test";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:COVID-19%20diagnosis%20method>;
+  dcterms:description "Code indicating whether the diagnostic method for COVID-19 involved a positive result by a rapid antigen test." .
+
+<internalURI:sample2Table6Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_DIAG_METH_PCR_POS";
+  <http://www.w3.org/ns/csvw#titles> "Diagnostic method - Positive result by PCR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:COVID-19%20diagnosis%20method>;
+  dcterms:description "Code indicating whether the diagnostic method for COVID-19 involved a positive result by Polymerase Chain Reaction (PCR) testing." .
+
+<internalURI:sample2Table6Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_DIAG_METH_THOR_SCAN";
+  <http://www.w3.org/ns/csvw#titles> "Diagnostic method - Typical thoracic scan";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:COVID-19%20diagnosis%20method>;
+  dcterms:description "Code indicating whether the diagnostic method for COVID-19 involved a typical thoracic scan, such as a chest X-ray or CT scan." .
+
+<internalURI:sample2Table6Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TST";
+  <http://www.w3.org/ns/csvw#titles> "code of the executed test";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20execution%20code>;
+  dcterms:description "Code indicating which is the executed test for COVID-19 diagnosis." .
+
+<internalURI:sample2Table6Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_DIAG_METH_UNK";
+  <http://www.w3.org/ns/csvw#titles> "Diagnostic method - Unknown";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:COVID-19%20diagnosis%20method>;
+  dcterms:description "Code indicating that the diagnostic method for COVID-19 is unknown or unspecified" .
+
+<internalURI:sample2Table6Variable26> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_ETHN";
+  <http://www.w3.org/ns/csvw#titles> "ethnic group of the patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20ethnicity>;
+  dcterms:description "Code indicating the ethnic group of the patient. Warning: seldom filled." .
+
+<internalURI:sample2Table6Variable27> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_CONFRM_BELOW18";
+  <http://www.w3.org/ns/csvw#titles> "Flag age < 18";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Flag (Y/N) indicating whether the patient is  <18" .
+
+<internalURI:sample2Table6Variable28> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_PREMATURE_PREGY_WEEKS";
+  <http://www.w3.org/ns/csvw#titles> "Number of weeks of pregnancy at birth";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Weeks%20of%20pregnancy%20at%20birth>;
+  dcterms:description "Provides the number of weeks of pregnancy at the time of birth for children (<18) who were prematured." .
+
+<internalURI:sample2Table6Variable29> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_ONSET";
+  <http://www.w3.org/ns/csvw#titles> "Onset date of the symptoms";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Symptom%20onset%20date>;
+  dcterms:description "Date upon which the symptoms appeared for the patient." .
+
+<internalURI:sample2Table6Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_CHRON_RENAL";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Chronic renal disease";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating a chronic renal disease as a pre-existing condition." .
+
+<internalURI:sample2Table6Variable30> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_HCW";
+  <http://www.w3.org/ns/csvw#titles> "Patient is a health care worker";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20health%20care%20worker%20flag>;
+  dcterms:description "Code indicating if the patient is a healthcare worker or elderly care worker" .
+
+<internalURI:sample2Table6Variable31> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_NURS_HOM_RESI";
+  <http://www.w3.org/ns/csvw#titles> "Patient is a nursing home resident";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Residential%20care%20indicator>;
+  dcterms:description "Code indicating if the patient is a nursing home resident." .
+
+<internalURI:sample2Table6Variable32> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_PLC_RESDC";
+  <http://www.w3.org/ns/csvw#titles> "Post code of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Postal code or zip code of the patient's residence" .
+
+<internalURI:sample2Table6Variable33> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PREGY_TRIM";
+  <http://www.w3.org/ns/csvw#titles> "Pregnancy trimester (only > 18 years)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Pregnancy%20trimester>;
+  dcterms:description "Provides the pregnancy trimester for patients who are older than 18 years." .
+
+<internalURI:sample2Table12Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "TX_SELECTION_SOURCE";
+  <http://www.w3.org/ns/csvw#titles> "Source of selection";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Vaccination%20source%20selection>;
+  dcterms:description "Keyword(s) indicating from which source the person was prioritized for COVID-19 vaccination";
+  <http://www.w3.org/ns/csvw#datatype> "string" .
+
+<internalURI:sample2Table12Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IDC_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Unique patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Patient identification number, pseudonymized from the Social Security Identification Number (NISS), the main key for data exchange within the social security system." .
+
+<internalURI:sample2Table2> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table2Variable1>, <internalURI:sample2Table2Variable10>,
+    <internalURI:sample2Table2Variable11>, <internalURI:sample2Table2Variable12>, <internalURI:sample2Table2Variable13>,
+    <internalURI:sample2Table2Variable2>, <internalURI:sample2Table2Variable3>, <internalURI:sample2Table2Variable4>,
+    <internalURI:sample2Table2Variable5>, <internalURI:sample2Table2Variable6>, <internalURI:sample2Table2Variable7>,
+    <internalURI:sample2Table2Variable8>, <internalURI:sample2Table2Variable9>;
+  dcterms:title "LINK-VACC - COVID-19 AlertSuspectedCaseNoTestPerformed | Schema"@en .
+
+<internalURI:sample2Table2Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_PAT_AGE";
+  <http://www.w3.org/ns/csvw#titles> "Age patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Age patient" .
+
+<internalURI:sample2Table2Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PART_OF_COLLECTIVITY";
+  <http://www.w3.org/ns/csvw#titles> "Patient collectivity";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Collective%20living%20status>;
+  dcterms:description "Flag that indicates if the patient lives in collectivity." .
+
+<internalURI:sample2Table2Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_POSTAL";
+  <http://www.w3.org/ns/csvw#titles> "Patient's postal code";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Postcode of the patient." .
+
+<internalURI:sample2Table2Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_POSTAL_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient's postal code from NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Patient's postal code from NR" .
+
+<internalURI:sample2Table2Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient's sex from NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient's sex from NR" .
+
+<internalURI:sample2Table2Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_ENCOUNTER";
+  <http://www.w3.org/ns/csvw#titles> "Date consultation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Consultation%20date>;
+  dcterms:description "Date of consultation of the patient. Is used as a proxi date if DT_COLLECTION and DT_TEST unknown." .
+
+<internalURI:sample2Table2Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX";
+  <http://www.w3.org/ns/csvw#titles> "Sex of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient’s administrative sex" .
+
+<internalURI:sample2Table2Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ENCOUNTER_TPE";
+  <http://www.w3.org/ns/csvw#titles> "Type contact Physician";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Type%20of%20ambulatory%20contact%20with%20physician>;
+  dcterms:description "The type of contact with the health professional. Used to identify the context of the contact with the patient (ambulatory,  emergency, home visit, Inpatient, etc,.)" .
+
+<internalURI:sample2Table2Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IDC_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Unique patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Patient identification number, pseudonymized from the Social Security Identification Number (NISS), the main key for data exchange within the social security system." .
+
+<internalURI:sample2Table2Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "D_ONSET";
+  <http://www.w3.org/ns/csvw#titles> "Date onset symptoms";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Symptom%20onset%20date>;
+  dcterms:description "Date upon which the symptoms appeared for the patient." .
+
+<internalURI:sample2Table2Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_PERNOTEST";
+  <http://www.w3.org/ns/csvw#titles> "Flag indicating contact tracing initiated";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Contact%20tracing%20required>;
+  dcterms:description "Flag indicating that a contact tracing is required because very strong suspicion and no possibility to perform the test" .
+
+<internalURI:sample2Table2Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_HEALTHCARE_WRKR";
+  <http://www.w3.org/ns/csvw#titles> "Healthcareworker";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Healthcare%20worker%20flag>;
+  dcterms:description "Flag that indicates if the patient a healthcare worker or elderly care worker" .
+
+<internalURI:sample2Table2Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_PAT_AGE_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient age from NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Patient age from NR" .
+
+<internalURI:sample2Table3Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "CD_RESULT_FLAG1";
+  <http://www.w3.org/ns/csvw#titles> "Code for test result (1st)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20result%20code>;
+  dcterms:description "Attention codes indicating whether the result of a quantitative test is above or below certain reference values for the 1st test.";
+  <http://www.w3.org/ns/csvw#datatype> "string" .
+
+<internalURI:sample2Table3Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IDC_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Unique patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Unique identifier for the patient" .
+
+<internalURI:sample2Table3Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_RESULT_FLAG3";
+  <http://www.w3.org/ns/csvw#titles> "Code for test result (3rd)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20result%20code>;
+  dcterms:description "Attention codes indicating whether the result of a quantitative test is above or below certain reference values for the 3rd test." .
+
+<internalURI:sample2Table3Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST1";
+  <http://www.w3.org/ns/csvw#titles> "code of the executed test";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20execution%20code>;
+  dcterms:description "Code to identify the 1st test performed." .
+
+<internalURI:sample2Table3Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST2";
+  <http://www.w3.org/ns/csvw#titles> "code of the second executed test";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20execution%20code>;
+  dcterms:description "Code to identify the 2nd test performed." .
+
+<internalURI:sample2Table3Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST3";
+  <http://www.w3.org/ns/csvw#titles> "code of the third executed test";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20execution%20code>;
+  dcterms:description "Code to identify the 3nd test performed." .
+
+<internalURI:sample2Table3Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_COLLECTION1";
+  <http://www.w3.org/ns/csvw#titles> "Date and the time of sampling";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20sampling%20date%20and%20time>;
+  dcterms:description "Date upon which the sample of the Covid test has been collected. For the 1st sample." .
+
+<internalURI:sample2Table3Variable26> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_COLLECTION2";
+  <http://www.w3.org/ns/csvw#titles> "Date and the time of second sampling";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20sampling%20date%20and%20time>;
+  dcterms:description "Date upon which the sample of the Covid test has been collected. For the 2nd sample." .
+
+<internalURI:sample2Table3Variable27> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_TEST2";
+  <http://www.w3.org/ns/csvw#titles> "Date and the time of second testing (date result test)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Testing%20date%20and%20time>;
+  dcterms:description "The date and the time at which the 2nd test was carried out (completed and validated)" .
+
+<internalURI:sample2Table3Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_TEST1";
+  <http://www.w3.org/ns/csvw#titles> "Date and the time of testing (date result test)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Testing%20date%20and%20time>;
+  dcterms:description "The date and the time at which the 1st test was carried out (completed and validated)" .
+
+<internalURI:sample2Table3Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_COLLECTION3";
+  <http://www.w3.org/ns/csvw#titles> "Date and the time of third sampling";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20sampling%20date%20and%20time>;
+  dcterms:description "Date upon which the sample of the Covid test has been collected. For the 3rd sample." .
+
+<internalURI:sample2Table3Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_TEST3";
+  <http://www.w3.org/ns/csvw#titles> "Date and the time of third testing (date result test)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Testing%20date%20and%20time>;
+  dcterms:description "The date and the time at which the 3rd test was carried out (completed and validated)" .
+
+<internalURI:sample2Table3Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_NIHDI_HOSP";
+  <http://www.w3.org/ns/csvw#titles> "NIHDI number hospital";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20NIHDI%20number>;
+  dcterms:description "NIHDI number that enables the identification of the hospital" .
+
+<internalURI:sample2Table3Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_NIHDI_LAB";
+  <http://www.w3.org/ns/csvw#titles> "NIHDI number laboratory";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Laboratory%20NIHDI%20number>;
+  dcterms:description "NIHDI number that enables the identification of the laboratory" .
+
+<internalURI:sample2Table3Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_PAT_AGE_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient age from NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Patient age from NR" .
+
+<internalURI:sample2Table3Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_POSTAL";
+  <http://www.w3.org/ns/csvw#titles> "Patient's postal code";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Postcode of the patient" .
+
+<internalURI:sample2Table4> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table4Variable1>, <internalURI:sample2Table4Variable10>,
+    <internalURI:sample2Table4Variable11>, <internalURI:sample2Table4Variable12>, <internalURI:sample2Table4Variable13>,
+    <internalURI:sample2Table4Variable14>, <internalURI:sample2Table4Variable15>, <internalURI:sample2Table4Variable16>,
+    <internalURI:sample2Table4Variable17>, <internalURI:sample2Table4Variable18>, <internalURI:sample2Table4Variable19>,
+    <internalURI:sample2Table4Variable2>, <internalURI:sample2Table4Variable20>, <internalURI:sample2Table4Variable3>,
+    <internalURI:sample2Table4Variable4>, <internalURI:sample2Table4Variable5>, <internalURI:sample2Table4Variable6>,
+    <internalURI:sample2Table4Variable7>, <internalURI:sample2Table4Variable8>, <internalURI:sample2Table4Variable9>;
+  dcterms:title "LINK-VACC - COVID-19 RapidTestResult | Schema"@en .
+
+<internalURI:sample2Table5Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Patient identification number, pseudonymized from the Social Security Identification Number (NISS), the main key for data exchange within the social security system.";
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IDC_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Unique patient ID" .
+
+<internalURI:sample2Table5Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST1";
+  <http://www.w3.org/ns/csvw#titles> "code of the executed test (1st)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20execution%20code>;
+  dcterms:description "Code to identify the 1st test performed." .
+
+<internalURI:sample2Table5Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST2";
+  <http://www.w3.org/ns/csvw#titles> "code of the executed test (2nd)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20execution%20code>;
+  dcterms:description "Code to identify the 2nd test performed." .
+
+<internalURI:sample2Table5Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST3";
+  <http://www.w3.org/ns/csvw#titles> "code of the executed test (3rd)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20execution%20code>;
+  dcterms:description "Code to identify the 3nd test performed." .
+
+<internalURI:sample2Table5Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_COLLECTION1";
+  <http://www.w3.org/ns/csvw#titles> "Date and time of sampling (1st)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20sampling%20date%20and%20time>;
+  dcterms:description "Date upon which the sample of the Covid test has been collected. For the 1st sample." .
+
+<internalURI:sample2Table5Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST2_RESULT";
+  <http://www.w3.org/ns/csvw#titles> "Code for test result  (2nd)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20result%20code>;
+  dcterms:description "Code that gives information on the results of the 2nd Covid test." .
+
+<internalURI:sample2Table5Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_COLLECTION2";
+  <http://www.w3.org/ns/csvw#titles> "Date and time of sampling (2nd)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20sampling%20date%20and%20time>;
+  dcterms:description "Date upon which the sample of the Covid test has been collected. For the 2nd sample." .
+
+<internalURI:sample2Table5Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_COLLECTION3";
+  <http://www.w3.org/ns/csvw#titles> "Date and time of sampling (3rd)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20sampling%20date%20and%20time>;
+  dcterms:description "Date upon which the sample of the Covid test has been collected. For the 3rd sample." .
+
+<internalURI:sample2Table5Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_TEST1";
+  <http://www.w3.org/ns/csvw#titles> "date and time of testing (1st)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Testing%20date%20and%20time>;
+  dcterms:description "The date and the time at which the 1st test was carried out (completed and validated)" .
+
+<internalURI:sample2Table5Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_TEST2";
+  <http://www.w3.org/ns/csvw#titles> "date and time of testing (2nd)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Testing%20date%20and%20time>;
+  dcterms:description "The date and the time at which the 2nd test was carried out (completed and validated)" .
+
+<internalURI:sample2Table5Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_TEST3";
+  <http://www.w3.org/ns/csvw#titles> "date and time of testing (3rd)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Testing%20date%20and%20time>;
+  dcterms:description "The date and the time at which the 3rd test was carried out (completed and validated)" .
+
+<internalURI:sample2Table5Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_FALSENEG";
+  <http://www.w3.org/ns/csvw#titles> "Flag false negative";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:False%20negative%20flag>;
+  dcterms:description "Flag that indicates is the test result is a false negative or not. Require contact tracing because very strong suspicion although the test performed is negative" .
+
+<internalURI:sample2Table5Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_NIHDI_HOSP";
+  <http://www.w3.org/ns/csvw#titles> "NIHDI number hospital";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20NIHDI%20number>;
+  dcterms:description "NIHDI number that enables the identification of the hospital" .
+
+<internalURI:sample2Table5Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_NIHDI_LAB";
+  <http://www.w3.org/ns/csvw#titles> "NIHDI number laboratory";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Laboratory%20NIHDI%20number>;
+  dcterms:description "NIHDI number that enables the identification of the laboratory" .
+
+<internalURI:sample2Table5Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_PAT_AGE";
+  <http://www.w3.org/ns/csvw#titles> "Patient age";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Year of birth, except for children < 24 months." .
+
+<internalURI:sample2Table5Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_PAT_AGE_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient age from NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Patient age from NR" .
+
+<internalURI:sample2Table6> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table6Variable1>, <internalURI:sample2Table6Variable10>,
+    <internalURI:sample2Table6Variable11>, <internalURI:sample2Table6Variable12>, <internalURI:sample2Table6Variable13>,
+    <internalURI:sample2Table6Variable14>, <internalURI:sample2Table6Variable15>, <internalURI:sample2Table6Variable16>,
+    <internalURI:sample2Table6Variable17>, <internalURI:sample2Table6Variable18>, <internalURI:sample2Table6Variable19>,
+    <internalURI:sample2Table6Variable2>, <internalURI:sample2Table6Variable20>, <internalURI:sample2Table6Variable21>,
+    <internalURI:sample2Table6Variable22>, <internalURI:sample2Table6Variable23>, <internalURI:sample2Table6Variable24>,
+    <internalURI:sample2Table6Variable25>, <internalURI:sample2Table6Variable26>, <internalURI:sample2Table6Variable27>,
+    <internalURI:sample2Table6Variable28>, <internalURI:sample2Table6Variable29>, <internalURI:sample2Table6Variable3>,
+    <internalURI:sample2Table6Variable30>, <internalURI:sample2Table6Variable31>, <internalURI:sample2Table6Variable32>,
+    <internalURI:sample2Table6Variable33>, <internalURI:sample2Table6Variable34>, <internalURI:sample2Table6Variable35>,
+    <internalURI:sample2Table6Variable36>, <internalURI:sample2Table6Variable37>, <internalURI:sample2Table6Variable38>,
+    <internalURI:sample2Table6Variable39>, <internalURI:sample2Table6Variable4>, <internalURI:sample2Table6Variable40>,
+    <internalURI:sample2Table6Variable41>, <internalURI:sample2Table6Variable42>, <internalURI:sample2Table6Variable43>,
+    <internalURI:sample2Table6Variable44>, <internalURI:sample2Table6Variable45>, <internalURI:sample2Table6Variable46>,
+    <internalURI:sample2Table6Variable5>, <internalURI:sample2Table6Variable6>, <internalURI:sample2Table6Variable7>,
+    <internalURI:sample2Table6Variable8>, <internalURI:sample2Table6Variable9>;
+  dcterms:title "LINK-VACC - Admission Form | Schema"@en .
+
+<internalURI:sample2Table4Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST1";
+  <http://www.w3.org/ns/csvw#titles> "code of the executed test";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20execution%20code>;
+  dcterms:description "Code to identify the 1st test performed." .
+
+<internalURI:sample2Table4Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ENCOUNTER_TPE";
+  <http://www.w3.org/ns/csvw#titles> "Type contact Physician";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Type%20of%20ambulatory%20contact%20with%20physician>;
+  dcterms:description "The type of contact with the health professional. Used to identify the context of the contact with the patient (ambulatory,  emergency, home visit, Inpatient, etc,.)" .
+
+<internalURI:sample2Table4Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IDC_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Unique patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Patient identification number, pseudonymized from the Social Security Identification Number (NISS), the main key for data exchange within the social security system." .
+
+<internalURI:sample2Table4Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_YR_DOB";
+  <http://www.w3.org/ns/csvw#titles> "Year of birth of the patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20birth%20date>;
+  dcterms:description "Year of Birth of the patient." .
+
+<internalURI:sample2Table4Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_COLLECTION1";
+  <http://www.w3.org/ns/csvw#titles> "Date and the time of sampling";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20sampling%20date%20and%20time>;
+  dcterms:description "Date upon which the sample of the Covid test has been collected. For the 1st sample." .
+
+<internalURI:sample2Table4Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_TEST1";
+  <http://www.w3.org/ns/csvw#titles> "Date and the time of testing (date result test)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Testing%20date%20and%20time>;
+  dcterms:description "The date and the time at which the 1st test was carried out (completed and validated)" .
+
+<internalURI:sample2Table4Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_ENCOUNTER";
+  <http://www.w3.org/ns/csvw#titles> "Date consultation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Consultation%20date>;
+  dcterms:description "Date of consultation of the patient. Is used as a proxi date if DT_COLLECTION and DT_TEST unknown." .
+
+<internalURI:sample2Table4Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "D_ONSET";
+  <http://www.w3.org/ns/csvw#titles> "Date onset symptoms";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Symptom%20onset%20date>;
+  dcterms:description "Date upon which the symptoms appeared for the patient." .
+
+<internalURI:sample2Table4Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_HEALTHCARE_WRKR";
+  <http://www.w3.org/ns/csvw#titles> "Healthcareworker";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Healthcare%20worker>;
+  dcterms:description "Flag that indicates if the person is a healthcare worker." .
+
+<internalURI:sample2Table4Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_COLLECT_KBO";
+  <http://www.w3.org/ns/csvw#titles> "KBO identification number";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:KBO%20(CBE)%20identifier>;
+  dcterms:description "The organization’s KBO/CBE (enterprise) identification number. Only if organisation has no NIHDI number." .
+
+<internalURI:sample2Table4Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_NIHDI_ORG";
+  <http://www.w3.org/ns/csvw#titles> "NIHDI number of the organisation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Healthcare%20institution%20Nihdi%20Code>;
+  dcterms:description "NIHDI number identifying the organisation." .
+
+<internalURI:sample2Table4Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_CREATED";
+  <http://www.w3.org/ns/csvw#titles> "Creation date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20creation%20date/time>;
+  dcterms:description "Date of creation of the record" .
+
+<internalURI:sample2Table4Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_POSTAL_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient's  postal code from NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Patient's postal code from NR" .
+
+<internalURI:sample2Table4Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_POSTAL";
+  <http://www.w3.org/ns/csvw#titles> "Patient's postal code";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Postcode of the patient." .
+
+<internalURI:sample2Table6Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_HEMA_CNCR_ACTIVE_5Y";
+  <http://www.w3.org/ns/csvw#titles> "Active comorbid hemato cancer last 5 year";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating whether patients with comorbid hematological cancer have been active in the last 5 years." .
+
+<internalURI:sample2Table6Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_COMORB_OTH";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Other";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Provide additional information over comorbidities not covered by the predefined categories." .
+
+<internalURI:sample2Table6Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_POSTPARTUM";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Post partum (< 6 weeks)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the postpartum status of an individual within the first 6 weeks after childbirth." .
+
+<internalURI:sample2Table6Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_PREGY";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Pregnancy";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of pregnancy as a comorbidity." .
+
+<internalURI:sample2Table6Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_PAT_DOB";
+  <http://www.w3.org/ns/csvw#titles> "Birth date of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20birth%20date>;
+  dcterms:description "Date of Birth of the patient." .
+
+<internalURI:sample2Table6Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_PREMATURE";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Prematurity";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of prematurity as a comorbidity." .
+
+<internalURI:sample2Table6Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_SOLID_CNCR";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Solid cancer";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of solid cancer as a comorbidity." .
+
+<internalURI:sample2Table6Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_ORGN_TRSPLT";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Solid organ transplantation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating a history of solid organ transplantation as a comorbidity." .
+
+<internalURI:sample2Table6Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_CURR_SMKR";
+  <http://www.w3.org/ns/csvw#titles> "Current smoker";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Smoking%20habits>;
+  dcterms:description "Code indicating whether the patient is currently a smoker." .
+
+<internalURI:sample2Table3> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table3Variable1>, <internalURI:sample2Table3Variable10>,
+    <internalURI:sample2Table3Variable11>, <internalURI:sample2Table3Variable12>, <internalURI:sample2Table3Variable13>,
+    <internalURI:sample2Table3Variable14>, <internalURI:sample2Table3Variable15>, <internalURI:sample2Table3Variable16>,
+    <internalURI:sample2Table3Variable17>, <internalURI:sample2Table3Variable18>, <internalURI:sample2Table3Variable19>,
+    <internalURI:sample2Table3Variable2>, <internalURI:sample2Table3Variable20>, <internalURI:sample2Table3Variable21>,
+    <internalURI:sample2Table3Variable22>, <internalURI:sample2Table3Variable23>, <internalURI:sample2Table3Variable24>,
+    <internalURI:sample2Table3Variable25>, <internalURI:sample2Table3Variable26>, <internalURI:sample2Table3Variable27>,
+    <internalURI:sample2Table3Variable3>, <internalURI:sample2Table3Variable4>, <internalURI:sample2Table3Variable5>,
+    <internalURI:sample2Table3Variable6>, <internalURI:sample2Table3Variable7>, <internalURI:sample2Table3Variable8>,
+    <internalURI:sample2Table3Variable9>;
+  dcterms:title "LINK-VACC - COVID-19 LaboratoryTestResult | Schema"@en .
+
+<internalURI:sample2Table3Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_PAT_AGE";
+  <http://www.w3.org/ns/csvw#titles> "Age patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Patient age" .
+
+<internalURI:sample2Table3Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_POSTAL_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient's postal code from NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Patient's postal code from NR" .
+
+<internalURI:sample2Table3Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient's sex from NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient's sex from NR" .
+
+<internalURI:sample2Table3Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST2_RESULT";
+  <http://www.w3.org/ns/csvw#titles> "Result second test";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20result%20code>;
+  dcterms:description "Code that gives information on the results of the 2nd Covid test." .
+
+<internalURI:sample2Table3Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_RESULT_FLAG2";
+  <http://www.w3.org/ns/csvw#titles> "Code for test result (2nd)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20result%20code>;
+  dcterms:description "Attention codes indicating whether the result of a quantitative test is above or below certain reference values for the 2nd test." .
+
+<internalURI:sample2Table3Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST1_RESULT";
+  <http://www.w3.org/ns/csvw#titles> "Result test";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20result%20code>;
+  dcterms:description "Code that gives information on the results of the 1st Covid test." .
+
+<internalURI:sample2Table3Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST3_RESULT";
+  <http://www.w3.org/ns/csvw#titles> "Result third test";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20result%20code>;
+  dcterms:description "Code that gives information on the results of the 3rd Covid test." .
+
+<internalURI:sample2Table3Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_SPECIMEN1";
+  <http://www.w3.org/ns/csvw#titles> "Sample ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20ID>;
+  dcterms:description "Identification number of the material obtained, as a reference for inquiries to the source organization. In a transmural setting, this number will consist of a specimen number including the identification of the issuing organization, to be unique outside of the borders of an organization." .
+
+<internalURI:sample2Table3Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_SPECIMEN2";
+  <http://www.w3.org/ns/csvw#titles> "Second Sample ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20ID>;
+  dcterms:description "Identification number of the 2nd material obtained, as a reference for inquiries to the source organization. In a transmural setting, this number will consist of a specimen number including the identification of the issuing organization, to be unique outside of the borders of an organization." .
+
+<internalURI:sample2Table3Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX";
+  <http://www.w3.org/ns/csvw#titles> "Sex of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient’s administrative sex" .
+
+<internalURI:sample2Table3Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_SPECIMEN3";
+  <http://www.w3.org/ns/csvw#titles> "Third Sample ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20ID>;
+  dcterms:description "Identification number of the 3rd material obtained, as a reference for inquiries to the source organization. In a transmural setting, this number will consist of a specimen number including the identification of the issuing organization, to be unique outside of the borders of an organization." .
+
+<internalURI:sample2Table11Variable37> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "FL_NBR_J_MRS";
+  <http://www.w3.org/ns/csvw#titles> "Number of days in nursing homes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Days%20in%20nursing%20home>;
+  dcterms:description "This variable represents the number of days an individual has spent in a rest and care facility. This variable is relevant for tracking the duration of residential care." .
+
+<internalURI:sample2Table11Variable38> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_TIMESTAMP";
+  <http://www.w3.org/ns/csvw#titles> "Timestamps for the record entry";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20creation%20date/time>;
+  dcterms:description "Timestamps for the record entry" .
+
+<internalURI:sample2Table11Variable39> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IDC_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Unique patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Patient identification number, pseudonymized from the Social Security Identification Number (NISS), the main key for data exchange within the social security system." .
+
+<internalURI:sample2Table11Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_MUCOV";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for Cystic fibrosis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cystic%20fibrosis%20indicator>;
+  dcterms:description "This variable indicates the presence of Mucoviscidose (cystic fibrosis), a genetic disorder affecting the respiratory, digestive, and reproductive systems." .
+
+<internalURI:sample2Table11Variable40> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_ACVC";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for cardiovascular ciseases heart";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cardiovascular%20disease%20indicator>;
+  dcterms:description "This variable indicates specific cardiovascular conditions related to cardiac diseases." .
+
+<internalURI:sample2Table11Variable41> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_ACVG";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for cardiovascular conditions – general";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cardiovascular%20disease%20indicator>;
+  dcterms:description "This variable indicates the presence of general cardiovascular conditions." .
+
+<internalURI:sample2Table11Variable42> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_INVIT_MALADIES_CARDIAQUES";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for cardiovascular diseases";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cardiovascular%20disease%20indicator>;
+  dcterms:description "This variable indicates the presence of any cardiovascular diseases in the individual. Understanding the cardiac health status is essential for personalized health management and can be a critical factor in assessing the risks associated with certain medical procedures or interventions." .
+
+<internalURI:sample2Table11Variable43> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_CANCER_CHEMORT_YN";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for chemotherapy or radiotherapy";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Chemotherapy/Radiotherapy%20indicator>;
+  dcterms:description "This variable indicates whether patients have received reimbursement for chemotherapy or radiotherapy." .
+
+<internalURI:sample2Table11Variable44> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_HEPATITEBC";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for chronic hepatitis B and C";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Chronic%20Hepatitis%20B%20and%20C%20indicator>;
+  dcterms:description "This variable indicates  the presence of chronic hepatitis B and C infections." .
+
+<internalURI:sample2Table11Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_INVIT_DEMENCE";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for dementia";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Dementia/Alzheimer's%20indicator>;
+  dcterms:description "This variable indicates the presence of any dementia-related conditions. Understanding cognitive health is important for providing appropriate care and support, especially in medical decision-making and long-term care planning." .
+
+<internalURI:sample2Table11Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_INVIT_DIABETE";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for diabetes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Indicator%20for%20diabetes>;
+  dcterms:description "This variable highlights whether the individual has diabetes. Diabetes is a significant health concern with wide-ranging implications. Knowing this information is vital for tailoring healthcare plans, managing medications, and addressing potential complications." .
+
+<internalURI:sample2Table11Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_DICV_BIS";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for diabetes with cardiovascular disease";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Indicator%20for%20diabetes>;
+  dcterms:description "This variable indicates the presence of diabetes with associated cardiovascular conditions." .
+
+<internalURI:sample2Table11Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_E90_DMAI";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for diabetes with insulin - Alt. a";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Indicator%20for%20diabetes>;
+  dcterms:description "This variable indicates the presence of diabetes treated with insulin." .
+
+<internalURI:sample2Table11Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_INVIT_DIALYSE";
+  <http://www.w3.org/ns/csvw#titles> "Indicator for dialysis condition";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Dialysis%20status>;
+  dcterms:description "This variable flags whether the individual is undergoing dialysis. Dialysis is a critical treatment for individuals with kidney-related issues. This information is crucial for coordinating care, managing treatment schedules, and anticipating potential complications." .
+
+<internalURI:sample2Table12> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table12Variable1>, <internalURI:sample2Table12Variable2>,
+    <internalURI:sample2Table12Variable3>;
+  dcterms:title "LINK-VACC - VDCB | Schema"@en .
+
+<internalURI:sample2Table12Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "FL_DUE_TO_CHRONIC_DISEASE";
+  <http://www.w3.org/ns/csvw#titles> "Indicator chronic disease";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Chronic%20disease%20indicator>;
+  dcterms:description "Flag indicating whether the person was prioritized for COVID-19 vaccination because suffering from a chronic disease" .
+
+<internalURI:sample2Table6Variable34> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_READMI";
+  <http://www.w3.org/ns/csvw#titles> "Previous hospitalization for COVID-19 and readmission";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:COVID-19%20readmission>;
+  dcterms:description "Previous hospitalization for COVID-19 and readmission" .
+
+<internalURI:sample2Table6Variable35> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_ARTER_HTN";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Arterial hypertension";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of arterial hypertension as a comorbidity." .
+
+<internalURI:sample2Table6Variable36> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX";
+  <http://www.w3.org/ns/csvw#titles> "Sex of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient’s administrative sex" .
+
+<internalURI:sample2Table6Variable37> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DT_SUBMIT";
+  <http://www.w3.org/ns/csvw#titles> "Survey record id";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Survey%20record%20ID>;
+  dcterms:description "represents the date when the survey record or questionnaire for the patient was submitted." .
+
+<internalURI:sample2Table6Variable38> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_SYMP_ADMI_ANOSMIA";
+  <http://www.w3.org/ns/csvw#titles> "Symptom at admission - anosmiaagueusia";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Admission%20diagnosis%20status>;
+  dcterms:description "Code indicating the presence of anosmia (loss of smell) or ageusia (loss of taste) as reported symptoms at the time of hospital admission." .
+
+<internalURI:sample2Table6Variable39> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_SYMP_ADMI_NONE";
+  <http://www.w3.org/ns/csvw#titles> "Symptom at admission – None";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Admission%20diagnosis%20status>;
+  dcterms:description "Code indicating that the individual reported no specific symptoms at the time of hospital admission." .
+
+<internalURI:sample2Table6Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_COGN_TRBL";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Cognitive troubles";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of cognitive troubles as a comorbidity" .
+
+<internalURI:sample2Table6Variable40> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IDC_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Unique patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Patient identification number, pseudonymized from the Social Security Identification Number (NISS), the main key for data exchange within the social security system." .
+
+<internalURI:sample2Table6Variable41> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COVID_VACCI";
+  <http://www.w3.org/ns/csvw#titles> "Vaccination status of the patient against COVID-19";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Vaccination%20history>;
+  dcterms:description "Code indicating whether the patient has received vaccination against COVID-19." .
+
+<internalURI:sample2Table6Variable42> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_CARDIAC_FAIL";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Cardiac failure";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of cardiac failure as a comorbidity." .
+
+<internalURI:sample2Table6Variable43> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_CVD";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Cardiovasular disease";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of cardiovascular disease as a pre-existing condition." .
+
+<internalURI:sample2Table6Variable44> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_CHRON_LIVR";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Chronic liver disease";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of chronic liver disease as a comorbidity." .
+
+<internalURI:sample2Table6Variable45> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_CHRON_LUNG";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Chronic lung disease";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of chronic lung disease as a comorbidity." .
+
+<internalURI:sample2Table6Variable46> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_CHRON_NEURO";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Chronic neurologic or neuromuscular disease (with the exception of cognitive troubles)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of chronic neurologic or neuromuscular disease (excluding cognitive troubles) as a comorbidity." .
+
+<internalURI:sample2Table6Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_DIABT";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Diabetes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of diabetes as a comorbidity" .
+
+<internalURI:sample2Table6Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_HEMA_CNCR";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Hematological cancer";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of hematological cancer as a comorbidity." .
+
+<internalURI:sample2Table6Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_IMMUNODEP";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Immunodepresion, including HIV";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of immunodepression, including HIV, as a comorbidity" .
+
+<internalURI:sample2Table9Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  dcterms:description "Healthcare profession of the individual. Can be more than one and is given by the authentic source ‘FPS_PH’ or NIHII";
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_PAT_PROF";
+  <http://www.w3.org/ns/csvw#titles> "Patient profession";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Employment%20status> .
+
+<internalURI:sample2Table9Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_POST_CODE";
+  <http://www.w3.org/ns/csvw#titles> "Postal code of residence of HCW";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Code indicating the postal code or zip code of the residence of the healthcare worker." .
+
+<internalURI:sample2Table9Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_PAT_SPLTY";
+  <http://www.w3.org/ns/csvw#titles> "Profession speciality if the individual is a healthcare worker";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Healthcare%20worker%20profession>;
+  dcterms:description "Speciality performed by the individual in regards of his job." .
+
+<internalURI:sample2Table4Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient's sex offical";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient's sex from NR" .
+
+<internalURI:sample2Table4Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PRESCR_REAS";
+  <http://www.w3.org/ns/csvw#titles> "Reason test prescribed";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:COVID%20test%20reason>;
+  dcterms:description "Code that give a view on the reason why a Covid test has been perscribed to the person." .
+
+<internalURI:sample2Table4Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST1_RESULT";
+  <http://www.w3.org/ns/csvw#titles> "result test";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20result%20code>;
+  dcterms:description "Code that gives information on the resutls of the 1st Covid test." .
+
+<internalURI:sample2Table4Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_SPECIMEN1";
+  <http://www.w3.org/ns/csvw#titles> "Sample ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20ID>;
+  dcterms:description "Identification number of the material obtained, as a reference for inquiries to the source organization. In a transmural setting, this number will consist of a specimen number including the identification of the issuing organization, to be unique outside of the borders of an organization." .
+
+<internalURI:sample2Table4Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX";
+  <http://www.w3.org/ns/csvw#titles> "Sex of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient’s administrative sex" .
+
+<internalURI:sample2Table4Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_SPECIMEN_MAT1";
+  <http://www.w3.org/ns/csvw#titles> "Specimen material";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Specimen%20material>;
+  dcterms:description "Specimen material describes the material obtained." .
+
+<internalURI:sample2Table5> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table5Variable1>, <internalURI:sample2Table5Variable10>,
+    <internalURI:sample2Table5Variable11>, <internalURI:sample2Table5Variable12>, <internalURI:sample2Table5Variable13>,
+    <internalURI:sample2Table5Variable14>, <internalURI:sample2Table5Variable15>, <internalURI:sample2Table5Variable16>,
+    <internalURI:sample2Table5Variable17>, <internalURI:sample2Table5Variable18>, <internalURI:sample2Table5Variable19>,
+    <internalURI:sample2Table5Variable2>, <internalURI:sample2Table5Variable20>, <internalURI:sample2Table5Variable21>,
+    <internalURI:sample2Table5Variable22>, <internalURI:sample2Table5Variable3>, <internalURI:sample2Table5Variable4>,
+    <internalURI:sample2Table5Variable5>, <internalURI:sample2Table5Variable6>, <internalURI:sample2Table5Variable7>,
+    <internalURI:sample2Table5Variable8>, <internalURI:sample2Table5Variable9>;
+  dcterms:title "LINK-VACC - COVID-19 ResultFlagsSuspicionFalseNegativeTest | Schema"@en .
+
+<internalURI:sample2Table5Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST1_RESULT";
+  <http://www.w3.org/ns/csvw#titles> "Code for test result  (1st)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20result%20code>;
+  dcterms:description "Code that gives information on the results of the 1st Covid test." .
+
+<internalURI:sample2Table5Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_POSTAL_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient's  postal code from NR";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Patient's postal code from NR" .
+
+<internalURI:sample2Table5Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_POSTAL";
+  <http://www.w3.org/ns/csvw#titles> "Patient's postal code";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Postcode of the patient." .
+
+<internalURI:sample2Table5Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX_NISS";
+  <http://www.w3.org/ns/csvw#titles> "Patient's sex offical";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient's sex from NR" .
+
+<internalURI:sample2Table5Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_TEST3_RESULT";
+  <http://www.w3.org/ns/csvw#titles> "Code for test result  (3rd)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20result%20code>;
+  dcterms:description "Code that gives information on the results of the 3rd Covid test." .
+
+<internalURI:sample2Table5Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX";
+  <http://www.w3.org/ns/csvw#titles> "Sex of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient’s administrative sex" .
+
+<internalURI:sample2Table7Variable30> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_SERO_COVID_RSLT";
+  <http://www.w3.org/ns/csvw#titles> "Result of serology";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Covid%20test%20result%20code>;
+  dcterms:description "represents the result of serology for COVID-19." .
+
+<internalURI:sample2Table7Variable31> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_SERO_COVID";
+  <http://www.w3.org/ns/csvw#titles> "Serology was performed for the patient?";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:HIV%20status>;
+  dcterms:description "Code indicating whether serology, a diagnostic test involving the study of blood serum, was performed for the patient." .
+
+<internalURI:sample2Table7Variable32> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_DISCH_HLTH_STA_OTH";
+  <http://www.w3.org/ns/csvw#titles> "Specification of health status at discharge, if 'other'";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Municipality%20information>;
+  dcterms:description "Provides additional details or specifications related to the health status at discharge if the category is labeled as 'other.'" .
+
+<internalURI:sample2Table7Variable33> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IDC_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Unique patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Patient identification number, pseudonymized from the Social Security Identification Number (NISS), the main key for data exchange within the social security system." .
+
+<internalURI:sample2Table7Variable34> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_ADMI_CRP";
+  <http://www.w3.org/ns/csvw#titles> "Value of CRP at hospital admission";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20indicator>;
+  dcterms:description "Represents the actual value of C-reactive protein (CRP) at the time of hospital admission." .
+
+<internalURI:sample2Table7Variable35> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMPLIC_ARDS";
+  <http://www.w3.org/ns/csvw#titles> "Complication code related to ARDS";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Complication%20code>;
+  dcterms:description "Code indicating the occurrence of Acute Respiratory Distress Syndrome (ARDS) as a complication." .
+
+<internalURI:sample2Table7Variable36> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_ADMI_LDH";
+  <http://www.w3.org/ns/csvw#titles> "Value of LDH at hospital admission";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20indicator>;
+  dcterms:description "Represents the actual value of  lactate dehydrogenase (LDH) at the time of hospital admission." .
+
+<internalURI:sample2Table7Variable37> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_ADMI_PAO2";
+  <http://www.w3.org/ns/csvw#titles> "Value of PaO2 at hospital admission";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20indicator>;
+  dcterms:description "Represents the actual value of the partial pressure of oxygen (PaO2) at the time of hospital admission." .
+
+<internalURI:sample2Table7Variable38> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ICU_TRFR";
+  <http://www.w3.org/ns/csvw#titles> "Was the patient transferred to ICU";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20indicator>;
+  dcterms:description "Code indicating whether the patient was transferred to the Intensive Care Unit (ICU) during their hospital stay." .
+
+<internalURI:sample2Table7Variable39> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMPLIC_FUNG_INFCT";
+  <http://www.w3.org/ns/csvw#titles> "Complication code related to fungal infection";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Complication%20code>;
+  dcterms:description "Code indicating the occurrence of a fungal infection as a complication." .
+
+<internalURI:sample2Table7Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMPLIC_SEPSIS";
+  <http://www.w3.org/ns/csvw#titles> "Complication code related to sepsis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Complication%20code>;
+  dcterms:description "Code indicating the occurrence of sepsis as a complication. Sepsis is a life-threatening condition resulting from the body's response to infection." .
+
+<internalURI:sample2Table7Variable40> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMPLIC_HEPATC_HYPOXIA";
+  <http://www.w3.org/ns/csvw#titles> "Complication code related to hepatic hypoxia";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Complication%20code>;
+  dcterms:description "Code indicating the occurrence of hepatic hypoxia as a complication." .
+
+<internalURI:sample2Table7Variable41> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMPLIC_KIDNEY_FAIL";
+  <http://www.w3.org/ns/csvw#titles> "Complication code related to kidney failure";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Complication%20code>;
+  dcterms:description "Code indicating the occurrence of kidney failure as a complication." .
+
+<internalURI:sample2Table7Variable42> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMPLIC_MOF";
+  <http://www.w3.org/ns/csvw#titles> "Complication code related to MOF";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Complication%20code>;
+  dcterms:description "Code indicating the occurrence of Multiple Organ Failure (MOF) as a complication." .
+
+<internalURI:sample2Table7Variable43> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMPLIC_NONE";
+  <http://www.w3.org/ns/csvw#titles> "Complication code related to None";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Complication%20code>;
+  dcterms:description "Code indicating the absence of reported complications during the course of the patient's hospital stay." .
+
+<internalURI:sample2Table7Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMPLIC_SHOCK";
+  <http://www.w3.org/ns/csvw#titles> "Complication code related to shock";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Complication%20code>;
+  dcterms:description "Code indicating the occurrence of shock as a complication." .
+
+<internalURI:sample2Table7Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMPLIC_STROKE";
+  <http://www.w3.org/ns/csvw#titles> "Complication code related to stroke";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Complication%20code>;
+  dcterms:description "Code indicating the occurrence of stroke as a complication." .
+
+<internalURI:sample2Table7Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#titles> "Sex of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient’s administrative sex";
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX" .
+
+<internalURI:sample2Table7Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_DISCH_HLTH_STA";
+  <http://www.w3.org/ns/csvw#titles> "Health status at discharge";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Municipality%20information>;
+  dcterms:description "Code indicating the health status of the patient at the time of discharge." .
+
+<internalURI:sample2Table7Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_VIRUS_TPE";
+  <http://www.w3.org/ns/csvw#titles> "If yes, which virus(es)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Respiratory%20infection%20diagnosis>;
+  dcterms:description "Provides information about the specific respiratory virus(es) involved in coinfection, if applicable." .
+
+<internalURI:sample2Table7Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_KAWASAKI";
+  <http://www.w3.org/ns/csvw#titles> "Kawasaki/SIRS (only < 18)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Pediatric%20Kawasaki/SIRS%20cases>;
+  dcterms:description "Code indicating cases involving Kawasaki disease or Systemic Inflammatory Response Syndrome (SIRS) in individuals below the age of 18." .
+
+<internalURI:sample2Table7Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ADMI_PH_KNOWN";
+  <http://www.w3.org/ns/csvw#titles> "Knowledge over Ph value";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20indicator>;
+  dcterms:description "Code indicating whether the pH value was known at the time of hospital admission." .
+
+<internalURI:sample2Table7Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COINFCT_RESPI_VIRUS";
+  <http://www.w3.org/ns/csvw#titles> "Coinfection with respiratory virus?";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Respiratory%20infection%20diagnosis>;
+  dcterms:description "Code indicating whether the patient had a coinfection with another respiratory virus." .
+
+<internalURI:sample2Table7Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ADMI_LDH_KNOWN";
+  <http://www.w3.org/ns/csvw#titles> "LDH value known at hospital admission?";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20indicator>;
+  dcterms:description "Code indicating whether the lactate dehydrogenase (LDH) value was known at the time of hospital admission." .
+
+<internalURI:sample2Table7Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "MS_ADMI_PH";
+  <http://www.w3.org/ns/csvw#titles> "Measure of PH value";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20indicator>;
+  dcterms:description "Represents the actual value of pH at the time of hospital admission." .
+
+<internalURI:sample2Table7Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ADMI_PAO2_KNOWN";
+  <http://www.w3.org/ns/csvw#titles> "PaO2 value known at hospital admission?";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20indicator>;
+  dcterms:description "Code indicating whether the partial pressure of oxygen (PaO2) value was known at the time of hospital admission." .
+
+<internalURI:sample2Table7Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COVID_DEATH";
+  <http://www.w3.org/ns/csvw#titles> "Death code indicator (due to Covid)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cause%20of%20death%20indicator>;
+  dcterms:description "Code indicating whether the patient's death was attributed to COVID-19." .
+
+<internalURI:sample2Table7Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMPLIC_ALOC";
+  <http://www.w3.org/ns/csvw#titles> "Complication code related to altered consciousness";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Complication%20code>;
+  dcterms:description "Code indicating the occurrence of altered consciousness as a complication." .
+
+<internalURI:sample2Table7Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_NOCOVID_DEATH_CAUS";
+  <http://www.w3.org/ns/csvw#titles> "Death cause indicator (not due to Covid)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cause%20of%20death%20indicator>;
+  dcterms:description "Provides the cause of death if it is not attributed to COVID-19." .
+
+<internalURI:sample2Table7Variable26> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PNEUMONIA_MED_IMAG";
+  <http://www.w3.org/ns/csvw#titles> "Pneumonia on medical imaging (X-ray or CT-scan)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Respiratory%20infection%20diagnosis>;
+  dcterms:description "Code indicating whether pneumonia was confirmed through medical imaging, such as X-ray or CT-scan." .
+
+<internalURI:sample2Table7Variable27> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_PLC_RESDC";
+  <http://www.w3.org/ns/csvw#titles> "Post code of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Code indicating the postal code or zip code of the patient's residence" .
+
+<internalURI:sample2Table7Variable28> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_LMWH_PREVNTN";
+  <http://www.w3.org/ns/csvw#titles> "Prevention with low molecular weight heparin";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:LMWH%20prevention%20and%20dosage>;
+  dcterms:description "Code indicating whether the patient received prevention with low molecular weight heparin (LMWH)." .
+
+<internalURI:sample2Table7Variable29> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PULMRY_BACT_INFCT";
+  <http://www.w3.org/ns/csvw#titles> "Pulmonary bacterial superinfection";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Respiratory%20infection%20diagnosis>;
+  dcterms:description "Code indicating the presence of a pulmonary bacterial superinfection." .
+
+<internalURI:sample2Table7Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMPLIC_PULMRY_EMBOL";
+  <http://www.w3.org/ns/csvw#titles> "Complication code related to pulmonary embolism";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Complication%20code>;
+  dcterms:description "Code indicating the occurrence of pulmonary embolism as a complication" .
+
+<internalURI:sample2Table7Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_CORTICOID_TREAT";
+  <http://www.w3.org/ns/csvw#titles> "Corticoid treament";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Corticoid%20treament>;
+  dcterms:description "Code indicating whether the patient received corticoid treatment." .
+
+<internalURI:sample2Table7Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ADMI_CRP_KNOWN";
+  <http://www.w3.org/ns/csvw#titles> "CRP value known at hospital admission?";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20indicator>;
+  dcterms:description "Code indicating whether the C-reactive protein (CRP) value was known at the time of hospital admission." .
+
+<internalURI:sample2Table7Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_DISCH";
+  <http://www.w3.org/ns/csvw#titles> "Date of discharge, transfer or death";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20discharge%20date%20and%20time>;
+  dcterms:description "Represents the specific date when the patient was discharged from the hospital, transferred to another facility, or faced mortality." .
+
+<internalURI:sample2Table8> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table8Variable1>, <internalURI:sample2Table8Variable10>,
+    <internalURI:sample2Table8Variable11>, <internalURI:sample2Table8Variable12>, <internalURI:sample2Table8Variable13>,
+    <internalURI:sample2Table8Variable14>, <internalURI:sample2Table8Variable15>, <internalURI:sample2Table8Variable16>,
+    <internalURI:sample2Table8Variable2>, <internalURI:sample2Table8Variable3>, <internalURI:sample2Table8Variable4>,
+    <internalURI:sample2Table8Variable5>, <internalURI:sample2Table8Variable6>, <internalURI:sample2Table8Variable7>,
+    <internalURI:sample2Table8Variable8>, <internalURI:sample2Table8Variable9>;
+  dcterms:title "LINK-VACC - ICU Form | Schema"@en .
+
+<internalURI:sample2Table8Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_ICU_ADMI";
+  <http://www.w3.org/ns/csvw#titles> "Admission date to the Intensive care unit (ICU)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:ICU%20admission%20date>;
+  dcterms:description "Represents the specific date when the patient was admitted to the Intensive Care Unit (USI in French)." .
+
+<internalURI:sample2Table8Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_PAT_DOB";
+  <http://www.w3.org/ns/csvw#titles> "Birth date of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20birth%20date>;
+  dcterms:description "Birth date of patient" .
+
+<internalURI:sample2Table8Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_SUBMIT";
+  <http://www.w3.org/ns/csvw#titles> "Date of submission of questionnaire";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Data%20submission%20date>;
+  dcterms:description "Represent the date when the data questionnaire for the patient was submitted." .
+
+<internalURI:sample2Table8Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_ICU_DISCH";
+  <http://www.w3.org/ns/csvw#titles> "discharge date of the ICU";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20discharge%20date%20and%20time>;
+  dcterms:description "Code indicating the specific date when the patient was discharged from the Intensive Care Unit." .
+
+<internalURI:sample2Table8Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ECMO";
+  <http://www.w3.org/ns/csvw#titles> "Extracorporeal membrane oxygenation (ECMO/ ECCO2R)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Extracorporeal%20membrane%20oxygenation>;
+  dcterms:description "Code indicating whether the patient received extracorporeal membrane oxygenation (ECMO) or extracorporeal carbon dioxide removal (ECCO2R)." .
+
+<internalURI:sample2Table8Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_IV_SUPP";
+  <http://www.w3.org/ns/csvw#titles> "invasive respiratory support";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Respiratory%20support>;
+  dcterms:description "Code indicating the use of invasive respiratory support for the patient. Invasive methods involve the insertion of a breathing tube (endotracheal tube or tracheostomy) and mechanical ventilation to assist or control the patient's breathing." .
+
+<internalURI:sample2Table8Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_NIV_SUPP";
+  <http://www.w3.org/ns/csvw#titles> "non-invasive respiratory support";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Respiratory%20support>;
+  dcterms:description "Code indicating the use of non-invasive respiratory support for the patient. Non-invasive methods, such as BiPAP (Bilevel Positive Airway Pressure) or CPAP (Continuous Positive Airway Pressure), aim to provide respiratory assistance without the need for intubation." .
+
+<internalURI:sample2Table8Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_ICU_DEATH_CAUS_OTH";
+  <http://www.w3.org/ns/csvw#titles> "Patient death motive (free text)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cause%20of%20death%20indicator>;
+  dcterms:description "Provides more information to specify the cause of death in the Intensive Care Unit." .
+
+<internalURI:sample2Table8Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ICU_ADMI_REAS";
+  <http://www.w3.org/ns/csvw#titles> "Admission motive to the ICU";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:ICU%20admission%20reason>;
+  dcterms:description "Code indicating the primary reason or motive for the patient's admission to the Intensive Care Unit." .
+
+<internalURI:sample2Table8Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ICU_DISCH_STA";
+  <http://www.w3.org/ns/csvw#titles> "Patient health status at discharge of the ICU";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Municipality%20information>;
+  dcterms:description "Code indicating the patient's health status at the time of discharge from the Intensive Care Unit." .
+
+<internalURI:sample2Table8Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_ICU_DEATH_CAUS";
+  <http://www.w3.org/ns/csvw#titles> "Patient motive of death";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cause%20of%20death%20indicator>;
+  dcterms:description "Code indicating the primary cause or motive of death for patients who passed away while in the Intensive Care Unit." .
+
+<internalURI:sample2Table8Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_PLC_RESDC";
+  <http://www.w3.org/ns/csvw#titles> "Post code of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "Code indicating the postal code or zip code of the patient's residence" .
+
+<internalURI:sample2Table8Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "MS_ICU_ADMI_SOFA_SCORE";
+  <http://www.w3.org/ns/csvw#titles> "Score SOFA admission to the ICU (PedSOFA < 18 ans)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20indicator>;
+  dcterms:description "Code indicating the Sequential Organ Failure Assessment (SOFA) score at the time of admission to the Intensive Care Unit. For pediatric cases (< 18 years), this score is referred to as PedSOFA. The SOFA score assesses multiple organ systems and provides a numerical representation of the patient's overall clinical condition." .
+
+<internalURI:sample2Table8Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_SEX";
+  <http://www.w3.org/ns/csvw#titles> "Sex of patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient’s administrative sex" .
+
+<internalURI:sample2Table8Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IDC_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Unique patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Patient identification number, pseudonymized from the Social Security Identification Number (NISS), the main key for data exchange within the social security system." .
+
+<internalURI:sample2Table8Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_ICU_ADMI_REAS_OTH";
+  <http://www.w3.org/ns/csvw#titles> "Admission motive to the ICU (free text)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:ICU%20admission%20reason>;
+  dcterms:description "Provides more information if  the reason for admission to the Intensive Care Unit." .
+
+<internalURI:sample2Table9> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table9Variable1>, <internalURI:sample2Table9Variable10>,
+    <internalURI:sample2Table9Variable11>, <internalURI:sample2Table9Variable2>, <internalURI:sample2Table9Variable3>,
+    <internalURI:sample2Table9Variable4>, <internalURI:sample2Table9Variable5>, <internalURI:sample2Table9Variable6>,
+    <internalURI:sample2Table9Variable7>, <internalURI:sample2Table9Variable8>, <internalURI:sample2Table9Variable9>;
+  dcterms:title "LINK-VACC - CoBRHA | Schema"@en .
+
+<internalURI:sample2Table9Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_HCW_AGE_DEATH";
+  <http://www.w3.org/ns/csvw#titles> "Age of death of the healthcare workers";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Healthcare%20worker%20death%20date>;
+  dcterms:description "Provides the age at which the healthcare worker passed away." .
+
+<internalURI:sample2Table9Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_VALID_FROM";
+  <http://www.w3.org/ns/csvw#titles> "Record validity date from";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20validity%20date>;
+  dcterms:description "Provides the date from which the record remains valid or applicable." .
+
+<internalURI:sample2Table9Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_VALID_TO";
+  <http://www.w3.org/ns/csvw#titles> "Record validity date to";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20validity%20date>;
+  dcterms:description "Provides the date until which the record remains valid or applicable." .
+
+<internalURI:sample2Table9Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_PAT_DOD";
+  <http://www.w3.org/ns/csvw#titles> "Date of death of the patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20death%20date>;
+  dcterms:description "Provides  the specific date when the patient passed away." .
+
+<internalURI:sample2Table9Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IDC_PAT";
+  <http://www.w3.org/ns/csvw#titles> "Unique patient ID";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Patient identification number, pseudonymized from the Social Security Identification Number (NISS), the main key for data exchange within the social security system." .
+
+<internalURI:sample2Table9Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_PAT_PROF_STA";
+  <http://www.w3.org/ns/csvw#titles> "Distinction between active and nonactive professionnals";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Healthcare%20worker%20status>;
+  dcterms:description "Provides information about the professional status of the healthcare worker, distinguishing between active and non-active professionals. It includes specific indicators such as NIHII status (active regarding NIHII) and the end date of activity regarding FPS_PH (Federal Public Service Public Health)." .
+
+<internalURI:sample2Table9Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "TX_PAT_SEX";
+  <http://www.w3.org/ns/csvw#titles> "Gender of the patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Patient’s administrative sex" .
+
+<internalURI:sample2Table9Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NR_HCW_AGE_20210101";
+  <http://www.w3.org/ns/csvw#titles> "Healthworker age as of 01/01/2021";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Age>;
+  dcterms:description "Provides the age of the healthcare worker as of January 1, 2021." .
+
+<internalURI:sample2Table6Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_NONE";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to None";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the absence of reported comorbidities." .
+
+<internalURI:sample2Table6Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMORB_OBESITY";
+  <http://www.w3.org/ns/csvw#titles> "Comorbidities code related to Obesity";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comorbidities>;
+  dcterms:description "Code indicating the presence of obesity as a comorbidity." .
+
+<internalURI:sample2Table7> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table7Variable1>, <internalURI:sample2Table7Variable10>,
+    <internalURI:sample2Table7Variable11>, <internalURI:sample2Table7Variable12>, <internalURI:sample2Table7Variable13>,
+    <internalURI:sample2Table7Variable14>, <internalURI:sample2Table7Variable15>, <internalURI:sample2Table7Variable16>,
+    <internalURI:sample2Table7Variable17>, <internalURI:sample2Table7Variable18>, <internalURI:sample2Table7Variable19>,
+    <internalURI:sample2Table7Variable2>, <internalURI:sample2Table7Variable20>, <internalURI:sample2Table7Variable21>,
+    <internalURI:sample2Table7Variable22>, <internalURI:sample2Table7Variable23>, <internalURI:sample2Table7Variable24>,
+    <internalURI:sample2Table7Variable25>, <internalURI:sample2Table7Variable26>, <internalURI:sample2Table7Variable27>,
+    <internalURI:sample2Table7Variable28>, <internalURI:sample2Table7Variable29>, <internalURI:sample2Table7Variable3>,
+    <internalURI:sample2Table7Variable30>, <internalURI:sample2Table7Variable31>, <internalURI:sample2Table7Variable32>,
+    <internalURI:sample2Table7Variable33>, <internalURI:sample2Table7Variable34>, <internalURI:sample2Table7Variable35>,
+    <internalURI:sample2Table7Variable36>, <internalURI:sample2Table7Variable37>, <internalURI:sample2Table7Variable38>,
+    <internalURI:sample2Table7Variable39>, <internalURI:sample2Table7Variable4>, <internalURI:sample2Table7Variable40>,
+    <internalURI:sample2Table7Variable41>, <internalURI:sample2Table7Variable42>, <internalURI:sample2Table7Variable43>,
+    <internalURI:sample2Table7Variable5>, <internalURI:sample2Table7Variable6>, <internalURI:sample2Table7Variable7>,
+    <internalURI:sample2Table7Variable8>, <internalURI:sample2Table7Variable9>;
+  dcterms:title "LINK-VACC - Discharge Form | Schema"@en .
+
+<internalURI:sample2Table7Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_PAT_DOB";
+  <http://www.w3.org/ns/csvw#titles> "Patient date of birth";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20birth%20date>;
+  dcterms:description "represents the patient's date of birth." .
+
+<internalURI:sample2Table7Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_SUBMIT";
+  <http://www.w3.org/ns/csvw#titles> "Date of submission of data";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Data%20submission%20date>;
+  dcterms:description "Represents the date when the data for the patient was submitted." .
+
+<internalURI:sample2Table7Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_DISCH_DECLA";
+  <http://www.w3.org/ns/csvw#titles> "Declaration date";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20discharge%20date%20and%20time>;
+  dcterms:description "Date of the discharge form" .
+
+<internalURI:sample2Table7Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_O2";
+  <http://www.w3.org/ns/csvw#titles> "Did the patient receive oxygen during his hospital stay?";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20indicator>;
+  dcterms:description "Code indicating whether the patient received supplemental oxygen during their hospital stay." .
+
+<internalURI:sample2Table7Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_COMPLIC_ACS";
+  <http://www.w3.org/ns/csvw#titles> "Complication code related to acute coronary syndrome";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Complication%20code>;
+  dcterms:description "Code indicating the occurrence of acute coronary syndrome as a complication" .
+
+<internalURI:sample2Table7Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_LMWH_DOSIS";
+  <http://www.w3.org/ns/csvw#titles> "Dosis of LMWH";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:LMWH%20prevention%20and%20dosage>;
+  dcterms:description "Code indicating information about the dosage of low molecular weight heparin (LMWH)" .
+
+<https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf>
+  <http://www.w3.org/2000/01/rdf-schema#label> "Sample Profile" .

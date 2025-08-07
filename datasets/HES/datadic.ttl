@@ -1,0 +1,1847 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<internalURI:sample2Table1Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "wg01";
+  <http://www.w3.org/ns/csvw#titles> "Weight measurement";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20weight%20(kg)>;
+  dcterms:description "Indicates whether the respondent's weight was measured." .
+
+<internalURI:sample2Table1Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "wg03";
+  <http://www.w3.org/ns/csvw#titles> "Weight (kg)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20weight%20(kg)>;
+  dcterms:description "Records the respondent's weight in kilograms." .
+
+<internalURI:sample2Table1Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "wg04";
+  <http://www.w3.org/ns/csvw#titles> "Clothing during measurement";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Clothing%20during%20measurement>;
+  dcterms:description "Records what clothing the respondent was wearing during the measurement." .
+
+<internalURI:sample2Table1Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_1A";
+  <http://www.w3.org/ns/csvw#titles> "Measured height (cm) - total HES population";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Anthropometric%20Data>;
+  dcterms:description "Height measured (cm) of the entire HES population." .
+
+<internalURI:sample2Table1Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_1B";
+  <http://www.w3.org/ns/csvw#titles> "Measured height (cm) - HES population examined <= 90 days after HIS interview";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Anthropometric%20Data>;
+  dcterms:description "Height measured (cm) of the HES population examined within 90 days after the HIS interview." .
+
+<internalURI:sample2Table1Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_2A";
+  <http://www.w3.org/ns/csvw#titles> "Self-reported height (cm) - total HES population";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Anthropometric%20Data>;
+  dcterms:description "Self-reported height (cm) of the entire HES population." .
+
+<internalURI:sample2Table1Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "hg0201";
+  <http://www.w3.org/ns/csvw#titles> "Other reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Measurement%20reason>;
+  dcterms:description "Reason for not measuring the respondent's height." .
+
+<internalURI:sample2Table1Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "wc0202";
+  <http://www.w3.org/ns/csvw#titles> "Other reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Reason%20not%20measured>;
+  dcterms:description "Otherl reason for not measuring the respondent's waist circumference." .
+
+<internalURI:sample2Table1Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "wg0201";
+  <http://www.w3.org/ns/csvw#titles> "Other reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Reason%20not%20measured>;
+  dcterms:description "Other reason for not measuring the respondent's weight." .
+
+<internalURI:sample2Table1Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_2B";
+  <http://www.w3.org/ns/csvw#titles> "Self-reported height (cm) - HES population examined <= 90 days after HIS interview";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Anthropometric%20Data>;
+  dcterms:description "Self-reported height (cm) of the HES population examined within 90 days after the HIS interview." .
+
+<internalURI:sample2Table1Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_3B";
+  <http://www.w3.org/ns/csvw#titles> "Difference between measured and self-reported height (cm) - HES population examined <= 90 days after HIS interview";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Anthropometric%20Data>;
+  dcterms:description "Calculates the difference between the measured and self-reported height (cm) in the HES population examined within 90 days after the HIS interview." .
+
+<internalURI:sample2Table1Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_4A01";
+  <http://www.w3.org/ns/csvw#titles> "Measured weight (kg) - total HES population - no correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20weight%20(kg)>;
+  dcterms:description "Weight measured (kg) of the entire HES population without correcting for heavy clothes." .
+
+<internalURI:sample2Table1Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_4A02";
+  <http://www.w3.org/ns/csvw#titles> "Measured weight (kg) - total HES population - correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20weight%20(kg)>;
+  dcterms:description "Weight measured (kg) of the entire HES population with correction for heavy clothes." .
+
+<internalURI:sample2Table1Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_4B01";
+  <http://www.w3.org/ns/csvw#titles> "Measured weight (kg) - HES population examined <= 90 days after HIS interview - no correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20weight%20(kg)>;
+  dcterms:description "Weight measured (kg) of the HES population examined within 90 days after the HIS interview without correcting for heavy clothes." .
+
+<internalURI:sample2Table1Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_4B02";
+  <http://www.w3.org/ns/csvw#titles> "Measured weight (kg) - HES population examined <= 90 days after HIS interview - correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20weight%20(kg)>;
+  dcterms:description "Weight measured (kg) of the HES population examined within 90 days after the HIS interview with correction for heavy clothes." .
+
+<internalURI:sample2Table1Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_5A";
+  <http://www.w3.org/ns/csvw#titles> "Self-reported weight (kg) - total HES population";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20weight%20(kg)>;
+  dcterms:description "Self-reported weight (kg) of the entire HES population." .
+
+<internalURI:sample2Table1Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "wc04";
+  <http://www.w3.org/ns/csvw#titles> "Clothing during measurement";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Clothing%20during%20measurement>;
+  dcterms:description "Records what clothing the respondent was wearing during the measurement of the waist circumference." .
+
+<internalURI:sample2Table4> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table4Variable3>, <internalURI:sample2Table4Variable4>,
+    <internalURI:sample2Table4Variable5>, <internalURI:sample2Table4Variable6>, <internalURI:sample2Table4Variable7>,
+    <internalURI:sample2Table4Variable8>, <internalURI:sample2Table4Variable9>, <internalURI:sample2Table4Variable1>,
+    <internalURI:sample2Table4Variable10>, <internalURI:sample2Table4Variable11>, <internalURI:sample2Table4Variable12>,
+    <internalURI:sample2Table4Variable13>, <internalURI:sample2Table4Variable14>, <internalURI:sample2Table4Variable15>,
+    <internalURI:sample2Table4Variable16>, <internalURI:sample2Table4Variable17>, <internalURI:sample2Table4Variable2>;
+  dcterms:title "HES - Frailty | Variables"@en;
+  dcat:keyword "frailty"@en .
+
+<internalURI:sample2Table4Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "fx01";
+  <http://www.w3.org/ns/csvw#titles> "Too little energy in past month - HES";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Frailty%20assessment>;
+  dcterms:description "Records the proportion of respondents who reported having too little energy in the past month." .
+
+<internalURI:sample2Table4Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "fx03";
+  <http://www.w3.org/ns/csvw#titles> "Eating more or less than usual - HES";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Meal%20consumption%20frequency>;
+  dcterms:description "Records whether respondents ate more or less than usual in the past month." .
+
+<internalURI:sample2Table4Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "fx0401";
+  <http://www.w3.org/ns/csvw#titles> "Difficulty with lifting/carrying weights of 5kg - HES";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Records the proportion of respondents who have difficulty lifting or carrying weights of 5kg." .
+
+<internalURI:sample2Table4Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "fx0402";
+  <http://www.w3.org/ns/csvw#titles> "Difficulty with walking 100m  - HES";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Records the proportion of respondents who have difficulty walking 100 meters." .
+
+<internalURI:sample2Table4Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "fx0403";
+  <http://www.w3.org/ns/csvw#titles> "Difficulty with climbing stairs without resting - HES";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Mobility%20difficulty>;
+  dcterms:description "Records the proportion of respondents who have difficulty climbing stairs without resting." .
+
+<internalURI:sample2Table4Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "fx05";
+  <http://www.w3.org/ns/csvw#titles> "Frequency of activities requiring low/moderate energy - HES";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Physical%20activity%20metrics>;
+  dcterms:description "Records how frequently respondents engage in activities requiring low to moderate energy." .
+
+<internalURI:sample2Table4Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hm01";
+  <http://www.w3.org/ns/csvw#titles> "Hand grip measurement";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hand%20grip%20measurement>;
+  dcterms:description "Indicates whether the respondent's hand grip strength was measured." .
+
+<internalURI:sample2Table4Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hm02";
+  <http://www.w3.org/ns/csvw#titles> "Reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Measurement%20reason>;
+  dcterms:description "Specifies the reason for not measuring the respondent's hand grip strength." .
+
+<internalURI:sample2Table4Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hm0201";
+  <http://www.w3.org/ns/csvw#titles> "Medical reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Measurement%20reason>;
+  dcterms:description "The medical reason for not measuring the respondent's hand grip strength." .
+
+<internalURI:sample2Table4Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "fx02";
+  <http://www.w3.org/ns/csvw#titles> "Appetite in past month - HES";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Appetite>;
+  dcterms:description "Records the respondent's appetite over the past month." .
+
+<internalURI:sample2Table4Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "hm0202";
+  <http://www.w3.org/ns/csvw#titles> "Other reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Measurement%20reason>;
+  dcterms:description "Another reason for not measuring the respondent's hand grip strength." .
+
+<internalURI:sample2Table4Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hm03";
+  <http://www.w3.org/ns/csvw#titles> "Dominant hand";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hand%20grip%20measurement>;
+  dcterms:description "Records the respondent's dominant hand." .
+
+<internalURI:sample2Table4Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hm04";
+  <http://www.w3.org/ns/csvw#titles> "Hand used";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hand%20grip%20measurement>;
+  dcterms:description "Records which hand was used for the measurement." .
+
+<internalURI:sample2Table4Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hm05";
+  <http://www.w3.org/ns/csvw#titles> "Reason not dominant hand";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hand%20grip%20measurement>;
+  dcterms:description "Specifies the reason for not using the dominant hand for the measurement." .
+
+<internalURI:sample2Table4Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hm0601";
+  <http://www.w3.org/ns/csvw#titles> "1st measurement (pound)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hand%20grip%20measurement>;
+  dcterms:description "Records the first hand grip measurement in pounds." .
+
+<internalURI:sample2Table4Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hm0602";
+  <http://www.w3.org/ns/csvw#titles> "2nd measurement (pound)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hand%20grip%20measurement>;
+  dcterms:description "Records the second hand grip measurement in pounds." .
+
+<internalURI:sample2Table1> a <http://www.w3.org/ns/csvw#Table>;
+  dcat:keyword "anthropometric"@en, "physical measurements"@en;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table1Variable1>, <internalURI:sample2Table1Variable2>,
+    <internalURI:sample2Table1Variable3>, <internalURI:sample2Table1Variable4>, <internalURI:sample2Table1Variable5>,
+    <internalURI:sample2Table1Variable6>, <internalURI:sample2Table1Variable7>, <internalURI:sample2Table1Variable8>,
+    <internalURI:sample2Table1Variable10>, <internalURI:sample2Table1Variable11>, <internalURI:sample2Table1Variable12>,
+    <internalURI:sample2Table1Variable13>, <internalURI:sample2Table1Variable14>, <internalURI:sample2Table1Variable15>,
+    <internalURI:sample2Table1Variable16>, <internalURI:sample2Table1Variable17>, <internalURI:sample2Table1Variable18>,
+    <internalURI:sample2Table1Variable19>, <internalURI:sample2Table1Variable20>, <internalURI:sample2Table1Variable21>,
+    <internalURI:sample2Table1Variable22>, <internalURI:sample2Table1Variable23>, <internalURI:sample2Table1Variable9>,
+    <internalURI:sample2Table1Variable24>, <internalURI:sample2Table1Variable25>, <internalURI:sample2Table1Variable26>,
+    <internalURI:sample2Table1Variable27>, <internalURI:sample2Table1Variable28>, <internalURI:sample2Table1Variable29>,
+    <internalURI:sample2Table1Variable30>, <internalURI:sample2Table1Variable31>, <internalURI:sample2Table1Variable32>,
+    <internalURI:sample2Table1Variable33>, <internalURI:sample2Table1Variable34>, <internalURI:sample2Table1Variable35>,
+    <internalURI:sample2Table1Variable36>, <internalURI:sample2Table1Variable37>, <internalURI:sample2Table1Variable38>,
+    <internalURI:sample2Table1Variable39>, <internalURI:sample2Table1Variable40>, <internalURI:sample2Table1Variable41>,
+    <internalURI:sample2Table1Variable42>, <internalURI:sample2Table1Variable43>, <internalURI:sample2Table1Variable44>,
+    <internalURI:sample2Table1Variable45>, <internalURI:sample2Table1Variable46>, <internalURI:sample2Table1Variable47>,
+    <internalURI:sample2Table1Variable48>, <internalURI:sample2Table1Variable49>, <internalURI:sample2Table1Variable50>,
+    <internalURI:sample2Table1Variable51>, <internalURI:sample2Table1Variable52>, <internalURI:sample2Table1Variable53>,
+    <internalURI:sample2Table1Variable54>, <internalURI:sample2Table1Variable55>, <internalURI:sample2Table1Variable56>,
+    <internalURI:sample2Table1Variable57>, <internalURI:sample2Table1Variable58>, <internalURI:sample2Table1Variable59>,
+    <internalURI:sample2Table1Variable60>;
+  dcterms:title "HES - Anthropometric and physical measurements | Variables"@en .
+
+<internalURI:sample2Table1Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hg01";
+  <http://www.w3.org/ns/csvw#titles> "Height measurement";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Indicates whether the respondent's height was measured." .
+
+<internalURI:sample2Table1Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hg02";
+  <http://www.w3.org/ns/csvw#titles> "Reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Measurement%20reason>;
+  dcterms:description "Reason for not measuring the respondent's height." .
+
+<internalURI:sample2Table1Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "wc02";
+  <http://www.w3.org/ns/csvw#titles> "Reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Reason%20not%20measured>;
+  dcterms:description "Reason for not measuring the respondent's waist circumference." .
+
+<internalURI:sample2Table1Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "wg02";
+  <http://www.w3.org/ns/csvw#titles> "Reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Reason%20not%20measured>;
+  dcterms:description "Reason for not measuring the respondent's weight." .
+
+<internalURI:sample2Table1Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "wc0401";
+  <http://www.w3.org/ns/csvw#titles> "Other situation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Clothing%20during%20measurement>;
+  dcterms:description "Specifies any other situation relevant to the measurement." .
+
+<internalURI:sample2Table1Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "wg0401";
+  <http://www.w3.org/ns/csvw#titles> "Other situation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Clothing%20during%20measurement>;
+  dcterms:description "Other situation specifies any other situation relevant to the measurement." .
+
+<internalURI:sample2Table2> a <http://www.w3.org/ns/csvw#Table>;
+  dcat:keyword "blood pressure"@en, "hypertension"@en;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table2Variable1>, <internalURI:sample2Table2Variable10>,
+    <internalURI:sample2Table2Variable11>, <internalURI:sample2Table2Variable12>, <internalURI:sample2Table2Variable13>,
+    <internalURI:sample2Table2Variable2>, <internalURI:sample2Table2Variable3>, <internalURI:sample2Table2Variable4>,
+    <internalURI:sample2Table2Variable5>, <internalURI:sample2Table2Variable6>, <internalURI:sample2Table2Variable7>,
+    <internalURI:sample2Table2Variable8>, <internalURI:sample2Table2Variable9>, <internalURI:sample2Table2Variable14>,
+    <internalURI:sample2Table2Variable15>, <internalURI:sample2Table2Variable16>, <internalURI:sample2Table2Variable17>,
+    <internalURI:sample2Table2Variable18>, <internalURI:sample2Table2Variable19>, <internalURI:sample2Table2Variable20>,
+    <internalURI:sample2Table2Variable21>, <internalURI:sample2Table2Variable22>, <internalURI:sample2Table2Variable23>,
+    <internalURI:sample2Table2Variable24>, <internalURI:sample2Table2Variable25>, <internalURI:sample2Table2Variable26>,
+    <internalURI:sample2Table2Variable27>;
+  dcterms:title "HES - Blood pressure/hypertension | Variables"@en .
+
+<internalURI:sample2Table2Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp01";
+  <http://www.w3.org/ns/csvw#titles> "Blood pressure measurement";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20and%20cholesterol%20monitoring>;
+  dcterms:description "Indicates whether the respondent's blood pressure was measured." .
+
+<internalURI:sample2Table2Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "HT_02";
+  <http://www.w3.org/ns/csvw#titles> "Diastolic blood pressure (mmHg)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20measurement>;
+  dcterms:description "Records the respondent's diastolic blood pressure in millimeters of mercury (mmHg)." .
+
+<internalURI:sample2Table2Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "HT_03";
+  <http://www.w3.org/ns/csvw#titles> "Self-reported high blood pressure (%)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypertension%20status>;
+  dcterms:description "Records the proportion of respondents who self-reported high blood pressure." .
+
+<internalURI:sample2Table2Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "HT_04";
+  <http://www.w3.org/ns/csvw#titles> "Actual and potential hypertensives (%)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypertension%20status>;
+  dcterms:description "Records the proportion of respondents classified as actual and potential hypertensives." .
+
+<internalURI:sample2Table2Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "HT_05";
+  <http://www.w3.org/ns/csvw#titles> "Elevated blood pressure (%)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypertension%20status>;
+  dcterms:description "Records the proportion of respondents with elevated blood pressure." .
+
+<internalURI:sample2Table2Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp02";
+  <http://www.w3.org/ns/csvw#titles> "Reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20and%20cholesterol%20monitoring>;
+  dcterms:description "Reason for not measuring the respondent's blood pressure." .
+
+<internalURI:sample2Table2Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp0601";
+  <http://www.w3.org/ns/csvw#titles> "2nd systolic (mmHg)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20measurement>;
+  dcterms:description "Records the second systolic blood pressure measurement in millimeters of mercury (mmHg)." .
+
+<internalURI:sample2Table2Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp0602";
+  <http://www.w3.org/ns/csvw#titles> "2nd diastolic (mmHg)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20measurement>;
+  dcterms:description "Records the second diastolic blood pressure measurement in millimeters of mercury (mmHg)." .
+
+<internalURI:sample2Table2Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp0701";
+  <http://www.w3.org/ns/csvw#titles> "3rd systolic (mmHg)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20measurement>;
+  dcterms:description "Records the third systolic blood pressure measurement in millimeters of mercury (mmHg)." .
+
+<internalURI:sample2Table2Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp0702";
+  <http://www.w3.org/ns/csvw#titles> "3rd diastolic (mmHg)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20measurement>;
+  dcterms:description "Records the third diastolic blood pressure measurement in millimeters of mercury (mmHg)." .
+
+<internalURI:sample2Table2Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp08";
+  <http://www.w3.org/ns/csvw#titles> "Pulse rate";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Pulse%20rate>;
+  dcterms:description "Records the respondent's pulse rate." .
+
+<internalURI:sample2Table2Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "HT_12";
+  <http://www.w3.org/ns/csvw#titles> "Pulse rate";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Pulse%20rate>;
+  dcterms:description "Records the respondent's pulse rate." .
+
+<internalURI:sample2Table2Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "HT_01";
+  <http://www.w3.org/ns/csvw#titles> "Systolic blood pressure (mmHg)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20measurement>;
+  dcterms:description "Records the respondent's systolic blood pressure in millimeters of mercury (mmHg)." .
+
+<internalURI:sample2Table3> a <http://www.w3.org/ns/csvw#Table>;
+  dcat:keyword "exam"@en;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table3Variable1>, <internalURI:sample2Table3Variable10>,
+    <internalURI:sample2Table3Variable11>, <internalURI:sample2Table3Variable12>, <internalURI:sample2Table3Variable13>,
+    <internalURI:sample2Table3Variable14>, <internalURI:sample2Table3Variable15>, <internalURI:sample2Table3Variable16>,
+    <internalURI:sample2Table3Variable17>, <internalURI:sample2Table3Variable18>, <internalURI:sample2Table3Variable19>,
+    <internalURI:sample2Table3Variable2>, <internalURI:sample2Table3Variable20>, <internalURI:sample2Table3Variable21>,
+    <internalURI:sample2Table3Variable22>, <internalURI:sample2Table3Variable23>, <internalURI:sample2Table3Variable24>,
+    <internalURI:sample2Table3Variable25>, <internalURI:sample2Table3Variable3>, <internalURI:sample2Table3Variable4>,
+    <internalURI:sample2Table3Variable5>, <internalURI:sample2Table3Variable6>, <internalURI:sample2Table3Variable7>,
+    <internalURI:sample2Table3Variable8>, <internalURI:sample2Table3Variable9>;
+  dcterms:title "HES - Exam related information | Variables"@en .
+
+<internalURI:sample2Table3Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "ID_ANOM";
+  <http://www.w3.org/ns/csvw#titles> "Identification number of respondent";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Survey%20record%20ID>;
+  dcterms:description "Unique number assigned to each survey participant." .
+
+<internalURI:sample2Table3Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx15";
+  <http://www.w3.org/ns/csvw#titles> "Weeks pregnant";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Weeks%20of%20pregnancy%20at%20birth>;
+  dcterms:description "Indicates the number of weeks the respondent is pregnant." .
+
+<internalURI:sample2Table3Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "dx03";
+  <http://www.w3.org/ns/csvw#titles> "Room temperature (°C)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Well-being%20factor>;
+  dcterms:description "The temperature of the examination room in Celsius." .
+
+<internalURI:sample2Table3Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "fastentime";
+  <http://www.w3.org/ns/csvw#titles> "Number of minutes since last meal";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Meal%20consumption%20time>;
+  dcterms:description "Duration (in minutes) since the respondent's last meal." .
+
+<internalURI:sample2Table3Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "durexam";
+  <http://www.w3.org/ns/csvw#titles> "Duration of health examination (minutes)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Heathcare%20examination%20duration>;
+  dcterms:description "Total time (minutes) to complete the health examination." .
+
+<internalURI:sample2Table3Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "rcpt_date";
+  <http://www.w3.org/ns/csvw#titles> "Date of reception of specimen in lab";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20reception%20date>;
+  dcterms:description "Date when the sample was received in the laboratory." .
+
+<internalURI:sample2Table3Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "rcpt_datetime";
+  <http://www.w3.org/ns/csvw#titles> "Date and time of reception of specimen in lab";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20reception%20date>;
+  dcterms:description "Timestamp when the sample was received." .
+
+<internalURI:sample2Table3Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "Specimen receipt";
+  <http://www.w3.org/ns/csvw#titles> "Date and time of reception of sample in laboratory";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20reception%20date>;
+  dcterms:description "Timestamp of the sample's arrival in the lab." .
+
+<internalURI:sample2Table3Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "spin_date";
+  <http://www.w3.org/ns/csvw#titles> "Date of spinning of specimen in lab";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20centrifugation%20date>;
+  dcterms:description "Date when the sample was centrifuged." .
+
+<internalURI:sample2Table3Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "spin_datetime";
+  <http://www.w3.org/ns/csvw#titles> "Date and time of spinning of specimen in lab";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20centrifugation%20date>;
+  dcterms:description "Timestamp of the sample's centrifugation." .
+
+<internalURI:sample2Table3Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hestrim";
+  <http://www.w3.org/ns/csvw#titles> "Period of health examination";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Health%20examination%20period>;
+  dcterms:description "Period during which the health examination was conducted." .
+
+<internalURI:sample2Table5Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_8";
+  <http://www.w3.org/ns/csvw#titles> "Serum total cholesterol (categories)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypercholesterolemia>;
+  dcterms:description "Records the categories of serum total cholesterol levels." .
+
+<internalURI:sample2Table5Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_9";
+  <http://www.w3.org/ns/csvw#titles> "Low HDL cholesterol";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypercholesterolemia>;
+  dcterms:description "Indicates whether the respondent has low HDL cholesterol." .
+
+<internalURI:sample2Table5Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_10";
+  <http://www.w3.org/ns/csvw#titles> "High total cholesterol to HDL cholesterol ratio(%)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypercholesterolemia>;
+  dcterms:description "Records the proportion of respondents with a high total cholesterol to HDL cholesterol ratio." .
+
+<internalURI:sample2Table5Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_11";
+  <http://www.w3.org/ns/csvw#titles> "Elevated non-HDL cholesterol";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypercholesterolemia>;
+  dcterms:description "Indicates whether the respondent has elevated non-HDL cholesterol." .
+
+<internalURI:sample2Table5Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_12";
+  <http://www.w3.org/ns/csvw#titles> "Actual or potential elevated non-HDL cholesterol";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypercholesterolemia>;
+  dcterms:description "Records whether the respondent has or potentially has elevated non-HDL cholesterol." .
+
+<internalURI:sample2Table5Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bc02";
+  <http://www.w3.org/ns/csvw#titles> "Reason why no blood collection";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20collection%20reason>;
+  dcterms:description "Specifies the reason for not collecting a blood sample." .
+
+<internalURI:sample2Table5Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_13";
+  <http://www.w3.org/ns/csvw#titles> "Actual or potential elevated serum total cholesterol who is aware of their elevated serum cholesterol";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypercholesterolemia>;
+  dcterms:description "Records the proportion of respondents who are aware of their elevated serum total cholesterol." .
+
+<internalURI:sample2Table5Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_14";
+  <http://www.w3.org/ns/csvw#titles> "Use lipid lowering drugs";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Indicates whether the respondent uses lipid-lowering drugs." .
+
+<internalURI:sample2Table5Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_15";
+  <http://www.w3.org/ns/csvw#titles> "Elevated serum total cholesterol and use medication";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterol%20medication%20usage>;
+  dcterms:description "Records whether the respondent with elevated serum total cholesterol is using medication." .
+
+<internalURI:sample2Table5Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hdl_yn";
+  <http://www.w3.org/ns/csvw#titles> "HDL cholesetrol result available";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Indicates whether the HDL cholesterol result is available." .
+
+<internalURI:sample2Table5Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "nonhdl_1";
+  <http://www.w3.org/ns/csvw#titles> "Non HDL cholesterol result (mg/dL)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Records the non-HDL cholesterol level in milligrams per deciliter (mg/dL)." .
+
+<internalURI:sample2Table5Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "nonhdl_yn";
+  <http://www.w3.org/ns/csvw#titles> "Non HDL cholesetrol result available";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Indicates whether the non-HDL cholesterol result is available." .
+
+<internalURI:sample2Table5Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "trigl";
+  <http://www.w3.org/ns/csvw#titles> "Triglyceride result (mg/dL)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Records the triglyceride level in milligrams per deciliter (mg/dL)." .
+
+<internalURI:sample2Table5Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_1";
+  <http://www.w3.org/ns/csvw#titles> "Serum total cholesterol (mg/dL)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterol%20medication%20usage>;
+  dcterms:description "Records the serum total cholesterol level in milligrams per deciliter (mg/dL)." .
+
+<internalURI:sample2Table5Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_2";
+  <http://www.w3.org/ns/csvw#titles> "Serum HDL cholesterol (mg/dL)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterol%20medication%20usage>;
+  dcterms:description "Records the serum HDL cholesterol level in milligrams per deciliter (mg/dL)." .
+
+<internalURI:sample2Table5Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_3";
+  <http://www.w3.org/ns/csvw#titles> "Serum non-HDL cholesterol (mg/dL)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypercholesterolemia>;
+  dcterms:description "Records the serum non-HDL cholesterol level in milligrams per deciliter (mg/dL)." .
+
+<internalURI:sample2Table6> a <http://www.w3.org/ns/csvw#Table>;
+  dcat:keyword "urine sampling"@en;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table6Variable1>, <internalURI:sample2Table6Variable2>,
+    <internalURI:sample2Table6Variable3>, <internalURI:sample2Table6Variable4>, <internalURI:sample2Table6Variable5>;
+  dcterms:title "HES - Information on urine sampling | Variables"@en .
+
+<internalURI:sample2Table6Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "uc01";
+  <http://www.w3.org/ns/csvw#titles> "Urine sample collection";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20flag>;
+  dcterms:description "Indicates whether a urine sample was collected from the respondent." .
+
+<internalURI:sample2Table6Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "uc02";
+  <http://www.w3.org/ns/csvw#titles> "Reason why no urine collection";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20collection%20reason>;
+  dcterms:description "Specifies the reason for not collecting a urine sample." .
+
+<internalURI:sample2Table6Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "OHcot";
+  <http://www.w3.org/ns/csvw#titles> "OH-cotinine result (ng/ml)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cotinine%20level>;
+  dcterms:description "The level of OH-cotinine in nanograms per milliliter (ng/ml), used to assess exposure to tobacco smoke." .
+
+<internalURI:sample2Table6Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cot";
+  <http://www.w3.org/ns/csvw#titles> "Cotinine result (ng/ml)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cotinine%20level>;
+  dcterms:description "The level of cotinine in nanograms per milliliter (ng/ml), used to assess exposure to tobacco smoke." .
+
+<internalURI:sample2Table6Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "datecot";
+  <http://www.w3.org/ns/csvw#titles> "Date analysis cotinine/OH-cotinine";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cotinine%20level>;
+  dcterms:description "The date when cotinine or OH-cotinine levels were analyzed to assess exposure to tobacco smoke." .
+
+<internalURI:sample2Table7> a <http://www.w3.org/ns/csvw#Table>;
+  dcat:keyword "medicines"@en;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table7Variable1>, <internalURI:sample2Table7Variable10>,
+    <internalURI:sample2Table7Variable11>, <internalURI:sample2Table7Variable12>, <internalURI:sample2Table7Variable13>,
+    <internalURI:sample2Table7Variable14>, <internalURI:sample2Table7Variable15>, <internalURI:sample2Table7Variable16>,
+    <internalURI:sample2Table7Variable17>, <internalURI:sample2Table7Variable18>, <internalURI:sample2Table7Variable19>,
+    <internalURI:sample2Table7Variable2>, <internalURI:sample2Table7Variable20>, <internalURI:sample2Table7Variable21>,
+    <internalURI:sample2Table7Variable22>, <internalURI:sample2Table7Variable23>, <internalURI:sample2Table7Variable24>,
+    <internalURI:sample2Table7Variable25>, <internalURI:sample2Table7Variable26>, <internalURI:sample2Table7Variable27>,
+    <internalURI:sample2Table7Variable28>, <internalURI:sample2Table7Variable29>, <internalURI:sample2Table7Variable3>,
+    <internalURI:sample2Table7Variable30>, <internalURI:sample2Table7Variable31>, <internalURI:sample2Table7Variable32>,
+    <internalURI:sample2Table7Variable33>, <internalURI:sample2Table7Variable34>, <internalURI:sample2Table7Variable35>,
+    <internalURI:sample2Table7Variable36>, <internalURI:sample2Table7Variable37>, <internalURI:sample2Table7Variable38>,
+    <internalURI:sample2Table7Variable39>, <internalURI:sample2Table7Variable4>, <internalURI:sample2Table7Variable40>,
+    <internalURI:sample2Table7Variable41>, <internalURI:sample2Table7Variable42>, <internalURI:sample2Table7Variable43>,
+    <internalURI:sample2Table7Variable5>, <internalURI:sample2Table7Variable6>, <internalURI:sample2Table7Variable7>,
+    <internalURI:sample2Table7Variable8>, <internalURI:sample2Table7Variable9>, <internalURI:sample2Table7Variable44>,
+    <internalURI:sample2Table7Variable45>, <internalURI:sample2Table7Variable46>, <internalURI:sample2Table7Variable47>,
+    <internalURI:sample2Table7Variable48>, <internalURI:sample2Table7Variable49>, <internalURI:sample2Table7Variable50>,
+    <internalURI:sample2Table7Variable51>, <internalURI:sample2Table7Variable52>, <internalURI:sample2Table7Variable53>,
+    <internalURI:sample2Table7Variable54>, <internalURI:sample2Table7Variable55>, <internalURI:sample2Table7Variable56>,
+    <internalURI:sample2Table7Variable57>;
+  dcterms:title "HES - Information on use of medicines | Variables"@en .
+
+<internalURI:sample2Table7Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx01";
+  <http://www.w3.org/ns/csvw#titles> "Use of medicines for high blood pressure";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypertension%20medication%20usage>;
+  dcterms:description "Indicates if the respondent uses medication to control blood pressure." .
+
+<internalURI:sample2Table7Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  dcterms:description "Twenty-sixth medication listed that the respondent is currently using.";
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0626";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 26";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage> .
+
+<internalURI:sample2Table7Variable26> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx071";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 1";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "First alternative name of medication is the other name of medication 1 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable27> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx072";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 2";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Second alternative name of medication is the other name of medication 2 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable28> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx073";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 3";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Third alternative name of medication is the other name of medication 3 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable29> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx074";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 4";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Fourth alternative name of medication is the other name of medication 4 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx066";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 6";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Sixth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable30> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx075";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 5";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Fifth alternative name of medication is the other name of medication 5 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable31> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx076";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 6";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Sixth alternative name of medication is the other name of medication 6 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable32> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx077";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 7";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Seventh alternative name of medication is the other name of medication 7 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable33> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx078";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 8";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Eighth alternative name of medication is the other name of medication 8 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable34> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx079";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 9";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Ninth alternative name of medication is the other name of medication 9 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable35> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx05";
+  <http://www.w3.org/ns/csvw#titles> "Use of medicines in past 24h";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medicine%20usage%20in%20past%2024%20hours>;
+  dcterms:description "Indicates if the respondent took any medication in the past 24 hours." .
+
+<internalURI:sample2Table7Variable36> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0710";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 10";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Tenth alternative name of medication is the other name of medication 10 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable37> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0711";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 11";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Eleventh alternative name of medication is the other name of medication 11 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable38> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0712";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 12";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twelfth alternative name of medication is the other name of medication 12 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable39> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0713";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 13";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Thirteenth alternative name of medication is the other name of medication 13 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx067";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 7";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Seventh medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable40> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0714";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 14";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Fourteenth alternative name of medication is the other name of medication 14 listed that the respondent is currently using." .
+
+<internalURI:sample2Table3Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "dateHES_g";
+  <http://www.w3.org/ns/csvw#titles> "Date of health examination";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Date%20of%20examination%20execution>;
+  dcterms:description "Date when the health examination was conducted." .
+
+<internalURI:sample2Table3Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hishestime";
+  <http://www.w3.org/ns/csvw#titles> "Number of days between HIS and HES";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Survey%20time>;
+  dcterms:description "Interval in days between the HIS and the HES." .
+
+<internalURI:sample2Table3Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "mohes";
+  <http://www.w3.org/ns/csvw#titles> "Month of health examination";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Date%20of%20examination%20execution>;
+  dcterms:description "Month in which the health examination was conducted." .
+
+<internalURI:sample2Table3Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "monthyear";
+  <http://www.w3.org/ns/csvw#titles> "Month and year of health examination";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Date%20of%20examination%20execution>;
+  dcterms:description "Month and year in which the health examination was conducted." .
+
+<internalURI:sample2Table3Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "whes";
+  <http://www.w3.org/ns/csvw#titles> "HES basic weight";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20weight%20(kg)>;
+  dcterms:description "HES basic weight factor." .
+
+<internalURI:sample2Table3Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "wkdy";
+  <http://www.w3.org/ns/csvw#titles> "Day of the week of health examination";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Day%20of%20the%20week>;
+  dcterms:description "Day of the week when the health examination was conducted." .
+
+<internalURI:sample2Table3Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "yearhes";
+  <http://www.w3.org/ns/csvw#titles> "Year of health examination";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Date%20of%20examination%20execution>;
+  dcterms:description "Year when the health examination was conducted" .
+
+<internalURI:sample2Table3Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx08";
+  <http://www.w3.org/ns/csvw#titles> "Coagulation disease or shortage of blood platelets";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hemophilia%20indicator>;
+  dcterms:description "Issues related to blood clotting or low platelet count." .
+
+<internalURI:sample2Table3Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx09";
+  <http://www.w3.org/ns/csvw#titles> "Fit or convulsion in past 5 years";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Physical%20functioning%20problems>;
+  dcterms:description "Indicates if the respondent experienced any seizures or convulsions recently." .
+
+<internalURI:sample2Table3Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx10";
+  <http://www.w3.org/ns/csvw#titles> "Vigorous exercise in past hour";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Physical%20activity%20metrics>;
+  dcterms:description "Indicates if the respondent engaged in intense physical activity recently." .
+
+<internalURI:sample2Table3Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx11";
+  <http://www.w3.org/ns/csvw#titles> "Smoked in past hour";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Smoking%20habits>;
+  dcterms:description "Indicates if the respondent smoked within the past hour." .
+
+<internalURI:sample2Table3Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx12";
+  <http://www.w3.org/ns/csvw#titles> "Meal or sweetened drink in past 8 hours";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Meal%20consumption%20time>;
+  dcterms:description "Indicates if the respondent consumed food or sweetened beverages recently." .
+
+<internalURI:sample2Table3Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx13_time";
+  <http://www.w3.org/ns/csvw#titles> "Time last meal/sweetened drink";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Meal%20consumption%20frequency>;
+  dcterms:description "Timestamp when the respondent last consumed food or sweetened beverages." .
+
+<internalURI:sample2Table3Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx14";
+  <http://www.w3.org/ns/csvw#titles> "Pregnant";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Pregnancy%20status>;
+  dcterms:description "Indicates if the respondent is currently pregnant." .
+
+<internalURI:sample2Table7Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0613";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 13";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Thirteenth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0614";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 14";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Fourteenth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0615";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 15";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Fifteenth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx03";
+  <http://www.w3.org/ns/csvw#titles> "Use of medicines for diabetes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diabetes%20medication%20intake>;
+  dcterms:description "Indicates if the respondent uses medication to manage diabetes." .
+
+<internalURI:sample2Table7Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0616";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 16";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Sixteenth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0617";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 17";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Seventeenth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0618";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 18";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Eighteenth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0619";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 19";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Nineteenth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0620";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 20";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twentieth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0621";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 21";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twenty-first medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx02";
+  <http://www.w3.org/ns/csvw#titles> "Use of medicines for lowering cholesterol";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterol%20medication%20usage>;
+  dcterms:description "Indicates if the respondent uses medication to reduce cholesterol levels." .
+
+<internalURI:sample2Table7Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0622";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 22";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twenty-second medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0623";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 23";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twenty-third medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0624";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 24";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twenty-fourth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0625";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 25";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twenty-fifth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "qx04";
+  <http://www.w3.org/ns/csvw#titles> "Use of anticoagulant medicines";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Anticoagulant%20medicines%20use>;
+  dcterms:description "Indicates if the respondent uses medication to prevent blood clots." .
+
+<internalURI:sample2Table1Variable32> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_8B01";
+  <http://www.w3.org/ns/csvw#titles> "BMI (based on measured height and weight) - HES population examined <= 90 days after HIS interview - no correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Body Mass Index (BMI) based on measured height and weight in the HES population examined within 90 days after the HIS interview without correcting for heavy clothes." .
+
+<internalURI:sample2Table1Variable33> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_8B02";
+  <http://www.w3.org/ns/csvw#titles> "BMI (based on measured height and weight) - HES population examined <= 90 days after HIS interview - correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Body Mass Index (BMI) based on measured height and weight in the HES population examined within 90 days after the HIS interview with correction for heavy clothes." .
+
+<internalURI:sample2Table1Variable34> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_9A";
+  <http://www.w3.org/ns/csvw#titles> "BMI (based on self-reported height and weight) - total HES population";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Body Mass Index (BMI) based on self-reported height and weight in the entire HES population." .
+
+<internalURI:sample2Table1Variable35> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_9B";
+  <http://www.w3.org/ns/csvw#titles> "BMI (based on self-reported height and weight) - HES population examined <= 90 days after HIS interview";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Body Mass Index (BMI) based on self-reported height and weight in the HES population examined within 90 days after the HIS interview." .
+
+<internalURI:sample2Table1Variable36> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_10B01";
+  <http://www.w3.org/ns/csvw#titles> "Difference between measured and self-reported BMI - HES population examined <= 90 days after HIS interview - no correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Calculates the difference between measured and self-reported BMI in the HES population examined within 90 days after the HIS interview without correcting for heavy clothes." .
+
+<internalURI:sample2Table1Variable37> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_10B02";
+  <http://www.w3.org/ns/csvw#titles> "Difference between measured and self-reported BMI - HES population examined <= 90 days after HIS interview - correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Calculates the difference between measured and self-reported BMI in the HES population examined within 90 days after the HIS interview with correction for heavy clothes." .
+
+<internalURI:sample2Table1Variable38> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "wc01";
+  <http://www.w3.org/ns/csvw#titles> "Waist circumference measurement";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Indicates whether the respondent's waist circumference was measured." .
+
+<internalURI:sample2Table1Variable39> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_11A01";
+  <http://www.w3.org/ns/csvw#titles> "Overweight based on measured BMI - total HES population - no correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Proportion of the total HES population classified as having overweight (BMI >= 25) based on measured BMI without correcting for heavy clothes." .
+
+<internalURI:sample2Table1Variable40> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_11A02";
+  <http://www.w3.org/ns/csvw#titles> "Overweight based on measured BMI - total HES population - correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Proportion of the total HES population classified as having overweight (BMI >= 25) based on measured BMI with correction for heavy clothes." .
+
+<internalURI:sample2Table1Variable41> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_11B01";
+  <http://www.w3.org/ns/csvw#titles> "Overweight based on measured BMI - HES population examined <= 90 days after HIS interview - no correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Proportion of the HES population examined within 90 days after the HIS interview classified as having overweight (BMI >= 25) based on measured BMI without correcting for heavy clothes." .
+
+<internalURI:sample2Table1Variable42> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_11B02";
+  <http://www.w3.org/ns/csvw#titles> "Overweight based on measured BMI - HES population examined <= 90 days after HIS interview - correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Proportion of the HES population examined within 90 days after the HIS interview classified as having overweight based on measured BMI with correction for heavy clothes." .
+
+<internalURI:sample2Table1Variable43> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_12A01";
+  <http://www.w3.org/ns/csvw#titles> "Obesity based on measured BMI - total HES population - no correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Obesity%20rate>;
+  dcterms:description "Proportion of the total HES population classified as having obesity (BMI >= 30) based on measured BMI without correcting for heavy clothes." .
+
+<internalURI:sample2Table1Variable44> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_12A02";
+  <http://www.w3.org/ns/csvw#titles> "Obesity based on measured BMI - total HES population - correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Obesity%20rate>;
+  dcterms:description "Proportion of the total HES population classified as having obesity (BMI >= 30)based on measured BMI with correction for heavy clothes." .
+
+<internalURI:sample2Table1Variable45> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_12B01";
+  <http://www.w3.org/ns/csvw#titles> "Obesity based on measured BMI - HES population examined <= 90 days after HIS interview - no correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Obesity%20rate>;
+  dcterms:description "Proportion of the HES population examined within 90 days after the HIS interview classified as having obesity (BMI >= 30) based on measured BMI without correcting for heavy clothes." .
+
+<internalURI:sample2Table1Variable46> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_12B02";
+  <http://www.w3.org/ns/csvw#titles> "Obesity based on measured BMI - HES population examined <= 90 days after HIS interview - correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Obesity%20rate>;
+  dcterms:description "Proportion of the HES population examined within 90 days after the HIS interview classified as having obesity (BMI >= 30) based on measured BMI with correction for heavy clothes." .
+
+<internalURI:sample2Table1Variable47> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_13A01";
+  <http://www.w3.org/ns/csvw#titles> "BMI category based on measured weight and height - total HES population - no correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Records the BMI categories based on measured weight and height in the entire HES population without correcting for heavy clothes." .
+
+<internalURI:sample2Table1Variable48> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_13A02";
+  <http://www.w3.org/ns/csvw#titles> "BMI category based on measured weight and height - total HES population - correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Records the BMI categories based on measured weight and height in the entire HES population with correction for heavy clothes." .
+
+<internalURI:sample2Table2Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#titles> "Anti-hypertensive drug use in the population (%)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypertension%20medication%20usage>;
+  dcterms:description "Records the proportion of the population using anti-hypertensive drugs.";
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "HT_09" .
+
+<internalURI:sample2Table2Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "HT_10";
+  <http://www.w3.org/ns/csvw#titles> "Anti-Hypertensive drug use among actual and Potential hypertensives (%)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypertension%20medication%20usage>;
+  dcterms:description "Records the proportion of actual and potential hypertensives using anti-hypertensive drugs." .
+
+<internalURI:sample2Table2Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "HT_11";
+  <http://www.w3.org/ns/csvw#titles> "Optimal blood pressure among those using Anti-hypertensive drugs (%)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypertension%20medication%20usage>;
+  dcterms:description "Records the proportion of respondents using anti-hypertensive drugs who have optimal blood pressure." .
+
+<internalURI:sample2Table2Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "bp0202";
+  <http://www.w3.org/ns/csvw#titles> "Other reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20and%20cholesterol%20monitoring>;
+  dcterms:description "Another reason for not measuring the respondent's blood pressure." .
+
+<internalURI:sample2Table2Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp03";
+  <http://www.w3.org/ns/csvw#titles> "Arm used for measurement";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20and%20cholesterol%20monitoring>;
+  dcterms:description "Records which arm was used for the blood pressure measurement." .
+
+<internalURI:sample2Table2Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp0301";
+  <http://www.w3.org/ns/csvw#titles> "Reason for using left arm";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20measurement>;
+  dcterms:description "Reason for using the left arm for the blood pressure measurement." .
+
+<internalURI:sample2Table2Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp04";
+  <http://www.w3.org/ns/csvw#titles> "Posture during measurement";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20and%20cholesterol%20monitoring>;
+  dcterms:description "Records the respondent's posture during the blood pressure measurement." .
+
+<internalURI:sample2Table2Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp0401";
+  <http://www.w3.org/ns/csvw#titles> "Reason for supine posture";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20measurement>;
+  dcterms:description "Reason for the respondent's supine posture during the blood pressure measurement." .
+
+<internalURI:sample2Table2Variable26> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp0501";
+  <http://www.w3.org/ns/csvw#titles> "1st systolic (mmHg)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20measurement>;
+  dcterms:description "Records the first systolic blood pressure measurement in millimeters of mercury (mmHg)." .
+
+<internalURI:sample2Table2Variable27> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp0502";
+  <http://www.w3.org/ns/csvw#titles> "1st diastolic (mmHg)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20measurement>;
+  dcterms:description "Records the first diastolic blood pressure measurement in millimeters of mercury (mmHg)." .
+
+<internalURI:sample2Table5Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_16";
+  <http://www.w3.org/ns/csvw#titles> "Use lipid lowering drugs and optimal total cholesterol";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Indicates whether the respondent using lipid-lowering drugs has optimal total cholesterol." .
+
+<internalURI:sample2Table5Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "centrifuge";
+  <http://www.w3.org/ns/csvw#titles> "Date and time of spinning of sample";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20centrifugation%20date>;
+  dcterms:description "Records when the sample was spun in the lab." .
+
+<internalURI:sample2Table5Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "glu_fp_1";
+  <http://www.w3.org/ns/csvw#titles> "Glucose result (mg/dL)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20sugar%20measurement>;
+  dcterms:description "Records the glucose level in milligrams per deciliter (mg/dL)." .
+
+<internalURI:sample2Table5Variable26> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "glu_fp_yn";
+  <http://www.w3.org/ns/csvw#titles> "Glucose result available";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Glucose%20result%20available>;
+  dcterms:description "Indicates whether the glucose result is available." .
+
+<internalURI:sample2Table5Variable27> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hba1c_1";
+  <http://www.w3.org/ns/csvw#titles> "HbA1c(DCCT)result (%)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Records the HbA1c (DCCT) result as a percentage." .
+
+<internalURI:sample2Table5Variable28> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hba1c_yn";
+  <http://www.w3.org/ns/csvw#titles> "HbA1c(DCCT) result available";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Indicates whether the HbA1c (DCCT) result is available." .
+
+<internalURI:sample2Table5Variable29> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hba1cm_1";
+  <http://www.w3.org/ns/csvw#titles> "HbA1C(IFCC) result (mmol/mol)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Records the HbA1c (IFCC) result in millimoles per mole (mmol/mol)." .
+
+<internalURI:sample2Table1Variable49> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_13B01";
+  <http://www.w3.org/ns/csvw#titles> "BMI category based on measured weight and height - HES population examined <= 90 days after HIS interview - no correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Records the BMI categories based on measured weight and height in the HES population examined within 90 days after the HIS interview without correcting for heavy clothes." .
+
+<internalURI:sample2Table1Variable50> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_13B02";
+  <http://www.w3.org/ns/csvw#titles> "BMI category based on measured weight and height - HES population examined <= 90 days after HIS interview - correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Records the BMI categories based on measured weight and height in the HES population examined within 90 days after the HIS interview with correction for heavy clothes." .
+
+<internalURI:sample2Table1Variable51> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_14A";
+  <http://www.w3.org/ns/csvw#titles> "Overweight based on self-reported BMI - total HES population";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Obesity%20rate>;
+  dcterms:description "Proportion of the total HES population classified as having overweight (BMI >= 25) based on self-reported BMI." .
+
+<internalURI:sample2Table1Variable52> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_14B";
+  <http://www.w3.org/ns/csvw#titles> "Overweight based on self-reported BMI - HES population examined <= 90 days after HIS interview";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Obesity%20rate>;
+  dcterms:description "Proportion of the HES population examined within 90 days after the HIS interview classified as having overweight (BMI >= 25) based on self-reported BMI." .
+
+<internalURI:sample2Table1Variable53> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_15A";
+  <http://www.w3.org/ns/csvw#titles> "Obesity based on self-reported BMI - total HES population";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Obesity%20rate>;
+  dcterms:description "Proportion of the total HES population having obesity (BMI >= 30) based on self-reported BMI." .
+
+<internalURI:sample2Table1Variable54> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_15B";
+  <http://www.w3.org/ns/csvw#titles> "Obesity based on self-reported BMI - HES population examined <= 90 days after HIS interview";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Obesity%20rate>;
+  dcterms:description "Proportion of the HES population examined within 90 days after the HIS interview classified as having obesity (BMI >= 30) based on self-reported BMI." .
+
+<internalURI:sample2Table1Variable55> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_16A";
+  <http://www.w3.org/ns/csvw#titles> "BMI category based on self-reported weight and height - total HES population";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Records the BMI categories based on self-reported weight and height in the entire HES population." .
+
+<internalURI:sample2Table1Variable56> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_16B";
+  <http://www.w3.org/ns/csvw#titles> "BMI category based on self-reported weight and height - HES population examined <= 90 days after HIS interview";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Records the BMI categories based on self-reported weight and height in the HES population examined within 90 days after the HIS interview." .
+
+<internalURI:sample2Table1Variable57> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_17A";
+  <http://www.w3.org/ns/csvw#titles> "High waist circumference - total HES population";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Anthropometric%20Data>;
+  dcterms:description "Records the proportion of the total HES population with a high waist circumference." .
+
+<internalURI:sample2Table1Variable58> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_17B";
+  <http://www.w3.org/ns/csvw#titles> "High waist circumference - HES population examined <= 90 days after HIS interview";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Anthropometric%20Data>;
+  dcterms:description "Proportion of the HES population examined within 90 days after the HIS interview with a high waist circumference." .
+
+<internalURI:sample2Table1Variable59> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "wc0201";
+  <http://www.w3.org/ns/csvw#titles> "Medical reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Reason%20not%20measured>;
+  dcterms:description "Medical reason for not measuring the respondent's waist circumference." .
+
+<internalURI:sample2Table1Variable60> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "wc03";
+  <http://www.w3.org/ns/csvw#titles> "Waist circumference (cm)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Records the respondent's waist circumference in centimeters." .
+
+<internalURI:sample2Table2Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bp0201";
+  <http://www.w3.org/ns/csvw#titles> "Medical reason why not measured";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20and%20cholesterol%20monitoring>;
+  dcterms:description "The medical reason for not measuring the respondent's blood pressure." .
+
+<internalURI:sample2Table2Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "HT_06";
+  <http://www.w3.org/ns/csvw#titles> "Isolated systolic blood pressure (%)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20measurement>;
+  dcterms:description "Records the proportion of respondents with isolated systolic blood pressure." .
+
+<internalURI:sample2Table2Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "HT_07";
+  <http://www.w3.org/ns/csvw#titles> "Categories of blood pressure (%)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20pressure%20measurement>;
+  dcterms:description "Records the proportion of respondents in various blood pressure categories." .
+
+<internalURI:sample2Table2Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "HT_08";
+  <http://www.w3.org/ns/csvw#titles> "Awareness of elevated blood pressure;";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypertension%20status>;
+  dcterms:description "Indicates whether respondents are aware of their elevated blood pressure." .
+
+<internalURI:sample2Table5Variable30> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hba1cm_yn";
+  <http://www.w3.org/ns/csvw#titles> "HbA1C(IFCC) result available";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Indicates whether the HbA1c (IFCC) result is available." .
+
+<internalURI:sample2Table5Variable31> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_1";
+  <http://www.w3.org/ns/csvw#titles> "Fasting plasma glucose (mg/dL)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20sugar%20measurement>;
+  dcterms:description "Records the fasting plasma glucose level in milligrams per deciliter (mg/dL)." .
+
+<internalURI:sample2Table5Variable32> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_2";
+  <http://www.w3.org/ns/csvw#titles> "Glycated haemoglobin (HbA1c) (%)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Records the glycated hemoglobin (HbA1c) level as a percentage." .
+
+<internalURI:sample2Table5Variable33> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_3";
+  <http://www.w3.org/ns/csvw#titles> "Self-reported diabetes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Indicator%20for%20diabetes>;
+  dcterms:description "Indicates whether the respondent self-reported having diabetes." .
+
+<internalURI:sample2Table5Variable34> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_4";
+  <http://www.w3.org/ns/csvw#titles> "Impaired fasting glucose";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diabetes%20indicator>;
+  dcterms:description "Indicates whether the respondent has impaired fasting glucose levels." .
+
+<internalURI:sample2Table5Variable35> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "diff";
+  <http://www.w3.org/ns/csvw#titles> "Number of days between date of HES and date of reception of specimen by lab";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20reception%20date>;
+  dcterms:description "Measures the time gap between HES and specimen reception." .
+
+<internalURI:sample2Table5Variable36> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_5";
+  <http://www.w3.org/ns/csvw#titles> "Raised blood glucose/diabetes based on fasting plasma glucose";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diabetes%20indicator>;
+  dcterms:description "Records whether the respondent has raised blood glucose or diabetes based on fasting plasma glucose levels." .
+
+<internalURI:sample2Table5Variable37> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_6";
+  <http://www.w3.org/ns/csvw#titles> "Raised blood glucose/diabetes based on HbA1c";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20sugar%20measurement>;
+  dcterms:description "Indicates whether diabetes or raised blood glucose levels are determined by HbA1c measurement, reflecting long-term blood sugar levels." .
+
+<internalURI:sample2Table5Variable38> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_7";
+  <http://www.w3.org/ns/csvw#titles> "Raised blood glucose/diabetes based on fasting glucose or HbA1c";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20sugar%20measurement>;
+  dcterms:description "Indicates whether diabetes or raised blood glucose levels are determined by fasting glucose levels or HbA1c, assessing immediate or long-term blood sugar levels." .
+
+<internalURI:sample2Table5Variable39> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_8";
+  <http://www.w3.org/ns/csvw#titles> "Raised blood glucose/diabetes based on fasting glucose, HbA1c or self-reported status";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Blood%20sugar%20measurement>;
+  dcterms:description "Indicates whether diabetes or raised blood glucose levels are determined by fasting glucose, HbA1c, or self-reported health status, considering various indicators of blood sugar levels." .
+
+<internalURI:sample2Table5Variable40> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_9";
+  <http://www.w3.org/ns/csvw#titles> "Raised blood glucose/diabetes based on fasting glucose, HbA1c or use of diabetes medication";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diabetes%20medication%20intake>;
+  dcterms:description "Indicates whether diabetes or raised blood glucose levels are determined by fasting glucose, HbA1c, or use of medication for diabetes management, reflecting different criteria for identifying diabetes." .
+
+<internalURI:sample2Table5Variable41> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_10";
+  <http://www.w3.org/ns/csvw#titles> "Use diabetes medication";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diabetes%20medication%20intake>;
+  dcterms:description "Indicates the use of medication specifically for managing diabetes." .
+
+<internalURI:sample2Table5Variable42> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_11";
+  <http://www.w3.org/ns/csvw#titles> "Actual or potential diabetes that uses diabetes medication";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diabetes%20medication%20intake>;
+  dcterms:description "Refers to individuals diagnosed with actual or potential diabetes who are actively using medication for diabetes management." .
+
+<internalURI:sample2Table5Variable43> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_12";
+  <http://www.w3.org/ns/csvw#titles> "Use diabetes medication and optimal glucose level";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diabetes%20medication%20intake>;
+  dcterms:description "Indicates individuals using medication for diabetes management while maintaining optimal blood glucose levels." .
+
+<internalURI:sample2Table5Variable44> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "gl_13";
+  <http://www.w3.org/ns/csvw#titles> "Raised blood glucose/diabetes and aware to have diabetes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Indicator%20for%20diabetes>;
+  dcterms:description "Indicates individuals diagnosed with raised blood glucose or diabetes who are aware of their condition." .
+
+<internalURI:sample2Table5Variable45> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "crp";
+  <http://www.w3.org/ns/csvw#titles> "CRP result";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20admission%20indicator>;
+  dcterms:description "The level of C-reactive protein (CRP) in the body, often used as a marker of inflammation or infection." .
+
+<internalURI:sample2Table5Variable46> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "chole_1";
+  <http://www.w3.org/ns/csvw#titles> "Cholesterol result (mg/dL)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Records the respondent's cholesterol level in milligrams per deciliter (mg/dL)." .
+
+<internalURI:sample2Table7Variable56> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#titles> "Medicine 4";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Fourth medication listed that the respondent is currently using.";
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx064" .
+
+<internalURI:sample2Table7Variable57> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx065";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 5";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Fifth medication listed that the respondent is currently using." .
+
+<https://sciensano.healthdataportal.eu:443/sample/539f90b7-b66c-4a46-ac33-e73d779fd365>
+  a dcat:Resource, dcat:Distribution;
+  dcterms:accessRights <https://sciensano.healthdataportal.eu:443/sample/539f90b7-b66c-4a46-ac33-e73d779fd365#accessRights>;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://sciensano.healthdataportal.eu:443/sample/539f90b7-b66c-4a46-ac33-e73d779fd365#identifier>;
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2025-02-21T15:52:17.332Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2025-02-21T15:52:17.332Z"^^xsd:dateTime;
+  dcterms:isPartOf <https://sciensano.healthdataportal.eu:443/dataset/d18584b6-c8d1-4770-a5bd-a177bdf04c0c>;
+  <http://semanticscience.org/resource/SIO_000628> <https://sciensano.healthdataportal.eu:443/sample/539f90b7-b66c-4a46-ac33-e73d779fd365/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://sciensano.healthdataportal.eu:443/sample/539f90b7-b66c-4a46-ac33-e73d779fd365/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcat:downloadURL <https://sciensano.healthdataportal.eu/sample/9076dcdc-1783-49d7-be5a-4c5ff942078c>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "HES - Anthropometric and physical measurements | Variables";
+  dcterms:description "HES information available in code book (variables)"@en;
+  dcterms:title "HES | Codebook variables"@en;
+  dcterms:conformsTo <https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf> .
+
+<https://sciensano.healthdataportal.eu:443/sample/539f90b7-b66c-4a46-ac33-e73d779fd365/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://sciensano.healthdataportal.eu:443/sample/539f90b7-b66c-4a46-ac33-e73d779fd365/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777> .
+
+<https://sciensano.healthdataportal.eu:443/sample/539f90b7-b66c-4a46-ac33-e73d779fd365#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://sciensano.healthdataportal.eu:443/sample/539f90b7-b66c-4a46-ac33-e73d779fd365#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://sciensano.healthdataportal.eu:443/sample/539f90b7-b66c-4a46-ac33-e73d779fd365" .
+
+<https://sciensano.healthdataportal.eu/sample/9076dcdc-1783-49d7-be5a-4c5ff942078c>
+  a <http://www.w3.org/ns/csvw#TableGroup>;
+  <http://www.w3.org/ns/csvw#table> <internalURI:sample2Table1>, <internalURI:sample2Table2>,
+    <internalURI:sample2Table3>, <internalURI:sample2Table4>, <internalURI:sample2Table5>,
+    <internalURI:sample2Table6>, <internalURI:sample2Table7> .
+
+<internalURI:sample2Table4Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hm0603";
+  <http://www.w3.org/ns/csvw#titles> "3rd measurement (pound)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hand%20grip%20measurement>;
+  dcterms:description "Records the third hand grip measurement in pounds." .
+
+<internalURI:sample2Table5> a <http://www.w3.org/ns/csvw#Table>;
+  dcat:keyword "blood sampling"@en;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample2Table5Variable1>, <internalURI:sample2Table5Variable10>,
+    <internalURI:sample2Table5Variable11>, <internalURI:sample2Table5Variable12>, <internalURI:sample2Table5Variable13>,
+    <internalURI:sample2Table5Variable14>, <internalURI:sample2Table5Variable15>, <internalURI:sample2Table5Variable16>,
+    <internalURI:sample2Table5Variable17>, <internalURI:sample2Table5Variable18>, <internalURI:sample2Table5Variable19>,
+    <internalURI:sample2Table5Variable2>, <internalURI:sample2Table5Variable20>, <internalURI:sample2Table5Variable21>,
+    <internalURI:sample2Table5Variable22>, <internalURI:sample2Table5Variable3>, <internalURI:sample2Table5Variable4>,
+    <internalURI:sample2Table5Variable5>, <internalURI:sample2Table5Variable6>, <internalURI:sample2Table5Variable7>,
+    <internalURI:sample2Table5Variable8>, <internalURI:sample2Table5Variable9>, <internalURI:sample2Table5Variable23>,
+    <internalURI:sample2Table5Variable24>, <internalURI:sample2Table5Variable25>, <internalURI:sample2Table5Variable26>,
+    <internalURI:sample2Table5Variable27>, <internalURI:sample2Table5Variable28>, <internalURI:sample2Table5Variable29>,
+    <internalURI:sample2Table5Variable30>, <internalURI:sample2Table5Variable31>, <internalURI:sample2Table5Variable32>,
+    <internalURI:sample2Table5Variable33>, <internalURI:sample2Table5Variable34>, <internalURI:sample2Table5Variable35>,
+    <internalURI:sample2Table5Variable36>, <internalURI:sample2Table5Variable37>, <internalURI:sample2Table5Variable38>,
+    <internalURI:sample2Table5Variable39>, <internalURI:sample2Table5Variable40>, <internalURI:sample2Table5Variable41>,
+    <internalURI:sample2Table5Variable42>, <internalURI:sample2Table5Variable43>, <internalURI:sample2Table5Variable44>,
+    <internalURI:sample2Table5Variable45>, <internalURI:sample2Table5Variable46>, <internalURI:sample2Table5Variable47>,
+    <internalURI:sample2Table5Variable48>, <internalURI:sample2Table5Variable49>, <internalURI:sample2Table5Variable50>;
+  dcterms:title "HES - Information on blood sampling | Variables"@en .
+
+<internalURI:sample2Table5Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "bc01";
+  <http://www.w3.org/ns/csvw#titles> "Blood sample collection";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20flag>;
+  dcterms:description "Indicates whether a blood sample was collected from the respondent." .
+
+<internalURI:sample2Table5Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_4";
+  <http://www.w3.org/ns/csvw#titles> "Serum total cholestrol to HDL cholesterol ratio (mg/dL)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Records the ratio of serum total cholesterol to HDL cholesterol in milligrams per deciliter (mg/dL)." .
+
+<internalURI:sample2Table5Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_5";
+  <http://www.w3.org/ns/csvw#titles> "Self-reported elevated blood cholesterol";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypercholesterolemia>;
+  dcterms:description "Indicates whether the respondent self-reported having elevated blood cholesterol." .
+
+<internalURI:sample2Table5Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_6";
+  <http://www.w3.org/ns/csvw#titles> "Elevated total cholesterol";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypercholesterolemia>;
+  dcterms:description "Indicates whether the respondent has elevated total cholesterol." .
+
+<internalURI:sample2Table5Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "bc0201";
+  <http://www.w3.org/ns/csvw#titles> "Other reason why no blood collection";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20collection%20reason>;
+  dcterms:description "Specifies an other reason for not collecting a blood sample." .
+
+<internalURI:sample2Table5Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cl_7";
+  <http://www.w3.org/ns/csvw#titles> "Actual or potential elevated serum total cholesterol";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterol%20medication%20usage>;
+  dcterms:description "Records whether the respondent has or potentially has elevated serum total cholesterol." .
+
+<internalURI:sample2Table5Variable47> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "chole_yn";
+  <http://www.w3.org/ns/csvw#titles> "Cholesterol result available";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Indicates whether the cholesterol result is available." .
+
+<internalURI:sample2Table5Variable48> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cholhdlr_1";
+  <http://www.w3.org/ns/csvw#titles> "Cholesterol risk factor result - value";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hypercholesterolemia>;
+  dcterms:description "Records the value of the cholesterol risk factor result." .
+
+<internalURI:sample2Table5Variable49> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "cholhdlr_yn";
+  <http://www.w3.org/ns/csvw#titles> "Cholesterol risk factor result available";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Indicates whether the cholesterol risk factor result is available." .
+
+<internalURI:sample2Table5Variable50> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hdl_1";
+  <http://www.w3.org/ns/csvw#titles> "HDL cholesterol result (mg/dL)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cholesterolemia>;
+  dcterms:description "Records the HDL cholesterol level in milligrams per deciliter (mg/dL)." .
+
+<internalURI:sample2Table7Variable44> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0718";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 18";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Eighteenth alternative name of medication is the other name of medication 18 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable45> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0719";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 19";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Nineteenth alternative name of medication is the other name of medication 19 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable46> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx061";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 1";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "First medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable47> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0720";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 20";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twentieth alternative name of medication is the other name of medication 20 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable48> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0721";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 21";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twenty-first alternative name of medication is the other name of medication 21 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable49> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0722";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 22";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twenty-second alternative name of medication is the other name of medication 22 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable50> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0723";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 23";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twenty-third alternative name of medication is the other name of medication 23 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable51> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0724";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 24";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twenty-fourth alternative name of medication is the other name of medication 24 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable52> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0725";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 25";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twenty-fifth alternative name of medication is the other name of medication 25 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable53> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0726";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 26";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twenty-sixth alternative name of medication is the other name of medication 26 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable54> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx062";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 2";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Second medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable55> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx063";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 3";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Third medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable41> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0715";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 15";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Fifteenth alternative name of medication is the other name of medication 15 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable42> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0716";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 16";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Sixteenth alternative name of medication is the other name of medication 16 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable43> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0717";
+  <http://www.w3.org/ns/csvw#titles> "Other name medicine 17";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Seventeenth alternative name of medication is the other name of medication 17 listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx068";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 8";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Eighth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx069";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 9";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Ninth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0610";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 10";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Tenth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0611";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 11";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Eleventh medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table7Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "qx0612";
+  <http://www.w3.org/ns/csvw#titles> "Medicine 12";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Medication%20usage>;
+  dcterms:description "Twelfth medication listed that the respondent is currently using." .
+
+<internalURI:sample2Table1Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_5B";
+  <http://www.w3.org/ns/csvw#titles> "Self-reported weight (kg) - HES population examined <= 90 days after HIS interview";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20weight%20(kg)>;
+  dcterms:description "Self-reported weight (kg) of the HES population examined within 90 days after the HIS interview." .
+
+<internalURI:sample2Table1Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_6B01";
+  <http://www.w3.org/ns/csvw#titles> "Difference between measured and self-reported weight (kg) - HES population examined <= 90 days after HIS interview - no correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20weight%20(kg)>;
+  dcterms:description "Calculates the difference between measured and self-reported weight (kg) in the HES population examined within 90 days after the HIS interview without correcting for heavy clothes." .
+
+<internalURI:sample2Table1Variable26> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_6B02";
+  <http://www.w3.org/ns/csvw#titles> "Difference between measured and self-reported weight (kg) - HES population examined <= 90 days after HIS interview - correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20weight%20(kg)>;
+  dcterms:description "Calculates the difference between measured and self-reported weight (kg) in the HES population examined within 90 days after the HIS interview with correction for heavy clothes." .
+
+<internalURI:sample2Table1Variable27> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "hg03";
+  <http://www.w3.org/ns/csvw#titles> "Height (cm)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Records the respondent's height in centimeters." .
+
+<internalURI:sample2Table1Variable28> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_7A";
+  <http://www.w3.org/ns/csvw#titles> "Waist circumference (cm) - total HES population";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Anthropometric%20Data>;
+  dcterms:description "Waist circumference (cm) measured in the entire HES population." .
+
+<internalURI:sample2Table1Variable29> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_7B";
+  <http://www.w3.org/ns/csvw#titles> "Waist circumference (cm) - HES population examined <= 90 days after HIS interview";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Anthropometric%20Data>;
+  dcterms:description "Waist circumference (cm) measured in the HES population examined within 90 days after the HIS interview." .
+
+<internalURI:sample2Table1Variable30> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_8A01";
+  <http://www.w3.org/ns/csvw#titles> "BMI (based on measured height and weight) - total HES population - no correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Body Mass Index (BMI) based on measured height and weight in the entire HES population without correcting for heavy clothes." .
+
+<internalURI:sample2Table1Variable31> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "am_8A02";
+  <http://www.w3.org/ns/csvw#titles> "BMI (based on measured height and weight) - total HES population - correction for heavy clothes";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Body%20measurements>;
+  dcterms:description "Body Mass Index (BMI) based on measured height and weight in the entire HES population with correction for heavy clothes." .
+
+<https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf>
+  <http://www.w3.org/2000/01/rdf-schema#label> "Sample Profile" .
