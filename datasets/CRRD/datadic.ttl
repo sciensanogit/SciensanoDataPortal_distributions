@@ -1,0 +1,315 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<internalURI:sample1Table1Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "referred_to";
+  <http://www.w3.org/ns/csvw#titles> "Referred to";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Referral>;
+  dcterms:description "The health service or physician the patient is referred to.";
+  <http://www.w3.org/ns/csvw#datatype> "number" .
+
+<internalURI:sample1Table1Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "status_diagnosis";
+  <http://www.w3.org/ns/csvw#titles> "Status diagnosis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diagnosis%20status>;
+  dcterms:description "The indication whether the status of the current diagnosis is provisional or definitive." .
+
+<internalURI:sample1Table1Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "country_of_current_consultation";
+  <http://www.w3.org/ns/csvw#titles> "Country of current consultation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Country>;
+  dcterms:description "The country code of the place of the current consultation." .
+
+<internalURI:sample1Table1Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "time_of_current_diagnosis";
+  <http://www.w3.org/ns/csvw#titles> "Time of current diagnosis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diagnostic%20date>;
+  dcterms:description "The answer given is the date, or best estimate thereof, when the diagnosis (or the change of diagnosis) was communicated to the patient by a physician." .
+
+<internalURI:sample1Table1Variable26> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "time_of_first_symptoms_first_consultation";
+  <http://www.w3.org/ns/csvw#titles> "Time of first symptoms (first consultation)";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Symptom%20onset%20date>;
+  dcterms:description "The time of first symptoms is the date, or best estimate thereof, when the patient went for the first time to see any physician for symptoms of his rare disease. Or, in the case of occasional findings or prenatal symptoms, it is the date when the disease manifestations (either subjective symptoms or objective signs) first came to the attention of a physician." .
+
+<internalURI:sample1Table1Variable27> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "type_of_service_requested";
+  <http://www.w3.org/ns/csvw#titles> "Type of service requested";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Service%20type>;
+  dcterms:description "The type of service requested from the registering centre." .
+
+<internalURI:sample1Table1Variable28> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "unique_nihdicode_of_the_registering_centre";
+  <http://www.w3.org/ns/csvw#titles> "Unique nihdi-code of the registering centre";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Healthcare%20institution%20Nihdi%20Code>;
+  dcterms:description "Unique NIHDI-code of the registering centre." .
+
+<internalURI:sample1Table1Variable29> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "country_of_referral";
+  <http://www.w3.org/ns/csvw#titles> "Country of referral";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Country>;
+  dcterms:description "The country of the physician/entity who referred the patient to the registering centre." .
+
+<internalURI:sample1Table1Variable30> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "date_of_current_consultation";
+  <http://www.w3.org/ns/csvw#titles> "Date of current consultation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Consultation%20date>;
+  dcterms:description "The date of the current consultation in the registering centre." .
+
+<internalURI:sample1Table1Variable31> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "date_of_first_consultation_in_the_registering_centre";
+  <http://www.w3.org/ns/csvw#titles> "Date of first consultation in the registering centre";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Consultation%20date>;
+  dcterms:description "The date on which the patient consulted for the first time a physician in the registering centre." .
+
+<internalURI:sample1Table1Variable32> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "disease_code|diagnosis_disease_name";
+  <http://www.w3.org/ns/csvw#titles> "Diagnosis: disease name";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Disease%20diagnosis>;
+  dcterms:description "The diagnosis described in words using the name, acronym or synonym of the disease in EN, FR or NL." .
+
+<internalURI:sample1Table1Variable33> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "disease_code|diagnosis_hpocode";
+  <http://www.w3.org/ns/csvw#titles> "Diagnosis: hpo-code";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:HPO-coded%20diagnosis>;
+  dcterms:description "Provisional or definitive diagnosis described using the HPO code assigned to the disease." .
+
+<internalURI:sample1Table1Variable34> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "disease_code|diagnosis_icd10code";
+  <http://www.w3.org/ns/csvw#titles> "Diagnosis: icd-10-code";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:ICD-10%20diagnosis>;
+  dcterms:description "Provisional or definitive diagnosis described using the code assigned to the disease in the ICD-10 classification." .
+
+<internalURI:sample1Table1Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comments>;
+  dcterms:description "In this free text field comments according to all the variables can be given that applies to the patient.";
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "comments";
+  <http://www.w3.org/ns/csvw#titles> "Comments" .
+
+<internalURI:sample1Table1Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "country_of_residence";
+  <http://www.w3.org/ns/csvw#titles> "Patient country of residence";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "The country of the main place of residence of the patient." .
+
+<internalURI:sample1Table1Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "patient_id|date_of_birth";
+  <http://www.w3.org/ns/csvw#titles> "Patient date of birth";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20birth%20date>;
+  dcterms:description "Date of birth of the patient." .
+
+<internalURI:sample1Table1Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "patient_id|date_of_death";
+  <http://www.w3.org/ns/csvw#titles> "Patient date of death";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20death%20date>;
+  dcterms:description "Date of death of the patient (if applicable and known)." .
+
+<internalURI:sample1Table1Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "patient_id|first_name";
+  <http://www.w3.org/ns/csvw#titles> "Patient first name";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20name>;
+  dcterms:description "The first name of the patient." .
+
+<internalURI:sample1Table1Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "patient_id|sex";
+  <http://www.w3.org/ns/csvw#titles> "Patient gender";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "Sex of the patient as it appears in the National Register or on the patient's passport or birth certificate." .
+
+<internalURI:sample1Table1Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "patient_id|name";
+  <http://www.w3.org/ns/csvw#titles> "Patient name";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20name>;
+  dcterms:description "The family name of the patient." .
+
+<internalURI:sample1Table1Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "city_of_current_consultation";
+  <http://www.w3.org/ns/csvw#titles> "City of current consultation";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Service%20Location%20identifier>;
+  dcterms:description "The postal code of the place of the current consultation." .
+
+<internalURI:sample1Table1Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "patient_id|place_of_residence";
+  <http://www.w3.org/ns/csvw#titles> "Patient place of residence";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Postal%20code>;
+  dcterms:description "The postal code of the main place of residence of the patient." .
+
+<internalURI:sample1Table1Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "disease_code|diagnosis_icdocode";
+  <http://www.w3.org/ns/csvw#titles> "Diagnosis: icd-o-code";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:ICD-O%20code%20diagnosis>;
+  dcterms:description "Provisional or definitive diagnosis described using the code assigned to the disease in the ICD-O classification." .
+
+<internalURI:sample1Table1Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "disease_code|diagnosis_iscncode";
+  <http://www.w3.org/ns/csvw#titles> "Diagnosis: iscn-code";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:ISCN%20code%20diagnosis>;
+  dcterms:description "Provisional or definitive diagnosis described using the code assigned to the genotype in the ISCN nomenclature." .
+
+<internalURI:sample1Table1Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "disease_code|diagnosis_omimcode";
+  <http://www.w3.org/ns/csvw#titles> "Diagnosis: omim-code";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:OMIM%20code%20diagnosis>;
+  dcterms:description "Provisional or definitive diagnosis described using an OMIM code assigned to the disease or to the affected gene." .
+
+<internalURI:sample1Table1Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "disease_code|diagnosis_orphacode";
+  <http://www.w3.org/ns/csvw#titles> "Diagnosis: orpha-code";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Orpha-code%20diagnosis>;
+  dcterms:description "Provisional or definitive diagnosis described using an OMIM code assigned to the disease or to the affected gene." .
+
+<internalURI:sample1Table1Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "disease_code|diagnosis_snomedctcode";
+  <http://www.w3.org/ns/csvw#titles> "Diagnosis: snomed-ct-code";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:SNOMED-CT%20diagnosis%20code>;
+  dcterms:description "Provisional or definitive diagnosis described using the code assigned to the disease in the SNOMED-CT nomenclature." .
+
+<internalURI:sample1Table1Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "patient_id|generated";
+  <http://www.w3.org/ns/csvw#titles> "Generated National registry id of the patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:National%20Registry%20Number>;
+  dcterms:description "The patient_id|generated column in the CSV can be set to 'TRUE' to automatically generate a patient_id if none was provided." .
+
+<internalURI:sample1Table1Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "patient_id|internal_patient_id";
+  <http://www.w3.org/ns/csvw#titles> "Internal patient id";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Internal patient ID or reference number." .
+
+<internalURI:sample1Table1Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "referred_by";
+  <http://www.w3.org/ns/csvw#titles> "Referred by";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Referral%20source>;
+  dcterms:description "The physician or entity who referred the patient to the registering centre." .
+
+<http://sciensanofdp.darwinproject.be:8080/profile/e854768e-3c0b-460e-9032-131088f95b21>
+  a dcterms:Standard .
+
+<http://publications.europa.eu/resource/authority/file-type/XLSX> a dcterms:MediaTypeOrExtent .
+
+<http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet>
+  a dcterms:MediaType .
+
+<https://fair.healthdata.be/sites/default/files/distribution/a36012ab-8ab5-4fcf-b86c-c5c191ad14b0/HD_DCD_SPEC_HDBP0008_CRRD_v5.0.1.xlsx>
+  a <http://www.w3.org/ns/csvw#TableGroup>;
+  <http://www.w3.org/ns/csvw#table> <internalURI:sample1Table1> .
+
+<https://sciensano.healthdataportal.eu:443/sample/dec4c770-b922-42fd-b0e6-562966ce816e>
+  a dcat:Resource, dcat:Distribution;
+  dcterms:accessRights <https://sciensano.healthdataportal.eu:443/sample/dec4c770-b922-42fd-b0e6-562966ce816e#accessRights>;
+  dcterms:conformsTo <http://sciensanofdp.darwinproject.be:8080/profile/e854768e-3c0b-460e-9032-131088f95b21>,
+    <https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf>;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://sciensano.healthdataportal.eu:443/sample/dec4c770-b922-42fd-b0e6-562966ce816e#identifier>;
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2024-12-04T11:55:52.470Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2025-02-21T14:37:56.597Z"^^xsd:dateTime;
+  dcterms:isPartOf <https://sciensano.healthdataportal.eu:443/dataset/13710174-c535-4525-9527-f266635497e8>;
+  <http://semanticscience.org/resource/SIO_000628> <https://sciensano.healthdataportal.eu:443/sample/dec4c770-b922-42fd-b0e6-562966ce816e/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://sciensano.healthdataportal.eu:443/sample/dec4c770-b922-42fd-b0e6-562966ce816e/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcat:downloadURL <https://fair.healthdata.be/sites/default/files/distribution/a36012ab-8ab5-4fcf-b86c-c5c191ad14b0/HD_DCD_SPEC_HDBP0008_CRRD_v5.0.1.xlsx>;
+  dcat:accessURL <https://sciensano.healthdataportal.eu/sample/dec4c770-b922-42fd-b0e6-562966ce816e>;
+  dcterms:format <http://publications.europa.eu/resource/authority/file-type/XLSX>;
+  dcat:mediaType <http://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet>;
+  dcat:version "4.0";
+  <http://www.w3.org/2000/01/rdf-schema#label> "CRRD | Data collection definition";
+  dcterms:description "This dataset outlines the specifications and parameters for collecting data related to rare diseases within the Central Registry for Rare Diseases."@en,
+    "Ce jeu de données décrit les spécifications et les paramètres pour la collecte de données liées aux maladies rares au sein du Registre Central des Maladies Rares."@fr,
+    "Deze dataset geeft de specificaties en parameters weer voor het verzamelen van gegevens met betrekking tot zeldzame ziekten binnen het Centraal Register voor Zeldzame Ziekten."@nl;
+  dcterms:title "CRRD | Data collection definition"@en .
+
+<https://sciensano.healthdataportal.eu:443/sample/dec4c770-b922-42fd-b0e6-562966ce816e/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://sciensano.healthdataportal.eu:443/sample/dec4c770-b922-42fd-b0e6-562966ce816e/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777> .
+
+<https://sciensano.healthdataportal.eu:443/sample/dec4c770-b922-42fd-b0e6-562966ce816e#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://sciensano.healthdataportal.eu:443/sample/dec4c770-b922-42fd-b0e6-562966ce816e#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://sciensano.healthdataportal.eu:443/sample/dec4c770-b922-42fd-b0e6-562966ce816e" .
+
+<internalURI:sample1Table1> a <http://www.w3.org/ns/csvw#Table>;
+  dcat:keyword "data collection definition"@en;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample1Table1Variable1>, <internalURI:sample1Table1Variable10>,
+    <internalURI:sample1Table1Variable11>, <internalURI:sample1Table1Variable12>, <internalURI:sample1Table1Variable13>,
+    <internalURI:sample1Table1Variable14>, <internalURI:sample1Table1Variable15>, <internalURI:sample1Table1Variable16>,
+    <internalURI:sample1Table1Variable17>, <internalURI:sample1Table1Variable18>, <internalURI:sample1Table1Variable19>,
+    <internalURI:sample1Table1Variable2>, <internalURI:sample1Table1Variable20>, <internalURI:sample1Table1Variable3>,
+    <internalURI:sample1Table1Variable4>, <internalURI:sample1Table1Variable5>, <internalURI:sample1Table1Variable6>,
+    <internalURI:sample1Table1Variable7>, <internalURI:sample1Table1Variable8>, <internalURI:sample1Table1Variable9>,
+    <internalURI:sample1Table1Variable21>, <internalURI:sample1Table1Variable22>, <internalURI:sample1Table1Variable23>,
+    <internalURI:sample1Table1Variable24>, <internalURI:sample1Table1Variable25>, <internalURI:sample1Table1Variable26>,
+    <internalURI:sample1Table1Variable27>, <internalURI:sample1Table1Variable28>, <internalURI:sample1Table1Variable29>,
+    <internalURI:sample1Table1Variable30>, <internalURI:sample1Table1Variable31>, <internalURI:sample1Table1Variable32>,
+    <internalURI:sample1Table1Variable33>, <internalURI:sample1Table1Variable34>;
+  <http://www.w3.org/ns/csvw#url> <https://sciensano.healthdataportal.eu/sample/dec4c770-b922-42fd-b0e6-562966ce816e>;
+  dcterms:title "CRRD | DCD"@en .
+
+<internalURI:sample1Table1Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "base_of_diagnosis";
+  <http://www.w3.org/ns/csvw#titles> "Base of diagnosis";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Diagnostic%20criteria>;
+  dcterms:description "The different elements on which the current diagnosis is based." .
+
+<internalURI:sample1Table1Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "patient_id|deceased";
+  <http://www.w3.org/ns/csvw#titles> "Is patient deceased?";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Death%20flag>;
+  dcterms:description "The indication whether the patient is deceased or not." .
+
+<internalURI:sample1Table1Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "patient_id";
+  <http://www.w3.org/ns/csvw#titles> "National registry id of the patient";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:National%20Registry%20Number>;
+  dcterms:description "Unique identification number for the patient. If the patient resides in Belgium it is mandatory to use a NR number or SSIN number." .
+
+<internalURI:sample1Table1Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "nihdicode_of_the_specialist";
+  <http://www.w3.org/ns/csvw#titles> "Nihdi-code of the specialist";
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Nihdi%20code>;
+  dcterms:description "The NIHDI code of the physician who saw the patient in consultation." .
+
+<https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf>
+  <http://www.w3.org/2000/01/rdf-schema#label> "Sample Profile" .
