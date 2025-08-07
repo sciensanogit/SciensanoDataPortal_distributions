@@ -1,0 +1,188 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<internalURI:sample1Table1Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20birth%20date>;
+  dcterms:description "The date on which the patient was born."@en;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "patient_id|date_of_birth"@en;
+  <http://www.w3.org/ns/csvw#titles> "Date of birth"@en .
+
+<internalURI:sample1Table1Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "patient_id|sex"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sex"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "The gender of the patient."@en .
+
+<internalURI:sample1Table1Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "CD_RIZIV_RESPB_HLTHPROF"@en;
+  <http://www.w3.org/ns/csvw#titles> "RIZIV/INAMI-code of the healthcare professional responsible for registration"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Healthcare%20worker%20NIHDI%20code>;
+  dcterms:description "Unique code assigned to the healthcare professional overseeing the patient's registration."@en .
+
+<internalURI:sample1Table1Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "patient_id|place_of_residence"@en;
+  <http://www.w3.org/ns/csvw#titles> "Place of residence"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20address>;
+  dcterms:description "The location where the patient resides."@en .
+
+<internalURI:sample1Table1Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "patient_id|deceased"@en;
+  <http://www.w3.org/ns/csvw#titles> "Deceased?"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Indicates whether the patient is deceased (Yes/No)."@en .
+
+<internalURI:sample1Table1Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "patient_id|date_of_death"@en;
+  <http://www.w3.org/ns/csvw#titles> "Date of death"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20death%20date>;
+  dcterms:description "The date on which the patient passed away."@en .
+
+<internalURI:sample1Table1Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_INDICATN_NGS"@en;
+  <http://www.w3.org/ns/csvw#titles> "Indication NGS convention (reimbursed)"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:NGS%20indication>;
+  dcterms:description "Specifies the indication for which the NGS test has been performed (listed in the NGS convention - Reimbursed)."@en .
+
+<internalURI:sample1Table1Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_INDICATN_PREC"@en;
+  <http://www.w3.org/ns/csvw#titles> "Indication PRECISION (not reimbursed)"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:PRECISION%20study%20indication>;
+  dcterms:description "Specifies the indication for which the NGS test has been performed (not listed in the NGS convention - Not reimbursed)."@en .
+
+<internalURI:sample1Table1Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_RIZIV_PRM_LAB"@en;
+  <http://www.w3.org/ns/csvw#titles> "RIZIV/INAMI-code of the primary lab"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Laboratory%20NIHDI%20number>;
+  dcterms:description "Unique code (INAMI / RIZIV number) assigned to the primary laboratory performing the tests."@en .
+
+<internalURI:sample1Table1Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "CD_RIZIV_PRESCR_PHYS"@en;
+  <http://www.w3.org/ns/csvw#titles> "RIZIV/INAMI-code of the prescribing physician"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Healthcare%20worker%20NIHDI%20code>;
+  dcterms:description "Unique code (INAMI / RIZIV number) assigned to the physician who prescribed the treatment or test."@en .
+
+<internalURI:sample1Table1Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_PRESCR"@en;
+  <http://www.w3.org/ns/csvw#titles> "Date of receipt of the prescription"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Prescription%20name%20effective%20date>;
+  dcterms:description "The date on which the prescription was received by the relevant entity."@en .
+
+<https://catalog.hda.belgium.be/> a <http://www.w3.org/ns/csvw#TableGroup>;
+  <http://www.w3.org/ns/csvw#table> <internalURI:sample1Table1> .
+
+<https://sciensano.healthdataportal.eu:443/sample/b76af7ff-1e17-4d95-b0e9-6d8c63d647c4>
+  a dcat:Resource, dcat:Distribution;
+  dcterms:accessRights <https://sciensano.healthdataportal.eu:443/sample/b76af7ff-1e17-4d95-b0e9-6d8c63d647c4#accessRights>;
+  dcterms:conformsTo <http://backup.healthdataportal.eu/profile/cf0b38b7-2922-4883-a04e-26a9b53f5936>,
+    <https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf>;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://sciensano.healthdataportal.eu:443/sample/b76af7ff-1e17-4d95-b0e9-6d8c63d647c4#identifier>;
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2024-12-04T12:13:16.698Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2024-12-13T13:32:20.687Z"^^xsd:dateTime;
+  dcterms:isPartOf <https://sciensano.healthdataportal.eu:443/dataset/c631ebd0-34bf-4304-92c0-1ffab1f650e7>;
+  <http://semanticscience.org/resource/SIO_000628> <https://sciensano.healthdataportal.eu:443/sample/b76af7ff-1e17-4d95-b0e9-6d8c63d647c4/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://sciensano.healthdataportal.eu:443/sample/b76af7ff-1e17-4d95-b0e9-6d8c63d647c4/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcterms:rights [ a dcterms:RightsStatement;
+      <http://www.w3.org/2000/01/rdf-schema#label> "_g_L110C5125"@en
+    ];
+  dcat:downloadURL <https://catalog.hda.belgium.be/>;
+  dcat:accessURL <https://catalog.hda.belgium.be/>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Next Generation Sequencing";
+  dcterms:title "Next Generation Sequencing"@en .
+
+<https://sciensano.healthdataportal.eu:443/sample/b76af7ff-1e17-4d95-b0e9-6d8c63d647c4/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://sciensano.healthdataportal.eu:443/sample/b76af7ff-1e17-4d95-b0e9-6d8c63d647c4/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777> .
+
+<https://sciensano.healthdataportal.eu:443/sample/b76af7ff-1e17-4d95-b0e9-6d8c63d647c4#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://sciensano.healthdataportal.eu:443/sample/b76af7ff-1e17-4d95-b0e9-6d8c63d647c4#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://sciensano.healthdataportal.eu:443/sample/b76af7ff-1e17-4d95-b0e9-6d8c63d647c4" .
+
+<internalURI:sample1Table1> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample1Table1Variable1>, <internalURI:sample1Table1Variable10>,
+    <internalURI:sample1Table1Variable11>, <internalURI:sample1Table1Variable12>, <internalURI:sample1Table1Variable13>,
+    <internalURI:sample1Table1Variable14>, <internalURI:sample1Table1Variable15>, <internalURI:sample1Table1Variable16>,
+    <internalURI:sample1Table1Variable17>, <internalURI:sample1Table1Variable18>, <internalURI:sample1Table1Variable19>,
+    <internalURI:sample1Table1Variable2>, <internalURI:sample1Table1Variable20>, <internalURI:sample1Table1Variable3>,
+    <internalURI:sample1Table1Variable4>, <internalURI:sample1Table1Variable5>, <internalURI:sample1Table1Variable6>,
+    <internalURI:sample1Table1Variable7>, <internalURI:sample1Table1Variable8>, <internalURI:sample1Table1Variable9>;
+  <http://www.w3.org/ns/csvw#url> <https://catalog.hda.belgium.be/>;
+  dcterms:title "Next Generation Sequencing"@en .
+
+<internalURI:sample1Table1Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "CD_ORG_ID"@en;
+  <http://www.w3.org/ns/csvw#titles> "Identification of the registering organization (laboratory)"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Healthcare%20institution%20identifier>;
+  dcterms:description "Unique identifier for the laboratory responsible for registering the patient."@en .
+
+<internalURI:sample1Table1Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_SAMPLING"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sampling date"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sampling%20date>;
+  dcterms:description "The date on which the sample was collected from the patient."@en .
+
+<internalURI:sample1Table1Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "TX_SAMPLE_ID_PRM_LAB"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample ID (primary lab)"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20ID>;
+  dcterms:description "Unique identifier assigned to the sample by the primary laboratory."@en .
+
+<internalURI:sample1Table1Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "TX_ATT_FILENAME"@en;
+  <http://www.w3.org/ns/csvw#titles> "VCF file"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Technical%20parameter%20or%20information>;
+  dcterms:description "Name of the file containing genetic data from the patient's sample."@en .
+
+<internalURI:sample1Table1Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "patient_id"@en;
+  <http://www.w3.org/ns/csvw#titles> "National registry ID of the patient"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:National%20Registry%20Number>;
+  dcterms:description "National register number of the patient"@en .
+
+<internalURI:sample1Table1Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "patient_id|internal_patient_id"@en;
+  <http://www.w3.org/ns/csvw#titles> "Internal patient ID"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "Unique identifier assigned to the patient within the organization or system."@en .
+
+<internalURI:sample1Table1Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "patient_id|generated"@en;
+  <http://www.w3.org/ns/csvw#titles> "Generated"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:National%20Registry%20Number>;
+  dcterms:description "Based on the availability of the National Register number. Indicates whether the patient ID is being generated by the system (True) or not (False)."@en .
+
+<internalURI:sample1Table1Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "patient_id|name"@en;
+  <http://www.w3.org/ns/csvw#titles> "Name"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20name>;
+  dcterms:description "Family name of the patient."@en .
+
+<internalURI:sample1Table1Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#name> "patient_id|first_name"@en;
+  <http://www.w3.org/ns/csvw#titles> "First name"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20name>;
+  dcterms:description "Given name of the patient."@en .
+
+<https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf>
+  <http://www.w3.org/2000/01/rdf-schema#label> "Sample Profile" .
