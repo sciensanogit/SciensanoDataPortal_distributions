@@ -1,0 +1,167 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<internalURI:sample1Table1Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  dcterms:description "Total number of patient-days in hospitals served by the laboratories that provided the number of blood culture sets collected. This number may be equal to or less than \"NumPatDaysHospCov\" if only some of the laboratories provided the number of blood culture sets collected in the hospitals served by the laboratories reporting to EARS-Net and sent to these laboratories."@en;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NumPatDaysForRateCov"@en;
+  <http://www.w3.org/ns/csvw#titles> "Number of hospital patient-days for calculation of blood culture rate"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Days%20in%20day%20care> .
+
+<internalURI:sample1Table1Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NumPatDaysHospCov"@en;
+  <http://www.w3.org/ns/csvw#titles> "Number of hospital patient-days"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Days%20in%20day%20care>;
+  dcterms:description "Number of patient-days of hospitals served by laboratories reporting to EARS-Net."@en .
+
+<internalURI:sample1Table1Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Pathogen"@en;
+  <http://www.w3.org/ns/csvw#titles> "Pathogen Cov"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Pathogen%20Code>;
+  dcterms:description """Pathogen. The code \"PATAMR\" refers to all microorganism species reported in EARS-Net. The other eight codes are specific for microorganism species under surveillance. Code values can be: PATAMR=All EARS-Net pathogens (to be used if coverage is the same for all pathogens) STRPNE=Streptococcus pneumoniae
+STAAUR=Staphylococcus aureus
+ENCFAE=Enterococcus faecalis ENCFAI=Enterococcus faecium ESCCOL=Escherichia coli KLEPNE=Klebsiella pneumoniae PSEAER=Pseudomonas aeruginosa ACISPP=Acinetobacter species."""@en .
+
+<https://sciensano.healthdataportal.eu:443/sample/501e716b-6fb2-4b9d-a8e3-c3be31e7d493>
+  a dcat:Resource, dcat:Distribution;
+  dcterms:accessRights <https://sciensano.healthdataportal.eu:443/sample/501e716b-6fb2-4b9d-a8e3-c3be31e7d493#accessRights>;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://sciensano.healthdataportal.eu:443/sample/501e716b-6fb2-4b9d-a8e3-c3be31e7d493#identifier>;
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2025-02-13T17:00:02.464Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2025-02-13T17:00:02.464Z"^^xsd:dateTime;
+  dcterms:isPartOf <https://sciensano.healthdataportal.eu:443/dataset/7bcd85a2-d90a-4d0c-871c-97523d7cd5f1>;
+  <http://semanticscience.org/resource/SIO_000628> <https://sciensano.healthdataportal.eu:443/sample/501e716b-6fb2-4b9d-a8e3-c3be31e7d493/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://sciensano.healthdataportal.eu:443/sample/501e716b-6fb2-4b9d-a8e3-c3be31e7d493/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcat:downloadURL <https://www.sciensano.be/nl/projecten/europese-antimicrobiele-resistentie-surveillance-belgie>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Antimicrobial Resistance - EARS-Net coverage | Data dictionary";
+  dcterms:title "Antimicrobial Resistance - EARS-Net coverage | Data dictionary"@en;
+  dcterms:conformsTo <https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf> .
+
+<https://sciensano.healthdataportal.eu:443/sample/501e716b-6fb2-4b9d-a8e3-c3be31e7d493/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://sciensano.healthdataportal.eu:443/sample/501e716b-6fb2-4b9d-a8e3-c3be31e7d493/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777> .
+
+<https://sciensano.healthdataportal.eu:443/sample/501e716b-6fb2-4b9d-a8e3-c3be31e7d493#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://sciensano.healthdataportal.eu:443/sample/501e716b-6fb2-4b9d-a8e3-c3be31e7d493#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://sciensano.healthdataportal.eu:443/sample/501e716b-6fb2-4b9d-a8e3-c3be31e7d493" .
+
+<https://www.sciensano.be/nl/projecten/europese-antimicrobiele-resistentie-surveillance-belgie>
+  a <http://www.w3.org/ns/csvw#TableGroup>;
+  <http://www.w3.org/ns/csvw#table> <internalURI:sample1Table1> .
+
+<internalURI:sample1Table1> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample1Table1Variable1>, <internalURI:sample1Table1Variable10>,
+    <internalURI:sample1Table1Variable11>, <internalURI:sample1Table1Variable12>, <internalURI:sample1Table1Variable13>,
+    <internalURI:sample1Table1Variable14>, <internalURI:sample1Table1Variable15>, <internalURI:sample1Table1Variable16>,
+    <internalURI:sample1Table1Variable2>, <internalURI:sample1Table1Variable3>, <internalURI:sample1Table1Variable4>,
+    <internalURI:sample1Table1Variable5>, <internalURI:sample1Table1Variable6>, <internalURI:sample1Table1Variable7>,
+    <internalURI:sample1Table1Variable8>, <internalURI:sample1Table1Variable9>;
+  dcterms:title "Antimicrobial Resistance - EARS-Net coverage | Data dictionary"@en .
+
+<internalURI:sample1Table1Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "DataSource"@en;
+  <http://www.w3.org/ns/csvw#titles> "Data source"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Data%20source>;
+  dcterms:description "The data source (surveillance system) that the record originates from."@en .
+
+<internalURI:sample1Table1Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "PopGeoReprCov"@en;
+  <http://www.w3.org/ns/csvw#titles> "Population sample geographical representativeness"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Primary%20Sampling%20Unit>;
+  dcterms:description "Population sample geographical representativeness."@en .
+
+<internalURI:sample1Table1Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "PropPopulationLabCov"@en;
+  <http://www.w3.org/ns/csvw#titles> "Estimated proportion of the national population covered by the laboratories"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:National%20Population%20Coverage%20Estimate>;
+  dcterms:description "Best available estimate for the proportion of the national population covered by the laboratories reporting to EARS-Net in the specific year. Use '.' as decimal delimiter, e.g. 0.32."@en .
+
+<internalURI:sample1Table1Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "RecordType"@en;
+  <http://www.w3.org/ns/csvw#titles> "Record type"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20type>;
+  dcterms:description "Structure and format of the data (case based reporting or aggregate reporting)."@en .
+
+<internalURI:sample1Table1Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "RecordTypeVersion"@en;
+  <http://www.w3.org/ns/csvw#titles> "Record type version"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20type>;
+  dcterms:description "Indicates the version of the Record type used in the reported batch. If no RecordTypeVersion is provided in the batch, it is set automatically with current version of the Record type. RecordTypeVersion is required when no metadata set is provided at upload or when a RecordTypeVersion, other than the current one, needs to be used."@en .
+
+<internalURI:sample1Table1Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "ReportingCountry"@en;
+  <http://www.w3.org/ns/csvw#titles> "Reporting country"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Country%20code>;
+  dcterms:description "The country reporting the record."@en .
+
+<internalURI:sample1Table1Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "SameMicrSampleCov"@en;
+  <http://www.w3.org/ns/csvw#titles> "Estimated coverages and representativeness are the same for all microorganism sp"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Isolate%20representativeness>;
+  dcterms:description "If coverages and representativeness are the same for all microorganism species, one AMRCOVER record per DataSource and year is expected (the code \"PATAMR\" should be used for the variable \"PathogenCov\"). If coverages and representativeness differ by species, eight AMRCOVER records per DataSource and year are expected (all codes other than \"PATAMR\" should be used for the variable \"PathogenCov\")."@en .
+
+<internalURI:sample1Table1Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Subject"@en;
+  <http://www.w3.org/ns/csvw#titles> "Subject"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Data%20type>;
+  dcterms:description "Subject of the data reported."@en .
+
+<internalURI:sample1Table1Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DateUsedForStatistics"@en;
+  <http://www.w3.org/ns/csvw#titles> "Date used for statistics"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Data%20submission%20date>;
+  dcterms:description "The reference year for which the data are valid is compared to the reporting period. The date used for statistics can be any date that the reporting country finds applicable, such as the date of notification, date of diagnosis, or any other relevant date."@en .
+
+<internalURI:sample1Table1Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "HospitalReprCov"@en;
+  <http://www.w3.org/ns/csvw#titles> "Hospital sample representativeness"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20sample%20representativeness>;
+  dcterms:description "Hospital sample representativeness. Code values can be: HIGH = the hospital sample is representative of the acute care hospital distribution in the country; MEDIUM = the hospital sample is partly representative of the acute care hospital distribution in the country; LOW = the hospital sample is insufficiently representative of the acute care hospital distribution in the country."@en .
+
+<internalURI:sample1Table1Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "IsolateMicroRepr"@en;
+  <http://www.w3.org/ns/csvw#titles> "Isolate representativeness"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Isolate%20representativeness>;
+  dcterms:description "Representativeness of the sample of isolates causing invasive infections. Codes values can be: HIGH = the isolate sample is representative of microorganisms causing invasive infections in the included hospitals; MEDIUM = the isolate sample is partly representative of microorganisms causing invasive infections in the included hospitals; LOW = the isolate sample is insufficiently representative of microorganisms causing invasive infections in the included hospitals."@en .
+
+<internalURI:sample1Table1Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NumBedsHospCov"@en;
+  <http://www.w3.org/ns/csvw#titles> "Number of hospital beds"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Hospital%20beds%20capacity>;
+  dcterms:description "Number of hospital beds served by laboratories reporting to EARS-Net"@en .
+
+<internalURI:sample1Table1Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "NumCultureSetsHospCov"@en;
+  <http://www.w3.org/ns/csvw#titles> "Number of blood culture sets taken in hospitals"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20count>;
+  dcterms:description "Total number of blood culture sets taken in hospitals served by laboratories reporting to EARS-Net, and sent to these laboratories. The provided data should be suitable for calculating the blood culture rate in the specific year: number of sets refers to the hospital sample for which the aggregated denominator (NumPatDaysForRateCov) is provided."@en .
+
+<https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf>
+  <http://www.w3.org/2000/01/rdf-schema#label> "Sample Profile" .
