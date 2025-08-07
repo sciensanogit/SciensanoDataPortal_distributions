@@ -1,0 +1,285 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<internalURI:sample1Table1> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample1Table1Variable1>, <internalURI:sample1Table1Variable10>,
+    <internalURI:sample1Table1Variable11>, <internalURI:sample1Table1Variable12>, <internalURI:sample1Table1Variable13>,
+    <internalURI:sample1Table1Variable14>, <internalURI:sample1Table1Variable15>, <internalURI:sample1Table1Variable16>,
+    <internalURI:sample1Table1Variable17>, <internalURI:sample1Table1Variable18>, <internalURI:sample1Table1Variable19>,
+    <internalURI:sample1Table1Variable2>, <internalURI:sample1Table1Variable20>, <internalURI:sample1Table1Variable3>,
+    <internalURI:sample1Table1Variable4>, <internalURI:sample1Table1Variable5>, <internalURI:sample1Table1Variable6>,
+    <internalURI:sample1Table1Variable7>, <internalURI:sample1Table1Variable8>, <internalURI:sample1Table1Variable9>,
+    <internalURI:sample1Table1Variable21>, <internalURI:sample1Table1Variable22>, <internalURI:sample1Table1Variable23>,
+    <internalURI:sample1Table1Variable24>, <internalURI:sample1Table1Variable25>, <internalURI:sample1Table1Variable26>,
+    <internalURI:sample1Table1Variable27>, <internalURI:sample1Table1Variable28>, <internalURI:sample1Table1Variable29>,
+    <internalURI:sample1Table1Variable30>, <internalURI:sample1Table1Variable31>;
+  dcterms:title "Precision - Local MAB | Data Collection Definition"@en .
+
+<internalURI:sample1Table1Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "patient_id"@en;
+  <http://www.w3.org/ns/csvw#titles> "National registry ID of the patient"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:National%20Registry%20Number>;
+  dcterms:description "A unique identifier assigned to the patient by the national registry."@en .
+
+<internalURI:sample1Table1Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "variant_information|0|TX_NM_REF"@en;
+  <http://www.w3.org/ns/csvw#titles> "NM_ref"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Gene%20alteration%20information>;
+  dcterms:description "The NM reference number of the gene that has been altered."@en .
+
+<internalURI:sample1Table1Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "variant_information|0|TX_CDNA_POSTN"@en;
+  <http://www.w3.org/ns/csvw#titles> "cDNA position"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Genetic%20variant%20position>;
+  dcterms:description "The position of the alteration at the cDNA level."@en .
+
+<internalURI:sample1Table1Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "patient_id|internal_patient_id"@en;
+  <http://www.w3.org/ns/csvw#titles> "Internal patient ID"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20identifier>;
+  dcterms:description "A unique identifier assigned to the patient within the hospital or healthcare system."@en .
+
+<internalURI:sample1Table1Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "variant_information|0|TX_PROTE_POSTN"@en;
+  <http://www.w3.org/ns/csvw#titles> "Protein position"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Genetic%20variant%20position>;
+  dcterms:description "The position of the alteration at the protein level."@en .
+
+<internalURI:sample1Table1Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "responsible_physician"@en;
+  <http://www.w3.org/ns/csvw#titles> "RIZIV/INAMI-code of the responsible physician"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Healthcare%20worker%20NIHDI%20code>;
+  dcterms:description "The unique identifier code of the physician responsible for the patient, assigned by RIZIV/INAMI."@en .
+
+<internalURI:sample1Table1Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "vcf_identifier"@en;
+  <http://www.w3.org/ns/csvw#titles> "VCF identifier"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:VCF%20file>;
+  dcterms:description "The identifier for the Variant Call Format (VCF) file."@en .
+
+<internalURI:sample1Table1Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "CD_ICDO_MORPH"@en;
+  <http://www.w3.org/ns/csvw#titles> "Primary tumor type and histology"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Pathology%20type>;
+  dcterms:description "The type and histology of the primary tumor."@en .
+
+<internalURI:sample1Table1Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_PAT_REGN"@en;
+  <http://www.w3.org/ns/csvw#titles> "Patient registration is linked with"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Associated%20study>;
+  dcterms:description "Indicates the study (Balett or Geneo) through which the patient has been enrolled."@en .
+
+<internalURI:sample1Table1Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "TX_SAMPLE_ID_PRM_LAB"@en;
+  <http://www.w3.org/ns/csvw#titles> "FMI-Order ID (primary lab)"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:FMI-Order%20ID%20(primary%20lab)>;
+  dcterms:description "The unique identifier for the order placed with the Foundation Medicine, Inc. (Geneo study, FMI) primary lab."@en .
+
+<internalURI:sample1Table1Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "TX_ATT_FILENAME"@en;
+  <http://www.w3.org/ns/csvw#titles> "XML NGS report file name"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Study%20name>;
+  dcterms:description "The file name of the NGS XML report (Ballett study)."@en .
+
+<internalURI:sample1Table1Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_SAMPLE_TUMOR_STG"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample tumoral stage"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Pathology%20stage>;
+  dcterms:description "The stage of the tumor at the time the sample was taken."@en .
+
+<internalURI:sample1Table1Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "DT_SAMPLING"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sampling date"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sampling%20date>;
+  dcterms:description "The date when the sample was collected from the patient."@en .
+
+<internalURI:sample1Table1Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "CD_ANATCL_SITE"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample anatomic site"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20collection%20site>;
+  dcterms:description "The anatomical location from which the sample was taken."@en .
+
+<internalURI:sample1Table1Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "CD_SAMPLE_ACQST"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample acquisition"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20method>;
+  dcterms:description "The method or process used to acquire the sample."@en .
+
+<internalURI:sample1Table1Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "patient_id|generated"@en;
+  <http://www.w3.org/ns/csvw#titles> "Generated"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:System%20gererated%20flag%20>;
+  dcterms:description "Indicates whether the patient has been generated by the system."@en .
+
+<internalURI:sample1Table1Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "TX_SAMPLE_ACQST_OTH"@en;
+  <http://www.w3.org/ns/csvw#titles> "Please specify"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20ID>;
+  dcterms:description "Additional details or specifications about the sample acquisition or related data."@en .
+
+<internalURI:sample1Table1Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "CD_SAMPLE_TPE"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample types"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20category>;
+  dcterms:description "The types of samples collected (e.g., blood, tissue)."@en .
+
+<internalURI:sample1Table1Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "MS_CEL_NEOPLC"@en;
+  <http://www.w3.org/ns/csvw#titles> "Neoplastic cells (%)"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cancer%20screening%20rates>;
+  dcterms:description "The percentage of neoplastic (tumor) cells present in the sample."@en .
+
+<internalURI:sample1Table1Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "variant_information|0|TX_GENE_NAM"@en;
+  <http://www.w3.org/ns/csvw#titles> "Gene name"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Gene%20alteration%20information>;
+  dcterms:description "The name of the gene that has been altered."@en .
+
+<http://ehelse.healthdataportal.eu/profile/811de8b3-8696-4e8e-996e-28f8d73592ad> a
+    dcterms:Standard .
+
+<http://publications.europa.eu/resource/authority/file-type/TXT> a dcterms:MediaTypeOrExtent .
+
+<https://sciensano.healthdataportal.eu:443/sample/7fd35296-6915-4e71-b680-dbd1f1f77caa>
+  a dcat:Resource, dcat:Distribution;
+  dcterms:accessRights <https://sciensano.healthdataportal.eu:443/sample/7fd35296-6915-4e71-b680-dbd1f1f77caa#accessRights>;
+  dcterms:conformsTo <http://ehelse.healthdataportal.eu/profile/811de8b3-8696-4e8e-996e-28f8d73592ad>,
+    <https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf>;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://sciensano.healthdataportal.eu:443/sample/7fd35296-6915-4e71-b680-dbd1f1f77caa#identifier>;
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2024-12-04T12:15:43.171Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2025-02-13T16:21:22.936Z"^^xsd:dateTime;
+  dcterms:isPartOf <https://sciensano.healthdataportal.eu:443/dataset/3f7f74e6-2167-46b3-9b92-fa00de00a829>;
+  <http://semanticscience.org/resource/SIO_000628> <https://sciensano.healthdataportal.eu:443/sample/7fd35296-6915-4e71-b680-dbd1f1f77caa/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://sciensano.healthdataportal.eu:443/sample/7fd35296-6915-4e71-b680-dbd1f1f77caa/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcterms:rights [ a dcterms:RightsStatement;
+      <http://www.w3.org/2000/01/rdf-schema#label> "Restricted"@en
+    ];
+  dcat:downloadURL <https://www.healthdata.be/dcd/#/collection/Precision_Local_MAB/version/3>;
+  dcterms:format <http://publications.europa.eu/resource/authority/file-type/TXT>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Precision local MAB | Data collection definition";
+  dcterms:description "The data collection definition (DCD) for the dataset."@en;
+  dcterms:title "Precision local MAB | Data collection definition"@en .
+
+<https://sciensano.healthdataportal.eu:443/sample/7fd35296-6915-4e71-b680-dbd1f1f77caa/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://sciensano.healthdataportal.eu:443/sample/7fd35296-6915-4e71-b680-dbd1f1f77caa/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777> .
+
+<https://sciensano.healthdataportal.eu:443/sample/7fd35296-6915-4e71-b680-dbd1f1f77caa#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://sciensano.healthdataportal.eu:443/sample/7fd35296-6915-4e71-b680-dbd1f1f77caa#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://sciensano.healthdataportal.eu:443/sample/7fd35296-6915-4e71-b680-dbd1f1f77caa" .
+
+<https://www.healthdata.be/dcd/#/collection/Precision_Local_MAB/version/3> a <http://www.w3.org/ns/csvw#TableGroup>;
+  <http://www.w3.org/ns/csvw#table> <internalURI:sample1Table1> .
+
+<internalURI:sample1Table1Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "variant_information|0|CD_BIOL_CLASS"@en;
+  <http://www.w3.org/ns/csvw#titles> "Biological classes"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Gene%20alteration%20information>;
+  dcterms:description "Biological class of the alteration."@en .
+
+<internalURI:sample1Table1Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "variant_information|0|MS_ALLC_FREQ"@en;
+  <http://www.w3.org/ns/csvw#titles> "Allelic frequency"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Allelic%20frequency>;
+  dcterms:description "The allelic frequency of the alteration."@en .
+
+<internalURI:sample1Table1Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "variant_information|0|MS_READ_DEPTH"@en;
+  <http://www.w3.org/ns/csvw#titles> "Read depth"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Genetic%20variant%20position>;
+  dcterms:description "The read depth of the alteration."@en .
+
+<internalURI:sample1Table1Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "patient_id|name"@en;
+  <http://www.w3.org/ns/csvw#titles> "Last Name"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20name>;
+  dcterms:description "The family name of the patient."@en .
+
+<internalURI:sample1Table1Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "variant_information|0|CD_CLIN_CLASS"@en;
+  <http://www.w3.org/ns/csvw#titles> "Clinical classes"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Clinical%20class>;
+  dcterms:description "Clinical class of the alteration."@en .
+
+<internalURI:sample1Table1Variable26> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "patient_id|first_name"@en;
+  <http://www.w3.org/ns/csvw#titles> "First Name"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20name>;
+  dcterms:description "The given name of the patient."@en .
+
+<internalURI:sample1Table1Variable27> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "patient_id|date_of_birth"@en;
+  <http://www.w3.org/ns/csvw#titles> "Date of birth"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20birth%20date>;
+  dcterms:description "The birth date of the patient."@en .
+
+<internalURI:sample1Table1Variable28> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "patient_id|sex"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sex"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20gender>;
+  dcterms:description "The gender of the patient."@en .
+
+<internalURI:sample1Table1Variable29> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "unsignedLong";
+  <http://www.w3.org/ns/csvw#name> "patient_id|place_of_residence"@en;
+  <http://www.w3.org/ns/csvw#titles> "Place of residence"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20address>;
+  dcterms:description "The location or address where the patient lives."@en .
+
+<internalURI:sample1Table1Variable30> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "patient_id|deceased"@en;
+  <http://www.w3.org/ns/csvw#titles> "Deceased?"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Death%20flag>;
+  dcterms:description "Indicates whether the patient is deceased (Yes/No)."@en .
+
+<internalURI:sample1Table1Variable31> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "patient_id|date_of_death"@en;
+  <http://www.w3.org/ns/csvw#titles> "Date of death"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Patient%20death%20date>;
+  dcterms:description "The date on which the patient passed away."@en .
+
+<https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf>
+  <http://www.w3.org/2000/01/rdf-schema#label> "Sample Profile" .
