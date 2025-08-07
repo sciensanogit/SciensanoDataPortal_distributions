@@ -1,0 +1,444 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<internalURI:sample1Table1> a <http://www.w3.org/ns/csvw#Table>;
+  dcat:keyword "samples"@en;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample1Table1Variable1>, <internalURI:sample1Table1Variable10>,
+    <internalURI:sample1Table1Variable11>, <internalURI:sample1Table1Variable12>, <internalURI:sample1Table1Variable13>,
+    <internalURI:sample1Table1Variable14>, <internalURI:sample1Table1Variable15>, <internalURI:sample1Table1Variable16>,
+    <internalURI:sample1Table1Variable17>, <internalURI:sample1Table1Variable18>, <internalURI:sample1Table1Variable19>,
+    <internalURI:sample1Table1Variable2>, <internalURI:sample1Table1Variable20>, <internalURI:sample1Table1Variable3>,
+    <internalURI:sample1Table1Variable4>, <internalURI:sample1Table1Variable5>, <internalURI:sample1Table1Variable6>,
+    <internalURI:sample1Table1Variable7>, <internalURI:sample1Table1Variable8>, <internalURI:sample1Table1Variable9>,
+    <internalURI:sample1Table1Variable21>, <internalURI:sample1Table1Variable22>, <internalURI:sample1Table1Variable23>,
+    <internalURI:sample1Table1Variable24>, <internalURI:sample1Table1Variable25>, <internalURI:sample1Table1Variable26>,
+    <internalURI:sample1Table1Variable27>, <internalURI:sample1Table1Variable28>;
+  <http://www.w3.org/ns/csvw#url> <https://sciensano.healthdataportal.eu/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3>;
+  dcterms:title "Biobank - Samples table | Schema"@en .
+
+<internalURI:sample1Table1Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Category (cntp_name)"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample category"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20category>;
+  dcterms:description "The sample category is the category or classification of the sample."@en .
+
+<internalURI:sample1Table1Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "Located at row"@en;
+  <http://www.w3.org/ns/csvw#titles> "Storage row"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20storage%20location>;
+  dcterms:description "The storage row is the specific row in the storage location where the sample is stored."@en .
+
+<internalURI:sample1Table1Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Type (cntp_name)"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample type"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20category>;
+  dcterms:description "The sample type is the specific type or kind of sample, such as blood, tissue, or urine."@en .
+
+<internalURI:sample1Table1Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Quality control check of sample"@en;
+  <http://www.w3.org/ns/csvw#titles> "QC check"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Quality%20status>;
+  dcterms:description "The QC check indicates whether the sample has undergone quality control checks to ensure its integrity and suitability for use."@en .
+
+<internalURI:sample1Table1Variable13> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "Located at column"@en;
+  <http://www.w3.org/ns/csvw#titles> "Storage column"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20storage%20location>;
+  dcterms:description "The storage column is the specific column in the storage location where the sample is stored."@en .
+
+<internalURI:sample1Table1Variable14> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Group (grps_groupName)"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample group"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20ID>;
+  dcterms:description "The sample group is the group to which the sample belongs, used to organize samples collected under a study or research project."@en .
+
+<internalURI:sample1Table1Variable15> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "Created on"@en;
+  <http://www.w3.org/ns/csvw#titles> "Creation date"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20creation%20date/time>;
+  dcterms:description "The creation date is the date on which the sample record was created in the system."@en .
+
+<internalURI:sample1Table1Variable16> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Created by"@en;
+  <http://www.w3.org/ns/csvw#titles> "Creator"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20creator>;
+  dcterms:description "The creator is the name of the person or system that created the sample record."@en .
+
+<internalURI:sample1Table1Variable17> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Modified by"@en;
+  <http://www.w3.org/ns/csvw#titles> "Modifier"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Last%20person%20to%20modify>;
+  dcterms:description "The modifier is the name of the person or system that last modified the sample record."@en .
+
+<internalURI:sample1Table1Variable18> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "<SLIMSGUID>"@en;
+  <http://www.w3.org/ns/csvw#titles> "GUID"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Object%20Identifier>;
+  dcterms:description "The GUID is a globally unique identifier assigned to the sample for tracking and identification purposes."@en .
+
+<internalURI:sample1Table1Variable19> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "Modified on"@en;
+  <http://www.w3.org/ns/csvw#titles> "Modification date"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Last%20modification%20timestamp>;
+  dcterms:description "The modification date is the date on which the sample record was last modified."@en .
+
+<internalURI:sample1Table1Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "volume * unit"@en;
+  <http://www.w3.org/ns/csvw#titles> "Volume unit"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Unit%20of%20measure>;
+  dcterms:description "The volume unit is the unit of measurement used for the sample volume, such as milliliters or microliters."@en .
+
+<internalURI:sample1Table1Variable20> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "volume *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample volume"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20volume>;
+  dcterms:description "The sample volume is the volume of the sample, typically measured in milliliters or another unit of volume."@en .
+
+<internalURI:sample1Table1Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Visit code in case of cohort study *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Cohort visit code"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Cohort%20visit%20code>;
+  dcterms:description "The cohort visit code is a code indicating the specific visit or session during which the sample was collected, used in cohort studies."@en .
+
+<internalURI:sample1Table1Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Storage period * unit"@en;
+  <http://www.w3.org/ns/csvw#titles> "Storage duration unit"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20storage%20information>;
+  dcterms:description "The storage duration unit is the unit of measurement for the storage period, such as days, months, or years."@en .
+
+<internalURI:sample1Table1Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "number";
+  <http://www.w3.org/ns/csvw#name> "Storage period *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Storage duration"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20storage%20information>;
+  dcterms:description "The storage duration is the period of time specified by study protocol."@en .
+
+<internalURI:sample1Table1Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "Date until storage"@en;
+  <http://www.w3.org/ns/csvw#titles> "Storage expiry date"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Storage%20expiry%20date>;
+  dcterms:description "The storage expiry date is the date until which the sample can be stored before it expires or needs to be re-evaluated."@en .
+
+<internalURI:sample1Table1Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Comments"@en;
+  <http://www.w3.org/ns/csvw#titles> "Additional comments"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comments>;
+  dcterms:description "Additional comments are any extra notes or information related to the sample."@en .
+
+<internalURI:sample1Table1Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "boolean";
+  <http://www.w3.org/ns/csvw#name> "Anonymized or pseudonymized *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Anonymization status"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Anonymization%20status>;
+  dcterms:description "The anonymization status indicates whether the sample has been anonymized or pseudonymized to protect donor identity."@en .
+
+<internalURI:sample1Table1Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Location (lctn_name)"@en;
+  <http://www.w3.org/ns/csvw#titles> "Storage location"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20storage%20location>;
+  dcterms:description "The storage location is the location within the storage facility where the sample is stored, such as a specific room or area."@en .
+
+<internalURI:sample1Table1Variable21> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Original Content (cntn_id)"@en;
+  <http://www.w3.org/ns/csvw#titles> "Original content ID"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20ID>;
+  dcterms:description "The original content ID is the original content ID, which may reference the initial or primary record from which this sample record is derived."@en .
+
+<internalURI:sample1Table1Variable22> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Barcode"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample barcode"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20barcode>;
+  dcterms:description "The sample barcode is the unique barcode assigned to a sample for identification and tracking purposes and easy scanning."@en .
+
+<internalURI:sample1Table1Variable23> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Status (stts_name)"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample status"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20status>;
+  dcterms:description "The sample status is the current status of the sample, such as whether it is in storage, under analysis, or disposed of."@en .
+
+<internalURI:sample1Table1Variable24> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Existing ID *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Existing sample ID"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20ID>;
+  dcterms:description "The existing sample ID is an identifier for the sample that may have been assigned by another system or database."@en .
+
+<internalURI:sample1Table1Variable25> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Origin of sample *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample origin"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20collection%20site>;
+  dcterms:description "The sample origin specifies where the sample was collected and by whom."@en .
+
+<internalURI:sample1Table1Variable26> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "Reception date *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Date received"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Data%20submission%20date>;
+  dcterms:description "The date received is the date on which the sample was received by the biobank or laboratory."@en .
+
+<internalURI:sample1Table1Variable27> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "Collection date"@en;
+  <http://www.w3.org/ns/csvw#titles> "Date collected"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sampling%20date>;
+  dcterms:description "The date collected is the date on which the sample was originally collected from the source."@en .
+
+<internalURI:sample1Table1Variable28> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Consent to store sample(s) and use them in future (related) studies *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Consent for future use"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Consent%20information>;
+  dcterms:description "Consent for future use indicates whether consent has been obtained to store the sample in the Biobank and use it in future related studies."@en .
+
+<internalURI:sample1Table2Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#titles> "Modification date"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Last%20modification%20timestamp>;
+  dcterms:description "Modification date is the date and time when the sample record was last modified."@en;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "Modified on"@en .
+
+<internalURI:sample1Table2Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Content event type (cnvt_name)"@en;
+  <http://www.w3.org/ns/csvw#titles> "Event type"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20type>;
+  dcterms:description "Event type categorizes the type of event or occurrence recorded within the sample."@en .
+
+<internalURI:sample1Table3> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample1Table3Variable1>, <internalURI:sample1Table3Variable10>,
+    <internalURI:sample1Table3Variable11>, <internalURI:sample1Table3Variable12>, <internalURI:sample1Table3Variable2>,
+    <internalURI:sample1Table3Variable3>, <internalURI:sample1Table3Variable4>, <internalURI:sample1Table3Variable5>,
+    <internalURI:sample1Table3Variable6>, <internalURI:sample1Table3Variable7>, <internalURI:sample1Table3Variable8>,
+    <internalURI:sample1Table3Variable9>;
+  dcterms:title "Biobank - Results table | Schema"@en .
+
+<internalURI:sample1Table3Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Test * (test_label)"@en;
+  <http://www.w3.org/ns/csvw#titles> "Test label"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20Name>;
+  dcterms:description "Test label is the label or name associated with a specific test or assessment."@en .
+
+<internalURI:sample1Table3Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Value * unit"@en;
+  <http://www.w3.org/ns/csvw#titles> "Test value Unit"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Unit%20of%20measure>;
+  dcterms:description "Test value unit is the unit of measurement associated with the numerical result of a test or assessment."@en .
+
+<internalURI:sample1Table3Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "Date of testing *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Test value date"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Testing%20date%20and%20time>;
+  dcterms:description "Test value date is the date on which the test or assessment was conducted or the result was recorded."@en .
+
+<internalURI:sample1Table3Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Methodology *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Test methodology"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20methodology>;
+  dcterms:description "Test methodology is the method or procedure used to conduct the test or assessment."@en .
+
+<internalURI:sample1Table3Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Comments"@en;
+  <http://www.w3.org/ns/csvw#titles> "Test comments"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Comments>;
+  dcterms:description "Test comments are additional notes or comments related to the test or assessment, providing context or observations."@en .
+
+<internalURI:sample1Table3Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Unique identifier"@en;
+  <http://www.w3.org/ns/csvw#titles> "Unique identifier"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Dataset%20unique%20ID>;
+  dcterms:description "Unique identifier is a unique identifier assigned to uniquely identify the test or assessment record."@en .
+
+<internalURI:sample1Table3Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "Modified on"@en;
+  <http://www.w3.org/ns/csvw#titles> "Modification date"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Last%20modification%20timestamp>;
+  dcterms:description "Modified date is the date and time when the test or assessment record was last modified."@en .
+
+<internalURI:sample1Table3Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Created by"@en;
+  <http://www.w3.org/ns/csvw#titles> "Created by"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20creator>;
+  dcterms:description "Created by is the name or identifier of the person or system that created the test or assessment record."@en .
+
+<internalURI:sample1Table3Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "<SLIMSGUID>"@en;
+  <http://www.w3.org/ns/csvw#titles> "GUID"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Object%20Identifier>;
+  dcterms:description "GUID is a globally unique identifier assigned to uniquely identify a test or assessment."@en .
+
+<internalURI:sample1Table3Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "Created on"@en;
+  <http://www.w3.org/ns/csvw#titles> "Creation date"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20creation%20date/time>;
+  dcterms:description "Created date is the date and time when the test or assessment record was initially created."@en .
+
+<internalURI:sample1Table3Variable8> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Modified by"@en;
+  <http://www.w3.org/ns/csvw#titles> "Modified by"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Last%20person%20to%20modify>;
+  dcterms:description "Modified by is the name or identifier of the person or system that last modified the test or assessment record."@en .
+
+<internalURI:sample1Table3Variable9> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Value *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Test Value"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Test%20result>;
+  dcterms:description "Test value is the numerical result or outcome obtained from conducting a test or assessment."@en .
+
+<https://sciensano.healthdataportal.eu/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3?format=ttl>
+  a <http://www.w3.org/ns/csvw#TableGroup>;
+  <http://www.w3.org/ns/csvw#table> <internalURI:sample1Table1>, <internalURI:sample1Table2>,
+    <internalURI:sample1Table3> .
+
+<http://www.iana.org/assignments/media-types/text/turtle> a dcterms:MediaType .
+
+<https://sciensano.healthdataportal.eu:443/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3>
+  a dcat:Resource, dcat:Distribution;
+  dcterms:accessRights <https://sciensano.healthdataportal.eu:443/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3#accessRights>;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  dcterms:license <http://rdflicense.appspot.com/rdflicense/cc-by-nc-nd3.0>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <https://sciensano.healthdataportal.eu:443/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3#identifier>;
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2025-02-13T15:47:37.281Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2025-02-28T11:24:41.631Z"^^xsd:dateTime;
+  dcterms:isPartOf <https://sciensano.healthdataportal.eu:443/dataset/fb556e37-5925-4f4a-9f16-503e1bf4076d>;
+  <http://semanticscience.org/resource/SIO_000628> <https://sciensano.healthdataportal.eu:443/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <https://sciensano.healthdataportal.eu:443/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcat:downloadURL <https://sciensano.healthdataportal.eu/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3?format=ttl>;
+  dcat:mediaType <http://www.iana.org/assignments/media-types/text/turtle>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Biobank schema";
+  dcterms:description "Schema for the information stored in the SLIMS."@en;
+  dcterms:title "Biobank schema"@en;
+  dcterms:conformsTo <https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf> .
+
+<https://sciensano.healthdataportal.eu:443/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<https://sciensano.healthdataportal.eu:443/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777> .
+
+<https://sciensano.healthdataportal.eu:443/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<https://sciensano.healthdataportal.eu:443/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3#identifier>
+  a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "https://sciensano.healthdataportal.eu:443/sample/07e661e8-9e65-4820-815a-7cbf1b2c33e3" .
+
+<internalURI:sample1Table2> a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#column> <internalURI:sample1Table2Variable1>, <internalURI:sample1Table2Variable10>,
+    <internalURI:sample1Table2Variable11>, <internalURI:sample1Table2Variable12>, <internalURI:sample1Table2Variable2>,
+    <internalURI:sample1Table2Variable3>, <internalURI:sample1Table2Variable4>, <internalURI:sample1Table2Variable5>,
+    <internalURI:sample1Table2Variable6>, <internalURI:sample1Table2Variable7>, <internalURI:sample1Table2Variable8>,
+    <internalURI:sample1Table2Variable9>;
+  dcterms:title "Biobank - Events table | Schema"@en .
+
+<internalURI:sample1Table2Variable1> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Study (stud_name)"@en;
+  <http://www.w3.org/ns/csvw#titles> "Study name"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Study%20name>;
+  dcterms:description "Study name is the name or title given to a specific sample."@en .
+
+<internalURI:sample1Table2Variable10> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "Date *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Event date"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Observation%20date>;
+  dcterms:description "Event date is the specific date on which an event or occurrence related to the sample took place."@en .
+
+<internalURI:sample1Table2Variable11> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "Arrival date *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Arrival date"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20reception%20date>;
+  dcterms:description "Arrival date is the date on which a sample or participant arrived or was received for the sample."@en .
+
+<internalURI:sample1Table2Variable12> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "NC description"@en;
+  <http://www.w3.org/ns/csvw#titles> "NC description"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Product%20counter%20detail>;
+  dcterms:description "NC description refers to the full and detailed description of the nonconformity included in the NC description field."@en .
+
+<internalURI:sample1Table2Variable2> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Recipient of sample *"@en;
+  <http://www.w3.org/ns/csvw#titles> "Sample recipient"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20recipient>;
+  dcterms:description "Sample recipient is the person or entity receiving the sample for analysis."@en .
+
+<internalURI:sample1Table2Variable3> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Barcode"@en;
+  <http://www.w3.org/ns/csvw#titles> "Event barcode"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Sample%20barcode>;
+  dcterms:description "Event barcode is the unique barcode assigned to a sample for identification and tracking purposes."@en .
+
+<internalURI:sample1Table2Variable4> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Created by"@en;
+  <http://www.w3.org/ns/csvw#titles> "Created by"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20creator>;
+  dcterms:description "Created by is the name or identification of the person or system that created the sample record."@en .
+
+<internalURI:sample1Table2Variable5> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "date";
+  <http://www.w3.org/ns/csvw#name> "Created on"@en;
+  <http://www.w3.org/ns/csvw#titles> "Creation date"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Record%20creation%20date/time>;
+  dcterms:description "Creation date is the date and time when the sample record was originally created."@en .
+
+<internalURI:sample1Table2Variable6> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "<SLIMSGUID>"@en;
+  <http://www.w3.org/ns/csvw#titles> "GUID"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Survey%20record%20ID>;
+  dcterms:description "GUID is a globally unique identifier assigned to uniquely identify a sample."@en .
+
+<internalURI:sample1Table2Variable7> a <http://www.w3.org/ns/csvw#Column>;
+  <http://www.w3.org/ns/csvw#datatype> "string";
+  <http://www.w3.org/ns/csvw#name> "Modified by"@en;
+  <http://www.w3.org/ns/csvw#titles> "Modified by"@en;
+  <http://www.w3.org/ns/csvw#propertyUrl> <https://catalog.hda.belgium.be/glossaryTerm/urn:li:glossaryTerm:Last%20person%20to%20modify>;
+  dcterms:description "Modified by is the name or identification of the person or system that last modified the sample record."@en .
+
+<https://sciensano.healthdataportal.eu:443/profile/040825bc-f8e6-4225-8625-fac779b92abf>
+  <http://www.w3.org/2000/01/rdf-schema#label> "Sample Profile" .
